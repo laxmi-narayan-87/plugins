@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer tools",
+    "defaultPrompt": "Help me discover, install, use, or maintain coding-agent skills with the Vercel skills CLI.",
+    "developerName": "juu",
+    "displayName": "Vercel Skills Workflow",
+    "longDescription": "A workflow assistant for the Vercel open agent skills CLI. Helps discover relevant skills, choose safe installation scopes and target agents, invoke skills without installing them, update existing skills, and troubleshoot common setup issues.",
+    "shortDescription": "Manage coding-agent skills"
+  },
+  "name": "vercel-skills-workflow",
+  "version": "0.1.0",
+  "description": "Work with the open agent skills ecosystem: discover, install, use, update, and validate reusable coding-agent skills using the skills CLI.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "agent-skills",
+    "coding-agents",
+    "skills-cli",
+    "developer-tools",
+    "vercel"
+  ],
+  "homepage": "https://github.com/vercel-labs/skills",
+  "repository": "https://github.com/vercel-labs/skills",
+  "license": "MIT",
+  "skills": "./skills"
+}
