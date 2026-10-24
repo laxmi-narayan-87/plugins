@@ -1,0 +1,18 @@
+{
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Plan and create original, hand-drawn 16:9 illustrations for Chinese articles, essays, blog posts, Notion notes, workflows, and methods. Use when users ask for article illustrations, visual metaphors, shot lists, Xiaohei-style drawings, or help editing an illustration. Start by finding the article's cognitive anchors; use a white canvas, sketchy black linework, restrained red/orange/blue annotations, and a small black character that performs the core action.",
+  "interface": {
+    "capabilities": [],
+    "category": "Other",
+    "defaultPrompt": null,
+    "developerName": "juu",
+    "displayName": "ian-xiaohei-illustrations",
+    "longDescription": "Plan and create original, hand-drawn 16:9 illustrations for Chinese articles, essays, blog posts, Notion notes, workflows, and methods. Use when users ask for article illustrations, visual metaphors, shot lists, Xiaohei-style drawings, or help editing an illustration. Start by finding the article's cognitive anchors; use a white canvas, sketchy black linework, restrained red/orange/blue annotations, and a small black character that performs the core action.",
+    "shortDescription": "Plan and create original, hand-drawn 16:9 illustrations for Chinese articles, essays, blog posts, Notion notes, workflows, and methods. Use when users ask for article illustrations, visual metaphors, shot lists, Xiaohei-style drawings, or help editing an illustration. Start by finding the article's cognitive anchors; use a white canvas, sketchy black linework, restrained red/orange/blue annotations, and a small black character that performs the core action."
+  },
+  "name": "ian-xiaohei-illustrations",
+  "version": "1.0.0"
+}

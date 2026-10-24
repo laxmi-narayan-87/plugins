@@ -1,0 +1,38 @@
+{
+  "name": "inbox-intelligence",
+  "version": "2.0.0",
+  "description": "Personal Inbox Intelligence + Placement Operations system for action-oriented email triage, thread change detection, placement tracking, deadline extraction, and safe calendar planning.",
+  "author": {
+    "name": "Workspace upload"
+  },
+  "interface": {
+    "displayName": "inbox-intelligence",
+    "shortDescription": "Turn email into actionable priorities, placement operations, deadlines, changes, and safe calendar plans.",
+    "longDescription": "Personal inbox intelligence for thread-aware email triage, evidence-based urgency, placement-stage tracking, assessment and interview detection, deadline monitoring, change detection, preparation planning, and approval-safe calendar workflows.",
+    "developerName": "Workspace upload",
+    "category": "Productivity",
+    "capabilities": [
+      "Read email",
+      "Summarize",
+      "Classify",
+      "Extract deadlines",
+      "Detect thread changes",
+      "Plan calendar actions"
+    ],
+    "defaultPrompt": null
+  },
+  "keywords": [
+    "email",
+    "inbox",
+    "triage",
+    "placement",
+    "hiring",
+    "assessments",
+    "interviews",
+    "deadlines",
+    "calendar",
+    "recruiter",
+    "productivity"
+  ],
+  "skills": "./skills"
+}

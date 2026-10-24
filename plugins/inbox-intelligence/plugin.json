@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "inbox-intelligence",
+  "version": "2.0.0",
+  "description": "Personal Inbox Intelligence + Placement Operations system for action-oriented email triage, thread change detection, placement tracking, deadline extraction, and safe calendar planning.",
+  "keywords": ["email","inbox","triage","placement","hiring","assessments","interviews","deadlines","calendar","recruiter","productivity"],
+  "interface": {
+    "displayName": "Inbox Intelligence",
+    "shortDescription": "Turn email into actionable priorities, placement operations, deadlines, changes, and safe calendar plans.",
+    "longDescription": "Thread-aware inbox intelligence that preserves provider labels while adding analytical categories, evidence-based urgency, placement-stage tracking, assessment/interview/deadline extraction, thread change detection, calendar conflict detection, preparation planning, and human-approved external actions.",
+    "developerName": "Personal",
+    "category": "Productivity",
+    "capabilities": ["Read email", "Summarize", "Classify", "Extract deadlines", "Detect thread changes", "Plan calendar actions"],
+    "defaultPrompt": [
+      "Give me today's inbox briefing.",
+      "Show only placement emails.",
+      "Find my urgent emails and explain why they are urgent.",
+      "Find upcoming assessments, interviews, deadlines, and schedule changes.",
+      "Create a calendar plan from my placement emails without making calendar changes."
+    ]
+  }
+}

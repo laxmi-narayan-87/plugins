@@ -1,0 +1,45 @@
+{
+  "interface": {
+    "brandColor": "#1B2735",
+    "brandColorDark": "#C7E6FF",
+    "capabilities": [
+      "Rewrite prose while preserving facts, claims, citations, and voice",
+      "Draft from supplied notes without inventing personal details",
+      "Diagnose unclear or generic prose without rewriting it",
+      "Apply genre-aware review across 18 writing profiles",
+      "Run deterministic editorial diagnostics and protected-text checks"
+    ],
+    "category": "Writing",
+    "composerIcon": "./assets/composer-icon.png",
+    "defaultPrompt": [
+      "Rewrite this passage for clarity while preserving my facts and voice.",
+      "Diagnose this draft without rewriting it.",
+      "Draft from these notes using only the supplied facts."
+    ],
+    "developerName": "juu",
+    "displayName": "Not Ai",
+    "logo": "./assets/logo.svg",
+    "longDescription": "Not Ai is a source-grounded writing and editing workflow. It protects facts, claims, numbers, citations, terminology, and the author's actual position before improving purpose, information order, specificity, rhythm, register, and clarity. A bundled standard-library Python gate provides contextual editorial prompts and checks required protected text. Not Ai does not classify authorship, promise detector outcomes, or optimize prose for AI-detector scores.",
+    "shortDescription": "Clear prose, preserved voice",
+    "websiteURL": "https://github.com/udaysharmadev/Not-Ai"
+  },
+  "name": "not-ai",
+  "version": "3.0.1",
+  "description": "Edit prose for clarity, specificity, and the author's voice while preserving source facts and claims. Includes genre-aware diagnostics without authorship verdicts or detector-score optimization.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com",
+    "url": "https://github.com/udaysharmadev"
+  },
+  "keywords": [
+    "writing",
+    "editing",
+    "voice-preservation",
+    "prose",
+    "technical-writing",
+    "student-writing",
+    "fidelity",
+    "genre-aware-review"
+  ],
+  "skills": "./skills"
+}

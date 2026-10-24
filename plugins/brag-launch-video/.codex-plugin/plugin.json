@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Help me plan a project-specific /brag launch video.",
+      "Guide me through the /brag workflow and its prerequisites.",
+      "Review my launch-video storyboard for authenticity, pacing, and visual quality."
+    ],
+    "developerName": "juu",
+    "displayName": "Brag Launch Video",
+    "longDescription": "Guides you through inspecting a project, planning a concise launch-video storyboard, using real product evidence, validating a composition, and preparing a rendered video and social copy. Requires compatible local agent tooling for full rendering.",
+    "shortDescription": "Plan and produce launch videos"
+  },
+  "name": "brag-launch-video",
+  "version": "0.1.0",
+  "description": "Create short, polished, project-specific launch videos from your software projects using the open-source /brag workflow.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

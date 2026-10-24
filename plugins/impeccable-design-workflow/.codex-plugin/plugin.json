@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Design",
+    "defaultPrompt": [
+      "Review my website UI/UX and propose a prioritized, evidence-based improvement plan.",
+      "Improve the visual design of my portfolio while preserving all existing functionality.",
+      "Audit my frontend for accessibility, responsive layout, and interaction problems, then fix the highest-impact issues."
+    ],
+    "developerName": "juu",
+    "displayName": "Impeccable Design Workflow",
+    "longDescription": "A reusable, framework-aware design workflow inspired by the public Impeccable project. Helps coding agents inspect a website, identify UX and visual issues, plan purposeful improvements, implement changes safely, and verify responsive behavior and interactive controls.",
+    "shortDescription": "Audit and refine web UI"
+  },
+  "name": "impeccable-design-workflow",
+  "version": "0.1.0",
+  "description": "A practical UI/UX design workflow for AI coding agents: audit, critique, refine, and creatively improve websites while preserving working behavior.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

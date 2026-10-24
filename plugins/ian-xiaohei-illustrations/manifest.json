@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Ian Xiaohei Illustrations",
+  "version": "1.0.0",
+  "description": "Plan and create original Xiaohei-style hand-drawn illustrations for Chinese articles, with shot lists, prompts, and visual QA.",
+  "author": "OpenAI",
+  "license": "MIT",
+  "skills": [
+    "skills/ian-xiaohei-illustrations/SKILL.md"
+  ],
+  "keywords": [
+    "illustration",
+    "Chinese articles",
+    "visual storytelling",
+    "Xiaohei",
+    "shot list",
+    "image prompts"
+  ]
+}
