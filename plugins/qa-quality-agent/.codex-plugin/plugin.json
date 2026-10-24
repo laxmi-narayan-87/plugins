@@ -1,0 +1,35 @@
+{
+  "interface": {
+    "capabilities": [
+      "Reasoning"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Act as a senior QA engineer and create a prioritized, evidence-based test plan for my website.",
+      "Turn these observations into reproducible bug reports with severity, evidence, and expected versus actual results.",
+      "Help me test an AI or LLM feature and build a practical learning plan for AI testing."
+    ],
+    "developerName": "juu",
+    "displayName": "QA Quality Agent",
+    "longDescription": "Plan and execute evidence-based website tests, build risk-prioritized test cases and bug reports, assess AI-enabled systems, and follow a structured path to GenAI testing. It never claims a test ran unless execution evidence exists.",
+    "shortDescription": "Evidence-first QA workflows"
+  },
+  "name": "qa-quality-agent",
+  "version": "0.1.0",
+  "description": "Evidence-first website QA, structured test planning, AI application evaluation, and a practical GenAI testing learning roadmap.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "quality assurance",
+    "website testing",
+    "Playwright",
+    "test planning",
+    "AI testing",
+    "LLM evaluation",
+    "QA automation"
+  ],
+  "homepage": "https://github.com/bug0inc/qa-agent",
+  "skills": "./skills"
+}

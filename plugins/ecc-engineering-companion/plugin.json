@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A practical agentic engineering workflow companion inspired by ECC: research first, plan, test, implement, review, verify, and retain useful lessons.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Code",
+          "Interactive"
+        ],
+        "category": "Coding",
+        "defaultPrompt": [
+          "Use the ECC engineering workflow to plan, implement, test, and independently review this change: describe the goal and constraints first.",
+          "Review this code for correctness, security, maintainability, and missing tests. Separate confirmed defects from hypotheses.",
+          "Help me debug this issue with research-first, evidence-driven steps and a regression test."
+        ],
+        "developerName": "juu",
+        "displayName": "ECC Engineering Companion",
+        "longDescription": "A focused engineering workflow companion inspired by the public ECC repository. It guides research-first development, risk-aware planning, test-driven implementation, independent review, verification, security checks, and concise learning capture. It does not install or execute ECC's external hooks, agents, scripts, or runtime.",
+        "shortDescription": "Build, test, review code"
+      }
+    }
+  },
+  "homepage": "https://github.com/affaan-m/ECC",
+  "keywords": [
+    "agentic-engineering",
+    "software-development",
+    "tdd",
+    "code-review",
+    "security",
+    "research"
+  ],
+  "license": "MIT",
+  "name": "ecc-engineering-companion",
+  "repository": "https://github.com/affaan-m/ECC",
+  "version": "0.1.0"
+}

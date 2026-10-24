@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Guides setup, safe testing, and controlled use of the Wellfound Auto-Apply repository.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "File handling"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Help me set up and safely test the Wellfound Auto-Apply project on my own computer.",
+        "developerName": "juu",
+        "displayName": "Wellfound Auto-Apply Helper",
+        "longDescription": "Helps inspect the Wellfound Auto-Apply repository, prepare local configuration, run dry tests, and review application logs. Does not claim to run the user's local browser or submit applications from ChatGPT.",
+        "shortDescription": "Safely test job applications"
+      }
+    }
+  },
+  "homepage": "https://github.com/ankitbaghel01/wellfound_autoApply",
+  "keywords": [
+    "wellfound",
+    "job-search",
+    "applications",
+    "playwright",
+    "automation"
+  ],
+  "name": "wellfound-auto-apply",
+  "repository": "https://github.com/ankitbaghel01/wellfound_autoApply",
+  "version": "0.1.0"
+}

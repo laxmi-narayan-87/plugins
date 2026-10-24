@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Education",
+    "defaultPrompt": "Help me prepare a MiroFish simulation using its documented workflow.",
+    "developerName": "juu",
+    "displayName": "MiroFish Simulation Guide",
+    "longDescription": "Helps users understand MiroFish's documented workflow, prepare seed materials and simulation questions, plan setup, and interpret simulated outcomes responsibly. This guide does not connect to or execute a MiroFish instance.",
+    "shortDescription": "Plan MiroFish simulations"
+  },
+  "name": "mirofish-simulation-guide",
+  "version": "0.1.0",
+  "description": "Guidance for understanding and using the open-source MiroFish multi-agent prediction and simulation engine.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "MiroFish",
+    "multi-agent",
+    "simulation",
+    "prediction",
+    "GraphRAG",
+    "AI agents"
+  ],
+  "homepage": "https://github.com/666ghj/MiroFish",
+  "repository": "https://github.com/666ghj/MiroFish",
+  "skills": "./skills"
+}

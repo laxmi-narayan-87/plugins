@@ -1,0 +1,30 @@
+{
+  "interface": {
+    "capabilities": [
+      "File handling"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "Help me set up and safely test the Wellfound Auto-Apply project on my own computer.",
+    "developerName": "juu",
+    "displayName": "Wellfound Auto-Apply Helper",
+    "longDescription": "Helps inspect the Wellfound Auto-Apply repository, prepare local configuration, run dry tests, and review application logs. Does not claim to run the user's local browser or submit applications from ChatGPT.",
+    "shortDescription": "Safely test job applications"
+  },
+  "name": "wellfound-auto-apply",
+  "version": "0.1.0",
+  "description": "Guides setup, safe testing, and controlled use of the Wellfound Auto-Apply repository.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "wellfound",
+    "job-search",
+    "applications",
+    "playwright",
+    "automation"
+  ],
+  "homepage": "https://github.com/ankitbaghel01/wellfound_autoApply",
+  "repository": "https://github.com/ankitbaghel01/wellfound_autoApply",
+  "skills": "./skills"
+}
