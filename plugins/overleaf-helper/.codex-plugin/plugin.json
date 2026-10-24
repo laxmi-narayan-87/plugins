@@ -1,0 +1,34 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer tools",
+    "defaultPrompt": [
+      "Help me understand the Overleaf repository and identify the relevant files for my task.",
+      "Troubleshoot my local Overleaf Community Edition or Docker setup using evidence from logs and documentation.",
+      "Help me prepare a small, well-tested contribution to the Overleaf open-source project."
+    ],
+    "developerName": "juu",
+    "displayName": "Overleaf Helper",
+    "longDescription": "Helps you navigate the Overleaf open-source repository, understand its architecture, troubleshoot local Community Edition deployments, work with LaTeX projects, and prepare focused open-source contributions. It provides repository-grounded guidance and does not claim to control a live Overleaf account.",
+    "shortDescription": "Overleaf setup and repo help"
+  },
+  "name": "overleaf-helper",
+  "version": "0.1.0",
+  "description": "Guided help for understanding, running, troubleshooting, and contributing to the open-source Overleaf collaborative LaTeX editor.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "overleaf",
+    "latex",
+    "collaborative-editor",
+    "docker",
+    "open-source",
+    "self-hosting"
+  ],
+  "homepage": "https://github.com/overleaf/overleaf",
+  "repository": "https://github.com/overleaf/overleaf",
+  "license": "AGPL-3.0",
+  "skills": "./skills"
+}

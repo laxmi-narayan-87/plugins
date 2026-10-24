@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Help me plan and implement this software change with independent review gates.",
+      "Review this implementation plan adversarially and list evidence-backed risks.",
+      "Inspect this diff, identify verification gaps, and propose proof commands."
+    ],
+    "developerName": "juu",
+    "displayName": "Claudex Loop Assistant",
+    "longDescription": "A skills-based assistant for careful software delivery: recon, requirements, evidence-backed plan review, proof checks, and independent final inspection. It helps you use the Claudex Loop approach. Running local Claude Code or Codex CLIs still requires your own configured environment; this plugin does not execute those CLIs itself.",
+    "shortDescription": "Harden plans, inspect code"
+  },
+  "name": "claudex-loop-assistant",
+  "version": "0.1.0",
+  "description": "Plan hardening, cross-model adversarial review, implementation planning, and independent code inspection inspired by Claudex Loop.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

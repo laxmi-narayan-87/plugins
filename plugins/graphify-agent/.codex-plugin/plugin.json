@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Coding",
+    "defaultPrompt": "Help me use Graphify to map and understand my project. Start with the right install or query workflow for my environment, and do not claim commands were run unless I provide their output.",
+    "developerName": "juu",
+    "displayName": "Graphify Agent",
+    "longDescription": "Guides you through Graphify installation, codebase mapping, knowledge-graph queries, path tracing, explanations, and troubleshooting using Graphify's documented workflows. It provides instructions and generated commands; it does not run Graphify on your machine by itself.",
+    "shortDescription": "Graphify code knowledge graphs"
+  },
+  "name": "graphify-agent",
+  "version": "0.1.0",
+  "description": "Practical workflows for installing Graphify, mapping codebases into knowledge graphs, and querying code and documentation with grounded graph paths.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "graphify",
+    "knowledge-graph",
+    "codebase",
+    "developer-tools",
+    "code-understanding"
+  ],
+  "homepage": "https://github.com/Graphify-Labs/graphify",
+  "repository": "https://github.com/Graphify-Labs/graphify",
+  "license": "Apache-2.0",
+  "skills": "./skills"
+}

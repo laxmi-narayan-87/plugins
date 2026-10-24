@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Turn the Build Your Own X tutorial directory into a structured, source-grounded plan for learning systems by implementing them from scratch.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Skills"
+        ],
+        "category": "Education",
+        "defaultPrompt": "Use the Build Your Own X Guide to pick or work through a build-from-scratch software project. Prefer tutorials from https://github.com/codecrafters-io/build-your-own-x, match scope to my skills and time, explain the concepts, define testable milestones, and distinguish source-backed facts from assumptions.",
+        "developerName": "juu",
+        "displayName": "Build Your Own X Guide",
+        "longDescription": "A project-based learning guide grounded in the codecrafters-io/build-your-own-x tutorial catalog. Helps choose an appropriate build-from-scratch project, break it into milestones, explain the underlying concepts, design tests, and review progress without claiming to execute code or inspect unavailable repositories.",
+        "shortDescription": "Learn by building systems"
+      }
+    }
+  },
+  "homepage": "https://github.com/codecrafters-io/build-your-own-x",
+  "keywords": [
+    "programming",
+    "computer-science",
+    "project-based-learning",
+    "build-from-scratch",
+    "tutorials"
+  ],
+  "license": "CC0-1.0",
+  "name": "build-your-own-x-guide",
+  "repository": "https://github.com/codecrafters-io/build-your-own-x",
+  "version": "0.1.0"
+}

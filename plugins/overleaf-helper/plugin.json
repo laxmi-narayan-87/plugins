@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Guided help for understanding, running, troubleshooting, and contributing to the open-source Overleaf collaborative LaTeX editor.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer tools",
+        "defaultPrompt": [
+          "Help me understand the Overleaf repository and identify the relevant files for my task.",
+          "Troubleshoot my local Overleaf Community Edition or Docker setup using evidence from logs and documentation.",
+          "Help me prepare a small, well-tested contribution to the Overleaf open-source project."
+        ],
+        "developerName": "juu",
+        "displayName": "Overleaf Helper",
+        "longDescription": "Helps you navigate the Overleaf open-source repository, understand its architecture, troubleshoot local Community Edition deployments, work with LaTeX projects, and prepare focused open-source contributions. It provides repository-grounded guidance and does not claim to control a live Overleaf account.",
+        "shortDescription": "Overleaf setup and repo help"
+      }
+    }
+  },
+  "homepage": "https://github.com/overleaf/overleaf",
+  "keywords": [
+    "overleaf",
+    "latex",
+    "collaborative-editor",
+    "docker",
+    "open-source",
+    "self-hosting"
+  ],
+  "license": "AGPL-3.0",
+  "name": "overleaf-helper",
+  "repository": "https://github.com/overleaf/overleaf",
+  "version": "0.1.0"
+}
