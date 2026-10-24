@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A repository-grounded security audit workflow inspired by PYA: structured static review for vulnerabilities, authorization, secrets, dependencies, infrastructure, and AI-agent risks.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Review",
+          "Analysis"
+        ],
+        "category": "Security",
+        "defaultPrompt": [
+          "Perform an evidence-based static security audit of this repository, prioritizing exploitable findings and concrete fixes.",
+          "Review changed code for security regressions and report only findings supported by repository evidence.",
+          "Audit agent, MCP, CI, dependency, and secret-handling configurations for security risks."
+        ],
+        "developerName": "juu",
+        "displayName": "PYA Security Audit",
+        "longDescription": "Guide evidence-based static security reviews of repositories, including vulnerabilities, authorization, secrets, supply-chain risks, infrastructure, and agent/MCP configuration. This is an adapted skills-only workflow and does not install or run PYA's original scanners.",
+        "shortDescription": "Security audit for codebases"
+      }
+    }
+  },
+  "homepage": "https://github.com/AgriciDaniel/pya",
+  "keywords": [
+    "security",
+    "application-security",
+    "static-analysis",
+    "owasp",
+    "supply-chain",
+    "secrets",
+    "AI-agent-security"
+  ],
+  "license": "MIT",
+  "name": "pya-security-audit",
+  "repository": "https://github.com/AgriciDaniel/pya",
+  "version": "0.1.0"
+}
