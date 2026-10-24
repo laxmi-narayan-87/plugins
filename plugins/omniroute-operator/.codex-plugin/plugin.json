@@ -1,0 +1,35 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Developer tools",
+    "defaultPrompt": [
+      "Help me set up or troubleshoot my OmniRoute gateway safely.",
+      "Explain how to connect a coding agent to my OmniRoute instance.",
+      "Help diagnose an OmniRoute provider, model, or MCP connection issue."
+    ],
+    "developerName": "juu",
+    "displayName": "OmniRoute Operator",
+    "longDescription": "Guides setup, safe configuration, provider and model diagnostics, MCP connectivity, quota-aware routing, and troubleshooting for an OmniRoute instance you run or control. This package provides instructions and does not itself host OmniRoute or know your local gateway address.",
+    "shortDescription": "Operate your OmniRoute gateway"
+  },
+  "name": "omniroute-operator",
+  "version": "0.1.0",
+  "description": "Operate and troubleshoot a user-managed OmniRoute AI gateway using its documented APIs and MCP features.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "omniroute",
+    "llm-gateway",
+    "mcp",
+    "ai-model-routing",
+    "developer-tools"
+  ],
+  "homepage": "https://github.com/cheaper-inference/OmniRoute",
+  "repository": "https://github.com/cheaper-inference/OmniRoute",
+  "license": "MIT",
+  "skills": "./skills"
+}

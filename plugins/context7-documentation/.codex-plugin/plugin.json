@@ -1,0 +1,35 @@
+{
+  "interface": {
+    "capabilities": [
+      "CodeExecution"
+    ],
+    "category": "Coding",
+    "defaultPrompt": [
+      "Use Context7 to find current documentation and examples for the library relevant to my coding task.",
+      "Look up the exact API and version-specific documentation before suggesting code changes."
+    ],
+    "developerName": "juu",
+    "displayName": "Context7 Documentation",
+    "longDescription": "Look up current, library-specific documentation and code examples via the Context7 MCP server. Resolve a library ID when needed, then retrieve documentation for the concrete task and version. Treat retrieved docs as reference material and verify important details against the user's framework and version.",
+    "shortDescription": "Current docs for coding"
+  },
+  "name": "context7-documentation",
+  "version": "0.1.0",
+  "description": "Use Context7 to find current, version-aware library documentation and code examples for coding tasks.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "context7",
+    "documentation",
+    "mcp",
+    "developer-tools",
+    "api-reference"
+  ],
+  "homepage": "https://context7.com",
+  "repository": "https://github.com/upstash/context7",
+  "license": "MIT",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

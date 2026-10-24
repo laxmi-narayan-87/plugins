@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "capabilities": [
+      "Guidance"
+    ],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Help me set up PentAGI from its official repository safely.",
+      "Help me plan an authorized security test with clear scope and evidence requirements.",
+      "Troubleshoot my PentAGI configuration without exposing secrets."
+    ],
+    "developerName": "juu",
+    "displayName": "PentAGI Security Workflow",
+    "longDescription": "Helps you work with the vxcontrol/pentagi project: understand its architecture, plan a local setup, troubleshoot configuration, design authorized penetration tests, and prepare evidence-based reports. It provides guided advice and checklists; it does not connect to or execute PentAGI itself.",
+    "shortDescription": "PentAGI setup and safe testing"
+  },
+  "name": "pentagi-security-workflow",
+  "version": "0.1.0",
+  "description": "Guided workflows for understanding, configuring, reviewing, and safely using the PentAGI autonomous penetration-testing platform.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "PentAGI",
+    "security testing",
+    "penetration testing",
+    "Docker",
+    "AI agents",
+    "authorized testing"
+  ],
+  "homepage": "https://github.com/vxcontrol/pentagi",
+  "repository": "https://github.com/vxcontrol/pentagi",
+  "license": "MIT",
+  "skills": "./skills"
+}

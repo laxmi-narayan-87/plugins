@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": "Use the persistent-memory workflow to capture, organize, or recall relevant project context while minimizing sensitive data.",
+    "developerName": "juu",
+    "displayName": "Persistent Memory Workflow",
+    "longDescription": "A skills-based adaptation of claude-mem's memory principles for ChatGPT conversations. It helps structure durable notes, search in layers, summarize prior context, and avoid retaining sensitive information unnecessarily. It does not install Claude Code hooks or connect to a claude-mem database.",
+    "shortDescription": "Useful context recall"
+  },
+  "name": "claude-mem-adapter",
+  "version": "0.1.0",
+  "description": "A conversational persistent-memory workflow inspired by claude-mem: capture durable context, search it progressively, and recall only relevant details with privacy controls.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "memory",
+    "context",
+    "recall",
+    "privacy",
+    "progressive-disclosure"
+  ],
+  "homepage": "https://github.com/thedotmack/claude-mem",
+  "repository": "https://github.com/thedotmack/claude-mem",
+  "license": "Apache-2.0",
+  "skills": "./skills"
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Use Context7 to find current, version-aware library documentation and code examples for coding tasks.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "CodeExecution"
+        ],
+        "category": "Coding",
+        "defaultPrompt": [
+          "Use Context7 to find current documentation and examples for the library relevant to my coding task.",
+          "Look up the exact API and version-specific documentation before suggesting code changes."
+        ],
+        "developerName": "juu",
+        "displayName": "Context7 Documentation",
+        "longDescription": "Look up current, library-specific documentation and code examples via the Context7 MCP server. Resolve a library ID when needed, then retrieve documentation for the concrete task and version. Treat retrieved docs as reference material and verify important details against the user's framework and version.",
+        "shortDescription": "Current docs for coding"
+      }
+    }
+  },
+  "homepage": "https://context7.com",
+  "keywords": [
+    "context7",
+    "documentation",
+    "mcp",
+    "developer-tools",
+    "api-reference"
+  ],
+  "license": "MIT",
+  "name": "context7-documentation",
+  "repository": "https://github.com/upstash/context7",
+  "version": "0.1.0"
+}
