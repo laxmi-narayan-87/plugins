@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Guides Android mobile QA workflows using Google's ARTEMIS project, with setup guidance, evidence-driven execution planning, trace review, and defect reporting.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Tools",
+          "Code"
+        ],
+        "category": "Developer tools",
+        "defaultPrompt": [
+          "Help me test an Android app with Google's ARTEMIS; first establish what device, build, and access are available.",
+          "Turn these Android test requirements into an evidence-driven ARTEMIS execution plan and bug report template.",
+          "Review ARTEMIS logs and traces, distinguish verified defects from unconfirmed observations, and summarize results."
+        ],
+        "developerName": "juu",
+        "displayName": "ARTEMIS Android QA",
+        "longDescription": "Plan and document Android app QA using Google's ARTEMIS automation project. Helps prepare test scenarios, diagnose setup, choose Flash or Pro execution, verify device and trace evidence, and write reproducible bug reports without claiming tests ran when they did not.",
+        "shortDescription": "Evidence-led Android QA"
+      }
+    }
+  },
+  "homepage": "https://github.com/google/artemis",
+  "keywords": [
+    "android",
+    "mobile-testing",
+    "qa",
+    "artemis",
+    "mcp",
+    "automation",
+    "test-reporting"
+  ],
+  "license": "Apache-2.0",
+  "name": "artemis-android-qa",
+  "repository": "https://github.com/google/artemis",
+  "version": "0.1.0"
+}

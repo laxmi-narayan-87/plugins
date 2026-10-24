@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Practical guidance for configuring and using the Serena semantic coding agent and its MCP server.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me set up Serena for my coding client using its current official instructions.",
+          "Use Serena-style semantic navigation to understand this codebase before proposing changes.",
+          "Guide me through a safe, symbol-aware refactor and verification plan with Serena."
+        ],
+        "developerName": "juu",
+        "displayName": "Serena Coding Agent Guide",
+        "longDescription": "A repository-grounded workflow guide for installing, connecting, activating, and using Serena's MCP-based semantic code navigation, editing, refactoring, and debugging capabilities. It guides coding tasks but does not itself host or connect to the Serena MCP server.",
+        "shortDescription": "Use Serena for semantic coding"
+      }
+    }
+  },
+  "homepage": "https://github.com/oraios/serena",
+  "keywords": [
+    "serena",
+    "mcp",
+    "coding-agent",
+    "semantic-code",
+    "refactoring",
+    "developer-tools"
+  ],
+  "license": "GPL-3.0-or-later",
+  "name": "serena-coding-agent",
+  "repository": "https://github.com/oraios/serena",
+  "version": "0.1.0"
+}

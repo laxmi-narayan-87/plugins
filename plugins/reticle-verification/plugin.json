@@ -1,0 +1,49 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu",
+    "url": "https://github.com/reticlehq/reticle"
+  },
+  "description": "Verify real app behavior with Reticle and report evidence-backed pass, fail, or unknown results.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Verify user-facing app changes",
+          "Replay saved regression journeys",
+          "Inspect app behavior and explain inconclusive checks"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Use Reticle to verify this app change and report the actual verdict.",
+          "Replay relevant saved flows and identify regressions.",
+          "Investigate this UI bug and prove the fix in the running app."
+        ],
+        "developerName": "juu",
+        "displayName": "Reticle Verification",
+        "longDescription": "Use Reticle to check whether a coding change works in a running web or desktop app. Drive meaningful user journeys, inspect network and application state, and return evidence-backed yes, no, or unknown verdicts with source locations when available. Setup and project instrumentation can modify files and install development dependencies, so ask before initializing a project. Reticle's local MCP server is required for live app verification.",
+        "privacyPolicyURL": "https://docs.reticle.sh/what-is-recorded.md",
+        "shortDescription": "Verify real app behavior",
+        "supportURL": "https://github.com/reticlehq/reticle/issues",
+        "termsOfServiceURL": "https://github.com/reticlehq/reticle/blob/main/LICENSE",
+        "websiteURL": "https://www.reticle.sh"
+      },
+      "publication": {
+        "release_notes": "Initial portable package for Reticle's live application verification workflow."
+      }
+    }
+  },
+  "homepage": "https://docs.reticle.sh",
+  "keywords": [
+    "qa",
+    "testing",
+    "verification",
+    "mcp",
+    "web-app"
+  ],
+  "license": "Apache-2.0",
+  "name": "reticle-verification",
+  "repository": "https://github.com/reticlehq/reticle",
+  "version": "0.1.0"
+}

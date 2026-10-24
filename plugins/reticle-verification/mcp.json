@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "reticle": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@reticlehq/server@3.7.0",
+        "mcp"
+      ],
+      "env": {
+        "RETICLE_INSTALL_SOURCE": "plugin"
+      }
+    }
+  }
+}

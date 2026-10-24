@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Evidence-led website SEO audits, content strategy, competitor research, reputation analysis, and authorised improvement planning based on BeyondSEO.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Research & Analysis",
+        "defaultPrompt": [
+          "Use BeyondSEO to audit my website with evidence, coverage limits, priorities and acceptance checks.",
+          "Use BeyondSEO to create a grounded SEO, AEO and GEO content plan for my business.",
+          "Use BeyondSEO to assess competitors and backlink/reputation opportunities without inventing evidence."
+        ],
+        "developerName": "juu",
+        "displayName": "BeyondSEO",
+        "longDescription": "Use BeyondSEO-inspired workflows to audit websites, interpret crawl evidence, plan content and competitors, assess reputation and backlinks, and verify authorised improvements. Native crawling requires the source package and a permitted Python/browser runtime; this plugin does not bundle or run the repository's crawler engine.",
+        "shortDescription": "Evidence-led SEO workflows"
+      }
+    }
+  },
+  "homepage": "https://github.com/beyondtahir/beyondseo",
+  "keywords": [
+    "seo",
+    "technical-seo",
+    "aeo",
+    "geo",
+    "content",
+    "website-audit",
+    "backlinks",
+    "reputation"
+  ],
+  "license": "MIT",
+  "name": "beyondseo",
+  "repository": "https://github.com/beyondtahir/beyondseo",
+  "version": "0.1.0"
+}
