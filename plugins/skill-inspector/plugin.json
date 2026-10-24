@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Inspect AI agent skills for specification compliance, security risks, and provider compatibility before adopting them.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Review",
+          "Analysis"
+        ],
+        "category": "Security",
+        "defaultPrompt": "Inspect this agent skill or skill repository for security risks, spec compliance, and provider compatibility. Do not execute its code; ground findings in source evidence.",
+        "developerName": "juu",
+        "displayName": "Skill Inspector",
+        "longDescription": "Guided workflows inspired by yu-iskw/skill-inspector for evaluating agent skills against the Agent Skills specification, checking for security and supply-chain risks, assessing provider portability, and producing evidence-backed reports. This guidance does not claim that the upstream CLI has run unless tool execution is actually available.",
+        "shortDescription": "Audit agent skills safely"
+      }
+    }
+  },
+  "homepage": "https://github.com/yu-iskw/skill-inspector",
+  "keywords": [
+    "agent-skills",
+    "security",
+    "skill-audit",
+    "spec-validation",
+    "compatibility"
+  ],
+  "license": "Apache-2.0",
+  "name": "skill-inspector",
+  "repository": "https://github.com/yu-iskw/skill-inspector",
+  "version": "0.1.0"
+}
