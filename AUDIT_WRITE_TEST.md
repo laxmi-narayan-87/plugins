@@ -1,1 +1,0 @@
-This temporary file is being used to diagnose GitHub write access and will be removed if the write succeeds.
