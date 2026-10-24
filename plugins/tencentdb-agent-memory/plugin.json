@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Guidance for using TencentDB Agent Memory concepts to structure, retrieve, govern, and reuse agent memory across tasks and projects.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Developer tools",
+        "defaultPrompt": [
+          "Help me design a layered memory workflow for this project using TencentDB Agent Memory concepts.",
+          "Turn this completed task into a reusable skill or scenario memory, preserving evidence and caveats.",
+          "Review a proposed agent-memory setup for retrieval quality, access control, and privacy risks."
+        ],
+        "developerName": "juu",
+        "displayName": "TencentDB Agent Memory Guide",
+        "longDescription": "A workflow companion for TencentDB Agent Memory. Helps plan layered memory, organize reusable skills and knowledge, reason about retrieval, and check access boundaries. This package provides guidance; it does not deploy or connect to a TencentDB Agent Memory server by itself.",
+        "shortDescription": "Reusable agent memory"
+      }
+    }
+  },
+  "homepage": "https://github.com/TencentCloud/tencentdb-agent-memory",
+  "keywords": [
+    "agent memory",
+    "long-term memory",
+    "skills",
+    "LLM wiki",
+    "code graph",
+    "context management"
+  ],
+  "license": "MIT",
+  "name": "tencentdb-agent-memory",
+  "repository": "https://github.com/TencentCloud/tencentdb-agent-memory",
+  "version": "0.1.0"
+}
