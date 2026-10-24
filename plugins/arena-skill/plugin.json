@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Run structured multi-agent tournaments to compare, challenge, revise, and select a strong solution to a task.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": "Help me improve an unsatisfactory answer by using the Arena workflow. Choose an appropriate tournament size, state assumptions, and evaluate candidates against the task rather than their style.",
+        "developerName": "juu",
+        "displayName": "Arena Skill",
+        "longDescription": "A workflow skill for orchestrating competing solution drafts, adversarial critique, revision, and rubric-based evaluation. Includes the Arena bracket planner and strategy/rubric resources adapted from the source repository. Actual multi-agent execution requires a host that provides sub-agent tools; this plugin does not create parallel agents by itself.",
+        "shortDescription": "Compare solutions in an arena"
+      }
+    }
+  },
+  "homepage": "https://github.com/Jakeschincariol/arena-skill",
+  "keywords": [
+    "arena",
+    "multi-agent",
+    "reasoning",
+    "evaluation",
+    "tournament"
+  ],
+  "license": "MIT",
+  "name": "arena-skill",
+  "repository": "https://github.com/Jakeschincariol/arena-skill",
+  "version": "0.1.0"
+}
