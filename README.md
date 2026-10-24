@@ -4,12 +4,13 @@ This repository archives the plugin packages owned by the connected Plugin Creat
 
 ## Current inventory
 
-- Plugin Creator registry inventory: 50 plugins (last checked during this branch update).
-- Expected package directories: 50.
-- Binary assets unavailable from the text package interface may still be absent. See the completeness notes below.
+- Plugin Creator registry inventory: 51 plugins (checked 2026-10-25).
+- Package directories in this branch: 51.
+- The binary asset `plugins/not-ai/assets/composer-icon.png` remains unavailable through the registry's text-file interface and is not included.
 
 ## Plugin index
 
+- [chrome-devtools-agent](plugins/chrome-devtools-agent/) — archived
 - [caveman](plugins/caveman/) — archived
 - [antigravity-awesome-skills](plugins/antigravity-awesome-skills/) — archived
 - [skill-inspector](plugins/skill-inspector/) — archived
