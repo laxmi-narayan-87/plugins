@@ -1,9 +1,23 @@
 # Personal Plugin Archive
 
-This repository stores the retrievable source files for **34 private plugins** currently listed in the Plugin Creator account for `laxmi-narayan-87`. Each folder under `plugins/` preserves the source-relative directory layout for manifests, skill instructions, references, tests, scripts, and text assets that were readable through the registry.
+This repository tracks the plugin packages owned by this account. The index below includes the full current inventory; only folders present under `plugins/` have been archived to this repository so far.
 
 ## Plugin index
 
+- [skill-inspector](plugins/skill-inspector/) — archived
+- [vercel-skills-workflow](plugins/vercel-skills-workflow/) — archived
+- [design-md-guide](plugins/design-md-guide/)
+- [taste-skill](plugins/taste-skill/)
+- [loop-engineering](plugins/loop-engineering/)
+- [ruflo-agent-harness](plugins/ruflo-agent-harness/)
+- [openviking-context-plugin](plugins/openviking-context-plugin/)
+- [harness-engineering](plugins/harness-engineering/)
+- [diagram-design](plugins/diagram-design/)
+- [pya-security-audit](plugins/pya-security-audit/)
+- [scientific-agent-skills-workflow](plugins/scientific-agent-skills-workflow/)
+- [tencentdb-agent-memory](plugins/tencentdb-agent-memory/)
+- [browser-use-automation](plugins/browser-use-automation/)
+- [arena-skill](plugins/arena-skill/)
 - [reticle-verification](plugins/reticle-verification/)
 - [beyondseo](plugins/beyondseo/)
 - [artemis-android-qa](plugins/artemis-android-qa/)
@@ -39,19 +53,10 @@ This repository stores the retrievable source files for **34 private plugins** c
 - [inbox-intelligence](plugins/inbox-intelligence/)
 - [placement-intelligence](plugins/placement-intelligence/)
 
-## What is included
+## Archive notes
 
-- Plugin manifests and metadata files (`plugin.json`, `manifest.json`, and `.codex-plugin/plugin.json`, where present).
-- Skill instructions, supporting reference documents, README files, tests, scripts, and readable text assets exposed by the plugin registry.
-- Separate folders per plugin to avoid filename collisions and preserve the original relative paths.
-
-## Archive limitations
-
-- This is an archive of the plugin package files exposed by the registry, **not necessarily each upstream project's complete runtime codebase**. Some plugins explicitly rely on their upstream repositories or external runtimes.
-- Binary assets that the file interface cannot return as UTF-8 text are not included. In particular, the `not-ai/assets/composer-icon.png` binary asset was not transferred; textual SVG assets were included where available.
-- No secrets, tokens, environment files, or credentials should be committed to this public repository. Review carefully before adding any locally stored runtime configuration.
-- Upstream projects remain governed by their own licenses and are linked from each plugin's metadata when present.
-
-## Branch
-
-All archive commits were pushed to `main` without force-pushing or deleting existing repository content.
+- Plugin packages contain manifests, skill instructions, supporting references, tests/scripts and text assets that can be read from the Plugin Creator registry.
+- A listed plugin is not necessarily archived yet; check whether its `plugins/<name>/` folder exists.
+- This archive is not necessarily the full upstream runtime codebase. Upstream repositories remain the source of truth for implementation code and dependencies.
+- No secrets, tokens, environment files, or credentials should be committed.
+- Some binary assets may not be available through the registry's text-file interface.
