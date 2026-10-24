@@ -6,7 +6,7 @@ This repository archives the plugin packages owned by the connected Plugin Creat
 
 - Plugin Creator registry inventory: 51 plugins (checked 2026-10-25).
 - Package directories in this branch: 51.
-- The binary asset `plugins/not-ai/assets/composer-icon.png` remains unavailable through the registry's text-file interface and is not included.
+- Binary asset `plugins/not-ai/assets/composer-icon.png` remains unavailable through the registry's text-file interface and is not included.
 
 ## Plugin index
 
@@ -48,17 +48,17 @@ This repository archives the plugin packages owned by the connected Plugin Creat
 - [slopmonster-writing-review](plugins/slopmonster-writing-review/) — archived
 - [api-anything](plugins/api-anything/) — archived
 - [archify-diagrams](plugins/archify-diagrams/) — archived
-- [career-ops-copilot](plugins/career-ops-copilot/) — missing
+- [career-ops-copilot](plugins/career-ops-copilot/) — archived
 - [agent-reach-guide](plugins/agent-reach-guide/) — archived
 - [ai-labs-workflows](plugins/ai-labs-workflows/) — archived
 - [ai-video-storyboard](plugins/ai-video-storyboard/) — archived
 - [codex-security-advisor](plugins/codex-security-advisor/) — archived
-- [humanizer](plugins/humanizer/) — missing
+- [humanizer](plugins/humanizer/) — archived
 - [rea-reverse-engineering](plugins/rea-reverse-engineering/) — archived
 - [not-ai](plugins/not-ai/) — archived
 - [impeccable-design-workflow](plugins/impeccable-design-workflow/) — archived
 - [brag-launch-video](plugins/brag-launch-video/) — archived
-- [ian-xiaohei-illustrations](plugins/ian-xiaohei-illustrations/) — missing
+- [ian-xiaohei-illustrations](plugins/ian-xiaohei-illustrations/) — archived
 - [inbox-intelligence](plugins/inbox-intelligence/) — archived
 - [placement-intelligence](plugins/placement-intelligence/) — archived
 
