@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Guided workflows for using the REA local MCP and CLI toolkit to investigate software behavior, binaries, applications, and websites with evidence.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Review"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me plan a REA investigation and identify prerequisites.",
+          "Explain how to inspect a JavaScript or Electron application with REA.",
+          "Help me interpret REA findings while distinguishing evidence from assumptions."
+        ],
+        "developerName": "juu",
+        "displayName": "REA Reverse Engineering",
+        "longDescription": "Helps you plan and interpret evidence-based reverse-engineering workflows using the REA CLI and its local MCP server. Local analysis requires REA to be installed and connected in a compatible client; this plugin does not itself execute REA or access files on your device.",
+        "shortDescription": "Guide REA investigations"
+      }
+    }
+  },
+  "homepage": "https://rea.tools/",
+  "keywords": [
+    "reverse-engineering",
+    "mcp",
+    "software-analysis",
+    "binary-analysis",
+    "rea"
+  ],
+  "license": "MIT",
+  "name": "rea-reverse-engineering",
+  "repository": "https://github.com/morluto/rea",
+  "version": "0.1.0"
+}

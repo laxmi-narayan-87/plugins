@@ -1,0 +1,31 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Engineering & IT",
+    "defaultPrompt": [
+      "Help me plan an authorized security review of this repository. Identify the threat model, likely trust boundaries, scan scope, evidence needed, and honest coverage limits.",
+      "Review this code change for security regressions and trace each concern to source evidence. Prioritize practical attack paths and distinguish verified issues from hypotheses.",
+      "Triage these security findings, explain what the evidence proves and what remains unknown, and suggest minimal fixes for human review."
+    ],
+    "developerName": "juu",
+    "displayName": "Codex Security Advisor",
+    "longDescription": "Plan authorized security reviews, review code changes, triage evidence-backed findings, and produce prioritized hardening guidance. This is an advisory workflow and does not itself execute Codex Security scans.",
+    "shortDescription": "Guided code security reviews"
+  },
+  "name": "codex-security-advisor",
+  "version": "0.1.0",
+  "description": "Guided security review workflows inspired by OpenAI Codex Security for authorized repositories, diffs, findings, and hardening plans.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "security",
+    "code-review",
+    "vulnerability-analysis",
+    "threat-modeling",
+    "codex-security"
+  ],
+  "repository": "https://github.com/openai/codex-security",
+  "skills": "./skills"
+}

@@ -1,0 +1,18 @@
+{
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Rewrite AI-sounding text so it reads naturally and like the writer, without changing its meaning.\nUse when editing prose with stock AI phrasing, dramatic closers, staged openers, forced triads,\nexcessive dashes, inflated claims, sales language, decorative formatting, or chatbot residue.\n",
+  "interface": {
+    "capabilities": [],
+    "category": "Other",
+    "defaultPrompt": null,
+    "developerName": "juu",
+    "displayName": "humanizer",
+    "longDescription": "Rewrite AI-sounding text so it reads naturally and like the writer, without changing its meaning.\nUse when editing prose with stock AI phrasing, dramatic closers, staged openers, forced triads,\nexcessive dashes, inflated claims, sales language, decorative formatting, or chatbot residue.\n",
+    "shortDescription": "Rewrite AI-sounding text so it reads naturally and like the writer, without changing its meaning.\nUse when editing prose with stock AI phrasing, dramatic closers, staged openers, forced triads,\nexcessive dashes, inflated claims, sales language, decorative formatting, or chatbot residue.\n"
+  },
+  "name": "humanizer",
+  "version": "1.0.0"
+}

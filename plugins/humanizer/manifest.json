@@ -1,0 +1,7 @@
+{
+  "name": "Humanizer",
+  "version": "1.0.0",
+  "description": "Rewrite AI-sounding prose in a natural, clear voice while preserving meaning, factual claims, and the writer's style.",
+  "entrypoint": "SKILL.md",
+  "keywords": ["writing", "editing", "humanizer", "prose", "style"]
+}

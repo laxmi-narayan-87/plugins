@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Plan multi-shot AI videos with a coherent visual theme, shot-by-shot prompts, audio direction, and post-production checklist.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Creative work"
+        ],
+        "category": "Creativity",
+        "defaultPrompt": [
+          "Help me plan a multi-shot AI video using the AI Video Storyboard workflow.",
+          "Turn this video brief into a consistent shot list with copy-ready prompts and audio direction.",
+          "Review my storyboard for visual continuity, narrative flow, and post-production readiness."
+        ],
+        "developerName": "juu",
+        "displayName": "AI Video Storyboard",
+        "longDescription": "Turns a video brief into a coordinated multi-shot storyboard with a shared visual theme, concrete copy-ready prompts, per-shot audio direction, narrative rationale, and a post-production checklist. Focuses on planning; it does not generate or edit video files.",
+        "shortDescription": "AI video storyboard plans"
+      }
+    }
+  },
+  "homepage": "https://github.com/aicontentskills/ai-video-storyboard-skill",
+  "keywords": [
+    "video",
+    "storyboard",
+    "cinematography",
+    "creative-production",
+    "AI video"
+  ],
+  "license": "MIT",
+  "name": "ai-video-storyboard",
+  "repository": "https://github.com/aicontentskills/ai-video-storyboard-skill",
+  "version": "0.1.0"
+}
