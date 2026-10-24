@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Create clear, branded, editorial diagrams for software architecture, processes, data, and product workflows.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Create a clean, publication-ready diagram for this concept.",
+          "Choose the best diagram type for my software architecture and explain your layout choices.",
+          "Review this diagram for clarity, visual hierarchy, accessibility, and unnecessary complexity."
+        ],
+        "developerName": "juu",
+        "displayName": "Diagram Design",
+        "longDescription": "Guidance for designing readable, editorial-style diagrams for software architecture, sequences, data models, processes, planning, and analytics. Includes type selection, layout heuristics, accessibility checks, brand-token guidance, and workflows for rebuilding imported diagrams. This private plugin packages the skill instructions; repository scripts and third-party CLI commands are not bundled as executable ChatGPT tools.",
+        "shortDescription": "Polished, branded diagrams"
+      }
+    }
+  },
+  "homepage": "https://diagramdesign.dev",
+  "keywords": [
+    "diagram",
+    "architecture",
+    "flowchart",
+    "svg",
+    "visualization",
+    "mermaid",
+    "drawio",
+    "excalidraw"
+  ],
+  "license": "MIT",
+  "name": "diagram-design",
+  "repository": "https://github.com/cathrynlavery/diagram-design",
+  "version": "0.1.0"
+}
