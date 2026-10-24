@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu",
+    "url": "https://github.com/Leonxlnx"
+  },
+  "description": "Taste Skill: researched art direction and browser-checked workflows for distinctive websites, landing pages, portfolios, and application screens.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Design",
+        "defaultPrompt": [
+          "Design a distinctive frontend without generic AI patterns.",
+          "Redesign this interface while preserving its brand.",
+          "Build a dashboard for this product and verify its responsive layout."
+        ],
+        "developerName": "juu",
+        "displayName": "Taste Skill",
+        "longDescription": "Applies researched visual directions, source-specific concepts, real imagery, and browser-based inspection to websites, portfolios, product pages, dashboards, and app screens.",
+        "shortDescription": "Distinctive web and app design",
+        "websiteURL": "https://tasteskill.dev"
+      }
+    }
+  },
+  "homepage": "https://tasteskill.dev",
+  "keywords": [
+    "frontend",
+    "design",
+    "art-direction",
+    "ui-design",
+    "web-design",
+    "browser-testing"
+  ],
+  "license": "MIT",
+  "name": "taste-skill",
+  "repository": "https://github.com/Leonxlnx/taste-skill",
+  "version": "2.1.4"
+}
