@@ -1,0 +1,18 @@
+{
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Use when a user wants help finding jobs, comparing job descriptions to their resume, planning targeted applications, tailoring a resume or cover letter, preparing for interviews, researching companies, drafting recruiter outreach, negotiating an offer, or organizing an application tracker. Emphasize evidence, fit, and human control.",
+  "interface": {
+    "capabilities": [],
+    "category": "Other",
+    "defaultPrompt": null,
+    "developerName": "juu",
+    "displayName": "career-ops-copilot",
+    "longDescription": "Use when a user wants help finding jobs, comparing job descriptions to their resume, planning targeted applications, tailoring a resume or cover letter, preparing for interviews, researching companies, drafting recruiter outreach, negotiating an offer, or organizing an application tracker. Emphasize evidence, fit, and human control.",
+    "shortDescription": "Use when a user wants help finding jobs, comparing job descriptions to their resume, planning targeted applications, tailoring a resume or cover letter, preparing for interviews, researching companies, drafting recruiter outreach, negotiating an offer, or organizing an application tracker. Emphasize evidence, fit, and human control."
+  },
+  "name": "career-ops-copilot",
+  "version": "1.0.0"
+}

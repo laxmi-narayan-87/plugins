@@ -1,0 +1,7 @@
+{
+  "name": "Career Ops Copilot",
+  "version": "1.0.0",
+  "description": "A source-grounded career workflow assistant inspired by career-ops: evaluate job fit, plan targeted applications, tailor truthful resumes and cover letters, prepare for interviews, and keep a human-controlled job-search tracker.",
+  "entrypoint": "skills/career-ops/SKILL.md",
+  "keywords": ["career-ops", "job-search", "resume", "cover-letter", "interview-prep", "job-tracker", "career-planning", "ATS"]
+}

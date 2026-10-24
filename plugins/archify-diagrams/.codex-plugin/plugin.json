@@ -1,0 +1,33 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Use the Archify workflow to turn this idea into an interactive diagram plan.",
+      "Use the Archify workflow to map this repository using verified source evidence.",
+      "Create a source-grounded explainer page outline with a diagram and citations."
+    ],
+    "developerName": "juu",
+    "displayName": "Archify Diagrams",
+    "longDescription": "A skills-only workflow for helping an agent turn ideas, plans, and inspected codebases into clear interactive-diagram specifications and source-grounded explainers. It does not include Archify's renderer or a hosted MCP server.",
+    "shortDescription": "Interactive diagram workflow"
+  },
+  "name": "archify-diagrams",
+  "version": "0.1.0",
+  "description": "Guidance for creating source-grounded interactive diagrams and explainer pages in the style of the Archify agent skill.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "architecture",
+    "diagrams",
+    "system-design",
+    "visualization",
+    "explainer"
+  ],
+  "homepage": "https://archify.si",
+  "repository": "https://github.com/tt-a1i/archify",
+  "license": "MIT",
+  "skills": "./skills"
+}

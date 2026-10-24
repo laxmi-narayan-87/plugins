@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A source-grounded assistant for planning, configuring, and troubleshooting the Agent Reach capability-layer CLI.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me safely install or inspect Agent Reach using its official documentation.",
+          "Help me troubleshoot an Agent Reach doctor report without guessing.",
+          "Which Agent Reach source can I use for my research task, and what setup does it require?"
+        ],
+        "developerName": "juu",
+        "displayName": "Agent Reach Guide",
+        "longDescription": "Guidance for understanding Agent Reach, planning a safe installation, choosing supported sources, interpreting diagnostics, and troubleshooting from the project's documentation. This plugin provides instructions and does not itself install software or connect to Agent Reach at runtime.",
+        "shortDescription": "Agent Reach setup and help"
+      }
+    }
+  },
+  "homepage": "https://github.com/Panniantong/agent-reach",
+  "keywords": [
+    "agent-reach",
+    "web-research",
+    "cli",
+    "troubleshooting",
+    "social-search",
+    "youtube",
+    "rss",
+    "github"
+  ],
+  "license": "MIT",
+  "name": "agent-reach-guide",
+  "repository": "https://github.com/Panniantong/agent-reach",
+  "version": "0.1.0"
+}

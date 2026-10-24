@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A practical skill collection adapted from ai-labs-claude-skills for content, software, data, SEO, career, and project workflows.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Skills"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use the AI Labs Workflows skill to route my request to the right workflow. Inspect provided source material, state assumptions, and never claim a script ran or a change was deployed unless it actually did.",
+        "developerName": "juu",
+        "displayName": "AI Labs Workflows",
+        "longDescription": "A skills-first adaptation of the public ai-labs-claude-skills collection. Provides guided workflows for software testing, SEO, frontend design, analytics, documentation, career materials, video scripts, story planning, and project operations. Repository-specific scripts require a compatible local runtime and dependencies.",
+        "shortDescription": "Multi-skill work and creation"
+      }
+    }
+  },
+  "keywords": [
+    "workflows",
+    "developer-tools",
+    "seo",
+    "testing",
+    "data-analysis",
+    "content",
+    "resume"
+  ],
+  "license": "MIT",
+  "name": "ai-labs-workflows",
+  "repository": "https://github.com/ailabs-393/ai-labs-claude-skills",
+  "version": "0.1.0"
+}
