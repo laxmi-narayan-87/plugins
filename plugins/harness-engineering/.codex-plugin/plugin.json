@@ -1,0 +1,35 @@
+{
+  "interface": {
+    "capabilities": [
+      "Reasoning"
+    ],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Help me design a reliable harness for an AI coding agent.",
+      "Audit this repository's harness controls and produce an evidence-based gap report.",
+      "Design reproducible evaluations for an agent workflow."
+    ],
+    "developerName": "juu",
+    "displayName": "Harness Engineering Toolkit",
+    "longDescription": "A skills-focused toolkit for designing coding-agent harnesses, auditing reliability controls, structuring safe automated loops, and evaluating agent behavior with reproducible evidence. Inspired by the harness engineering resource landscape in walkinglabs/awesome-harness-engineering.",
+    "shortDescription": "Reliable AI-agent harnesses"
+  },
+  "name": "harness-engineering",
+  "version": "0.1.0",
+  "description": "Practical workflows for designing, auditing, and evaluating reliable AI agent harnesses, with attention to state, verification, safety, and long-running coding tasks.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "harness engineering",
+    "AI agents",
+    "coding agents",
+    "verification",
+    "evaluation",
+    "observability",
+    "agent safety"
+  ],
+  "repository": "https://github.com/walkinglabs/awesome-harness-engineering",
+  "skills": "./skills"
+}
