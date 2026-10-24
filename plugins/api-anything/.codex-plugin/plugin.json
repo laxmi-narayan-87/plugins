@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": "Help me set up or use API Anything safely with a website. Check the available sites and operations first, and do not invent operations or endpoints.",
+    "developerName": "juu",
+    "displayName": "API Anything",
+    "longDescription": "A workflow companion for the open-source API Anything project. It guides setup and safe use of the local api-anything CLI and stdio MCP server. It does not host the project or create a remote endpoint.",
+    "shortDescription": "Call website ops via MCP"
+  },
+  "name": "api-anything",
+  "version": "0.1.0",
+  "description": "Use API Anything to learn and call website operations through its local CLI and MCP server.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "website automation",
+    "MCP",
+    "web data",
+    "API",
+    "browser automation"
+  ],
+  "homepage": "https://github.com/goodnight000/api-anything",
+  "repository": "https://github.com/goodnight000/api-anything",
+  "license": "MIT",
+  "skills": "./skills"
+}

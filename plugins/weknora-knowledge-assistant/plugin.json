@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Guidance for configuring and operating Tencent WeKnora for grounded knowledge search, document workflows, RAG Q&A, and MCP integration.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Research",
+          "Developer tools"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Help me set up or troubleshoot a WeKnora deployment using its official documentation.",
+          "Design a grounded knowledge-base search and Q&A workflow for WeKnora.",
+          "Help me connect an existing WeKnora instance through its documented MCP interface without exposing credentials."
+        ],
+        "developerName": "juu",
+        "displayName": "WeKnora Knowledge Assistant",
+        "longDescription": "Helps configure and safely operate Tencent WeKnora for knowledge-base setup, document ingestion, grounded retrieval and Q&A, CLI workflows, and MCP connections. It does not claim a live connection unless one is configured and verified.",
+        "shortDescription": "WeKnora knowledge workflows"
+      }
+    }
+  },
+  "homepage": "https://github.com/Tencent/WeKnora",
+  "keywords": [
+    "weknora",
+    "RAG",
+    "knowledge-base",
+    "MCP",
+    "documents",
+    "Tencent"
+  ],
+  "license": "MIT",
+  "name": "weknora-knowledge-assistant",
+  "repository": "https://github.com/Tencent/WeKnora",
+  "version": "0.1.0"
+}

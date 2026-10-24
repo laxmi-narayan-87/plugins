@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Guidance for configuring, operating, and auditing the Harvey local autonomous sales agent.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Instructions"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Help me set up Harvey from its official repository without inventing capabilities or skipping approval gates.",
+          "Review my Harvey prospecting plan and identify evidence, cost, privacy, and deliverability risks.",
+          "Troubleshoot Harvey using the error output and the repository's documented commands."
+        ],
+        "developerName": "juu",
+        "displayName": "Harvey Sales Operator",
+        "longDescription": "A repository-grounded workflow assistant for setting up Harvey, planning prospecting, reviewing signals and campaigns, preserving approval gates, and troubleshooting the local dashboard. It does not itself connect to or execute a Harvey installation.",
+        "shortDescription": "Operate Harvey sales agent"
+      }
+    }
+  },
+  "homepage": "https://github.com/ethanplusai/harvey",
+  "keywords": [
+    "harvey",
+    "sales",
+    "prospecting",
+    "outreach",
+    "cold-email",
+    "crm"
+  ],
+  "license": "MIT",
+  "name": "harvey-sales-operator",
+  "repository": "https://github.com/ethanplusai/harvey",
+  "version": "0.1.0"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "weknora": {
+      "command": "weknora",
+      "args": ["mcp", "serve"]
+    }
+  }
+}

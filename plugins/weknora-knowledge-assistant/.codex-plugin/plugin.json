@@ -1,0 +1,37 @@
+{
+  "interface": {
+    "capabilities": [
+      "Research",
+      "Developer tools"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Help me set up or troubleshoot a WeKnora deployment using its official documentation.",
+      "Design a grounded knowledge-base search and Q&A workflow for WeKnora.",
+      "Help me connect an existing WeKnora instance through its documented MCP interface without exposing credentials."
+    ],
+    "developerName": "juu",
+    "displayName": "WeKnora Knowledge Assistant",
+    "longDescription": "Helps configure and safely operate Tencent WeKnora for knowledge-base setup, document ingestion, grounded retrieval and Q&A, CLI workflows, and MCP connections. It does not claim a live connection unless one is configured and verified.",
+    "shortDescription": "WeKnora knowledge workflows"
+  },
+  "name": "weknora-knowledge-assistant",
+  "version": "0.1.0",
+  "description": "Guidance for configuring and operating Tencent WeKnora for grounded knowledge search, document workflows, RAG Q&A, and MCP integration.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "weknora",
+    "RAG",
+    "knowledge-base",
+    "MCP",
+    "documents",
+    "Tencent"
+  ],
+  "homepage": "https://github.com/Tencent/WeKnora",
+  "repository": "https://github.com/Tencent/WeKnora",
+  "license": "MIT",
+  "skills": "./skills"
+}

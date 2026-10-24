@@ -1,0 +1,33 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Writing",
+    "defaultPrompt": [
+      "Review this draft for common AI-writing patterns and improve it for its intended reader. Preserve all supported facts and flag claims that need evidence.",
+      "Humanize this copy without inventing facts, personal opinions, testimonials, numbers, or experiences.",
+      "Audit this README, email, landing page, or script for clarity, repetition, voice, and unsupported claims, then rewrite it."
+    ],
+    "developerName": "juu",
+    "displayName": "SlopMonster Writing Review",
+    "longDescription": "Apply a SlopMonster-inspired review workflow to English drafts: inspect common AI-writing patterns, revise for audience and purpose, preserve claims and technical meaning, and recheck the finished copy. This conversational plugin does not run the repository's Python checker or invoke a second model automatically.",
+    "shortDescription": "Review and refine English copy"
+  },
+  "name": "slopmonster-writing-review",
+  "version": "0.1.0",
+  "description": "Review and improve English copy using SlopMonster-inspired pattern checks, factual safeguards, and audience-focused editing guidance.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "writing",
+    "editing",
+    "copywriting",
+    "AI writing patterns",
+    "proofreading"
+  ],
+  "homepage": "https://github.com/ItsssssJack/SlopMonster",
+  "repository": "https://github.com/ItsssssJack/SlopMonster",
+  "license": "MIT",
+  "skills": "./skills"
+}
