@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A multi-tool web intelligence toolkit for crawling, structured extraction, browser automation, screenshot comparison, site QA and source-grounded research.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "brandColor": "#2563EB",
+        "brandColorDark": "#60A5FA",
+        "capabilities": [
+          "Crawl sites and extract structured page data",
+          "Operate browser sessions and inspect JavaScript-heavy pages",
+          "Compare source and clone screenshots across viewports",
+          "Audit links, metadata, console errors and navigation",
+          "Produce reproducible reports with evidence and coverage limits"
+        ],
+        "category": "Developer Tools",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "Crawl this site with a page limit and extract its URLs, headings, metadata and links.",
+          "Compare the original website against my clone and report verified visual and functional differences.",
+          "Run an evidence-based website audit and produce a prioritized defect report."
+        ],
+        "developerName": "juu",
+        "displayName": "Web Recon Toolkit",
+        "logo": "./assets/logo.svg",
+        "longDescription": "Combine self-hosted crawling, browser automation and deterministic visual/functional testing. Guides workflows using Crawl4AI, agent-browser, Playwright and Crawlee, while adapting to the host tools actually available. Includes bounded extraction, source-grounded research, screenshot comparison, link checks and evidence-based website QA. Does not bundle a crawler server or claim external integrations are connected.",
+        "shortDescription": "Crawl, inspect and verify websites"
+      }
+    }
+  },
+  "keywords": [
+    "web-crawling",
+    "web-scraping",
+    "browser-automation",
+    "playwright",
+    "crawl4ai",
+    "visual-regression",
+    "website-audit"
+  ],
+  "name": "web-recon-toolkit",
+  "version": "0.1.0"
+}
