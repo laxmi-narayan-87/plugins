@@ -1,0 +1,35 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Help me challenge and clarify a product idea before implementation.",
+      "Review my implementation plan for architecture, edge cases, and tests.",
+      "Run an evidence-based code review or release-readiness checklist."
+    ],
+    "developerName": "juu",
+    "displayName": "gstack Workflow Toolkit",
+    "longDescription": "A skills-first toolkit inspired by the public gstack project. It guides product discovery, scope and architecture reviews, evidence-based code review, root-cause debugging, QA/security planning, and safe release verification. It provides workflow guidance, not gstack's local binaries, browser runtime, or agent-specific slash commands.",
+    "shortDescription": "Plan, review, test, and ship"
+  },
+  "name": "gstack-workflow-toolkit",
+  "version": "0.1.0",
+  "description": "A practical software-building workflow toolkit inspired by gstack: product discovery, plan reviews, root-cause debugging, QA, security checks, and release verification.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "software engineering",
+    "product planning",
+    "code review",
+    "QA",
+    "security",
+    "release engineering",
+    "AI agents"
+  ],
+  "homepage": "https://github.com/garrytan/gstack",
+  "repository": "https://github.com/garrytan/gstack",
+  "license": "MIT",
+  "skills": "./skills"
+}
