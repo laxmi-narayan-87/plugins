@@ -1,0 +1,27 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": "Design a reliable end-to-end MLOps pipeline for my model and deployment environment.",
+    "developerName": "juu",
+    "displayName": "MLOps Pipeline Engineer",
+    "longDescription": "Design reproducible ML workflows for data validation, training, evaluation, registry promotion, deployment, monitoring, and rollback.",
+    "shortDescription": "Automate ML pipelines"
+  },
+  "name": "mlops-pipeline-engineer",
+  "version": "0.1.0",
+  "description": "Design reproducible ML workflows for data validation, training, evaluation, registry promotion, deployment, monitoring, and rollback.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "skills": "./skills"
+}
