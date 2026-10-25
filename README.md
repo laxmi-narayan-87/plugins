@@ -4,12 +4,22 @@ This repository archives the plugin packages owned by the connected Plugin Creat
 
 ## Current inventory
 
-- Plugin Creator registry inventory: 51 plugins (checked 2026-10-25).
-- Package directories in this branch: 51.
+- Plugin Creator registry inventory: 61 plugins (checked 2026-10-25).
+- Package directories in this branch: 61.
 - Binary asset `plugins/not-ai/assets/composer-icon.png` remains unavailable through the registry's text-file interface and is not included.
 
 ## Plugin index
 
+- [ml-engineering-suite](plugins/ml-engineering-suite/) — archived
+- [web-recon-toolkit](plugins/web-recon-toolkit/) — archived
+- [firecrawl-toolkit](plugins/firecrawl-toolkit/) — archived
+- [ml-data-quality-labeling](plugins/ml-data-quality-labeling/) — archived
+- [ml-model-deployment](plugins/ml-model-deployment/) — archived
+- [ml-hyperparameter-optimization](plugins/ml-hyperparameter-optimization/) — archived
+- [mlops-pipeline-engineer](plugins/mlops-pipeline-engineer/) — archived
+- [ml-model-development](plugins/ml-model-development/) — archived
+- [superpowers-workflow](plugins/superpowers-workflow/) — archived
+- [gstack-workflow-toolkit](plugins/gstack-workflow-toolkit/) — archived
 - [chrome-devtools-agent](plugins/chrome-devtools-agent/) — archived
 - [caveman](plugins/caveman/) — archived
 - [antigravity-awesome-skills](plugins/antigravity-awesome-skills/) — archived
