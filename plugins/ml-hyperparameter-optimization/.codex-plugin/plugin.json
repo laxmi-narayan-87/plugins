@@ -1,0 +1,27 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Data & Analytics",
+    "defaultPrompt": "Help me optimize a model\u2019s hyperparameters and compare candidates rigorously.",
+    "developerName": "juu",
+    "displayName": "ML Hyperparameter Tuning",
+    "longDescription": "Plan and execute disciplined model-selection and hyperparameter optimization with clear validation boundaries, budgets, and reproducible comparisons.",
+    "shortDescription": "Tune models without leakage"
+  },
+  "name": "ml-hyperparameter-optimization",
+  "version": "0.1.0",
+  "description": "Plan and execute disciplined model-selection and hyperparameter optimization with clear validation boundaries, budgets, and reproducible comparisons.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "skills": "./skills"
+}
