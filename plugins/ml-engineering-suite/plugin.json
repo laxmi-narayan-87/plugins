@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A unified machine-learning engineering toolkit spanning dataset quality, model development, hyperparameter optimization, MLOps pipelines, deployment, monitoring, and rollback.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Data & Analytics",
+        "defaultPrompt": "Help me take this machine-learning task from data quality and model development through evaluation, reproducible pipelines, safe deployment, and monitoring. State assumptions, prevent leakage, and never invent metrics or claim unverified execution.",
+        "developerName": "juu",
+        "displayName": "ML Engineering Suite",
+        "longDescription": "One unified toolkit for reliable machine-learning work: audit datasets and labels, develop and evaluate models, tune hyperparameters, design reproducible ML pipelines, deploy safely, and monitor production behavior with explicit rollout and rollback criteria.",
+        "shortDescription": "End-to-end ML workflows"
+      }
+    }
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "model-development",
+    "data-quality",
+    "hyperparameter-optimization",
+    "mlops",
+    "deployment",
+    "reproducibility"
+  ],
+  "name": "ml-engineering-suite",
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "version": "0.1.0"
+}
