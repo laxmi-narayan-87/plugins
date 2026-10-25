@@ -1,0 +1,54 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "An unofficial private companion for using Firecrawl's web-data workflows and contributing to the Firecrawl source repository.",
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "brandColor": "#F36B3F",
+        "brandColorDark": "#FF8A50",
+        "capabilities": [
+          "Find and retrieve web sources with traceable URLs",
+          "Extract structured data with explicit schemas",
+          "Operate browser sessions with verification and safety checks",
+          "Parse documents and manage requested website monitors",
+          "Follow repository-specific development and test instructions"
+        ],
+        "category": "Developer Tools",
+        "composerIcon": "./assets/icon.svg",
+        "composerIconDark": "./assets/icon-dark.svg",
+        "defaultPrompt": [
+          "Use Firecrawl to research this topic and cite the source URLs.",
+          "Extract these fields from the supplied pages into a structured table.",
+          "Help me make a safe, test-backed contribution to the Firecrawl repository."
+        ],
+        "developerName": "juu",
+        "displayName": "Firecrawl Toolkit",
+        "logo": "./assets/logo-light.svg",
+        "logoDark": "./assets/logo-dark.svg",
+        "longDescription": "An unofficial private toolkit for using Firecrawl effectively: search the web, scrape pages, map and crawl bounded site sections, extract structured data, operate browser sessions, parse documents, and monitor website changes. It also includes source-grounded guidance for contributing to the public Firecrawl repository. The toolkit uses the existing Firecrawl app when available; it does not bundle or deploy Firecrawl's server runtime. Live operations may require Firecrawl account access and consume service credits.",
+        "privacyPolicyURL": "https://www.firecrawl.dev/privacy-policy",
+        "shortDescription": "Web data workflows",
+        "supportURL": "https://github.com/firecrawl/firecrawl/issues",
+        "termsOfServiceURL": "https://www.firecrawl.dev/terms-of-service",
+        "websiteURL": "https://github.com/firecrawl/firecrawl"
+      }
+    }
+  },
+  "homepage": "https://github.com/firecrawl/firecrawl",
+  "keywords": [
+    "firecrawl",
+    "web-retrieval",
+    "scraping",
+    "developer-tools",
+    "repository-workflows"
+  ],
+  "license": "AGPL-3.0",
+  "name": "firecrawl-toolkit",
+  "repository": "https://github.com/firecrawl/firecrawl",
+  "version": "0.1.0"
+}
