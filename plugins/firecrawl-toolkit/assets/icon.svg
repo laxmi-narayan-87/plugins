@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Firecrawl Toolkit icon</title>
+  <rect width="128" height="128" rx="28" fill="#FFF7F1"/>
+  <path d="M69 13c4 17-12 25-8 39 3 8 11 12 19 9 14-5 17-20 10-32 21 9 29 30 21 48-7 17-23 27-42 27-24 0-43-16-45-38-2-19 9-34 24-45-2 15 3 21 9 21 8 1 14-9 12-29z" fill="#F36B3F"/>
+  <path d="M27 91h30M27 106h65M77 77h26" fill="none" stroke="#22222A" stroke-width="7" stroke-linecap="round"/>
+</svg>
