@@ -1,0 +1,30 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Coding",
+    "defaultPrompt": "Use the Superpowers Workflow to approach this coding task systematically: clarify the goal, choose a workflow, test first, and verify before claiming completion.",
+    "developerName": "juu",
+    "displayName": "Superpowers Workflow",
+    "longDescription": "A skills-only adaptation of Superpowers' engineering methodology. Helps coding agents clarify requirements, plan implementation, apply test-driven development, debug from evidence, review code, and verify before reporting completion. It does not include upstream session hooks or automatic skill syncing.",
+    "shortDescription": "Structured coding workflows"
+  },
+  "name": "superpowers-workflow",
+  "version": "0.1.0",
+  "description": "A structured software-development workflow inspired by obra/superpowers: clarify intent, plan carefully, test first, debug systematically, review changes, and verify results.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "software-development",
+    "TDD",
+    "debugging",
+    "planning",
+    "code-review",
+    "engineering-workflow"
+  ],
+  "homepage": "https://github.com/obra/superpowers",
+  "repository": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "skills": "./skills"
+}
