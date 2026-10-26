@@ -64,7 +64,7 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 - [codex-security-advisor](plugins/codex-security-advisor/)
 - [humanizer](plugins/humanizer/)
 - [rea-reverse-engineering](plugins/rea-reverse-engineering/)
-- [not-ai](plugins/not-ai/) — missing asset: `assets/composer-icon.png`
+- [not-ai](plugins/not-ai/)
 - [impeccable-design-workflow](plugins/impeccable-design-workflow/)
 - [brag-launch-video](plugins/brag-launch-video/)
 - [ian-xiaohei-illustrations](plugins/ian-xiaohei-illustrations/)
