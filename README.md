@@ -1,6 +1,6 @@
 # Personal Plugin Archive
 
-This repository archives the plugin packages owned by the connected Plugin Creator registry. It is a package archive, not a mirror of every upstream project's complete runtime source code.
+This repository tracks plugin packages owned by the connected Plugin Creator registry. It is not a mirror of every upstream project's complete runtime source code.
 
 ## Current inventory
 
@@ -10,67 +10,67 @@ This repository archives the plugin packages owned by the connected Plugin Creat
 
 ## Plugin index
 
-- [ml-engineering-suite](plugins/ml-engineering-suite/) — archived
-- [web-recon-toolkit](plugins/web-recon-toolkit/) — archived
-- [firecrawl-toolkit](plugins/firecrawl-toolkit/) — archived
-- [ml-data-quality-labeling](plugins/ml-data-quality-labeling/) — archived
-- [ml-model-deployment](plugins/ml-model-deployment/) — archived
-- [ml-hyperparameter-optimization](plugins/ml-hyperparameter-optimization/) — archived
-- [mlops-pipeline-engineer](plugins/mlops-pipeline-engineer/) — archived
-- [ml-model-development](plugins/ml-model-development/) — archived
-- [superpowers-workflow](plugins/superpowers-workflow/) — archived
-- [gstack-workflow-toolkit](plugins/gstack-workflow-toolkit/) — archived
-- [chrome-devtools-agent](plugins/chrome-devtools-agent/) — archived
-- [caveman](plugins/caveman/) — archived
-- [antigravity-awesome-skills](plugins/antigravity-awesome-skills/) — archived
-- [skill-inspector](plugins/skill-inspector/) — archived
-- [vercel-skills-workflow](plugins/vercel-skills-workflow/) — archived
-- [design-md-guide](plugins/design-md-guide/) — archived
-- [taste-skill](plugins/taste-skill/) — archived
-- [loop-engineering](plugins/loop-engineering/) — archived
-- [ruflo-agent-harness](plugins/ruflo-agent-harness/) — archived
-- [openviking-context-plugin](plugins/openviking-context-plugin/) — archived
-- [harness-engineering](plugins/harness-engineering/) — archived
-- [diagram-design](plugins/diagram-design/) — archived
-- [pya-security-audit](plugins/pya-security-audit/) — archived
-- [scientific-agent-skills-workflow](plugins/scientific-agent-skills-workflow/) — archived
-- [tencentdb-agent-memory](plugins/tencentdb-agent-memory/) — archived
-- [browser-use-automation](plugins/browser-use-automation/) — archived
-- [arena-skill](plugins/arena-skill/) — archived
-- [reticle-verification](plugins/reticle-verification/) — archived
-- [beyondseo](plugins/beyondseo/) — archived
-- [artemis-android-qa](plugins/artemis-android-qa/) — archived
-- [serena-coding-agent](plugins/serena-coding-agent/) — archived
-- [context7-documentation](plugins/context7-documentation/) — archived
-- [omniroute-operator](plugins/omniroute-operator/) — archived
-- [pentagi-security-workflow](plugins/pentagi-security-workflow/) — archived
-- [claude-mem-adapter](plugins/claude-mem-adapter/) — archived
-- [qa-quality-agent](plugins/qa-quality-agent/) — archived
-- [mirofish-simulation-guide](plugins/mirofish-simulation-guide/) — archived
-- [wellfound-auto-apply](plugins/wellfound-auto-apply/) — archived
-- [ecc-engineering-companion](plugins/ecc-engineering-companion/) — archived
-- [graphify-agent](plugins/graphify-agent/) — archived
-- [build-your-own-x-guide](plugins/build-your-own-x-guide/) — archived
-- [claudex-loop-assistant](plugins/claudex-loop-assistant/) — archived
-- [overleaf-helper](plugins/overleaf-helper/) — archived
-- [harvey-sales-operator](plugins/harvey-sales-operator/) — archived
-- [weknora-knowledge-assistant](plugins/weknora-knowledge-assistant/) — archived
-- [slopmonster-writing-review](plugins/slopmonster-writing-review/) — archived
-- [api-anything](plugins/api-anything/) — archived
-- [archify-diagrams](plugins/archify-diagrams/) — archived
-- [career-ops-copilot](plugins/career-ops-copilot/) — archived
-- [agent-reach-guide](plugins/agent-reach-guide/) — archived
-- [ai-labs-workflows](plugins/ai-labs-workflows/) — archived
-- [ai-video-storyboard](plugins/ai-video-storyboard/) — archived
-- [codex-security-advisor](plugins/codex-security-advisor/) — archived
-- [humanizer](plugins/humanizer/) — archived
-- [rea-reverse-engineering](plugins/rea-reverse-engineering/) — archived
-- [not-ai](plugins/not-ai/) — **partially archived** (missing `assets/composer-icon.png`; not fabricated)
-- [impeccable-design-workflow](plugins/impeccable-design-workflow/) — archived
-- [brag-launch-video](plugins/brag-launch-video/) — archived
-- [ian-xiaohei-illustrations](plugins/ian-xiaohei-illustrations/) — archived
-- [inbox-intelligence](plugins/inbox-intelligence/) — archived
-- [placement-intelligence](plugins/placement-intelligence/) — archived
+- [ml-engineering-suite](plugins/ml-engineering-suite/)
+- [web-recon-toolkit](plugins/web-recon-toolkit/)
+- [firecrawl-toolkit](plugins/firecrawl-toolkit/)
+- [ml-data-quality-labeling](plugins/ml-data-quality-labeling/)
+- [ml-model-deployment](plugins/ml-model-deployment/)
+- [ml-hyperparameter-optimization](plugins/ml-hyperparameter-optimization/)
+- [mlops-pipeline-engineer](plugins/mlops-pipeline-engineer/)
+- [ml-model-development](plugins/ml-model-development/)
+- [superpowers-workflow](plugins/superpowers-workflow/)
+- [gstack-workflow-toolkit](plugins/gstack-workflow-toolkit/)
+- [chrome-devtools-agent](plugins/chrome-devtools-agent/)
+- [caveman](plugins/caveman/)
+- [antigravity-awesome-skills](plugins/antigravity-awesome-skills/)
+- [skill-inspector](plugins/skill-inspector/)
+- [vercel-skills-workflow](plugins/vercel-skills-workflow/)
+- [design-md-guide](plugins/design-md-guide/)
+- [taste-skill](plugins/taste-skill/)
+- [loop-engineering](plugins/loop-engineering/)
+- [ruflo-agent-harness](plugins/ruflo-agent-harness/)
+- [openviking-context-plugin](plugins/openviking-context-plugin/)
+- [harness-engineering](plugins/harness-engineering/)
+- [diagram-design](plugins/diagram-design/)
+- [pya-security-audit](plugins/pya-security-audit/)
+- [scientific-agent-skills-workflow](plugins/scientific-agent-skills-workflow/)
+- [tencentdb-agent-memory](plugins/tencentdb-agent-memory/)
+- [browser-use-automation](plugins/browser-use-automation/)
+- [arena-skill](plugins/arena-skill/)
+- [reticle-verification](plugins/reticle-verification/)
+- [beyondseo](plugins/beyondseo/)
+- [artemis-android-qa](plugins/artemis-android-qa/)
+- [serena-coding-agent](plugins/serena-coding-agent/)
+- [context7-documentation](plugins/context7-documentation/)
+- [omniroute-operator](plugins/omniroute-operator/)
+- [pentagi-security-workflow](plugins/pentagi-security-workflow/)
+- [claude-mem-adapter](plugins/claude-mem-adapter/)
+- [qa-quality-agent](plugins/qa-quality-agent/)
+- [mirofish-simulation-guide](plugins/mirofish-simulation-guide/)
+- [wellfound-auto-apply](plugins/wellfound-auto-apply/)
+- [ecc-engineering-companion](plugins/ecc-engineering-companion/)
+- [graphify-agent](plugins/graphify-agent/)
+- [build-your-own-x-guide](plugins/build-your-own-x-guide/)
+- [claudex-loop-assistant](plugins/claudex-loop-assistant/)
+- [overleaf-helper](plugins/overleaf-helper/)
+- [harvey-sales-operator](plugins/harvey-sales-operator/)
+- [weknora-knowledge-assistant](plugins/weknora-knowledge-assistant/)
+- [slopmonster-writing-review](plugins/slopmonster-writing-review/)
+- [api-anything](plugins/api-anything/)
+- [archify-diagrams](plugins/archify-diagrams/)
+- [career-ops-copilot](plugins/career-ops-copilot/)
+- [agent-reach-guide](plugins/agent-reach-guide/)
+- [ai-labs-workflows](plugins/ai-labs-workflows/)
+- [ai-video-storyboard](plugins/ai-video-storyboard/)
+- [codex-security-advisor](plugins/codex-security-advisor/)
+- [humanizer](plugins/humanizer/)
+- [rea-reverse-engineering](plugins/rea-reverse-engineering/)
+- [not-ai](plugins/not-ai/) — missing asset: `assets/composer-icon.png`
+- [impeccable-design-workflow](plugins/impeccable-design-workflow/)
+- [brag-launch-video](plugins/brag-launch-video/)
+- [ian-xiaohei-illustrations](plugins/ian-xiaohei-illustrations/)
+- [inbox-intelligence](plugins/inbox-intelligence/)
+- [placement-intelligence](plugins/placement-intelligence/)
 
 ## Choose a plugin by topic and use case
 
@@ -163,10 +163,6 @@ These are routing suggestions based on package names and inventory topics, not g
 
 A GitHub Actions workflow runs structural checks for JSON syntax, `SKILL.md` frontmatter, and relative Markdown links. Passing these checks does not prove runtime behavior. Test representative plugins in their intended environment.
 
-## Completeness reporting
-
-- **Archived** means all source files retrievable through the package-file interface were copied.
-- **Partially archived** means the package exists but one or more assets/files could not be retrieved.
-- **Missing** means the package directory is absent.
+## Inventory maintenance
 
 Regenerate this index when the registry inventory changes and record the date of that inventory.
