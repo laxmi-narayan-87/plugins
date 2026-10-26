@@ -6,7 +6,6 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 
 - Plugin Creator registry inventory: 61 plugins (checked 2026-10-26).
 - Package directories in this branch: 61.
-- Binary asset `plugins/not-ai/assets/composer-icon.png` remains unavailable through the registry's text-file interface and is not included.
 
 ## Plugin index
 
