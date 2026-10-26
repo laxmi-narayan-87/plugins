@@ -1,11 +1,29 @@
 # Personal Plugin Archive
 
-This repository tracks the plugin packages owned by this account. The index below includes the full current inventory; only folders present under `plugins/` have been archived to this repository so far.
+This repository tracks plugin packages owned by the connected Plugin Creator registry. It is not a mirror of every upstream project's complete runtime source code.
+
+## Current inventory
+
+- Plugin Creator registry inventory: 61 plugins (checked 2026-10-26).
+- Package directories in this branch: 61.
 
 ## Plugin index
 
-- [skill-inspector](plugins/skill-inspector/) — archived
-- [vercel-skills-workflow](plugins/vercel-skills-workflow/) — archived
+- [ml-engineering-suite](plugins/ml-engineering-suite/)
+- [web-recon-toolkit](plugins/web-recon-toolkit/)
+- [firecrawl-toolkit](plugins/firecrawl-toolkit/)
+- [ml-data-quality-labeling](plugins/ml-data-quality-labeling/)
+- [ml-model-deployment](plugins/ml-model-deployment/)
+- [ml-hyperparameter-optimization](plugins/ml-hyperparameter-optimization/)
+- [mlops-pipeline-engineer](plugins/mlops-pipeline-engineer/)
+- [ml-model-development](plugins/ml-model-development/)
+- [superpowers-workflow](plugins/superpowers-workflow/)
+- [gstack-workflow-toolkit](plugins/gstack-workflow-toolkit/)
+- [chrome-devtools-agent](plugins/chrome-devtools-agent/)
+- [caveman](plugins/caveman/)
+- [antigravity-awesome-skills](plugins/antigravity-awesome-skills/)
+- [skill-inspector](plugins/skill-inspector/)
+- [vercel-skills-workflow](plugins/vercel-skills-workflow/)
 - [design-md-guide](plugins/design-md-guide/)
 - [taste-skill](plugins/taste-skill/)
 - [loop-engineering](plugins/loop-engineering/)
@@ -53,10 +71,97 @@ This repository tracks the plugin packages owned by this account. The index belo
 - [inbox-intelligence](plugins/inbox-intelligence/)
 - [placement-intelligence](plugins/placement-intelligence/)
 
-## Archive notes
+## Choose a plugin by topic and use case
 
-- Plugin packages contain manifests, skill instructions, supporting references, tests/scripts and text assets that can be read from the Plugin Creator registry.
-- A listed plugin is not necessarily archived yet; check whether its `plugins/<name>/` folder exists.
-- This archive is not necessarily the full upstream runtime codebase. Upstream repositories remain the source of truth for implementation code and dependencies.
-- No secrets, tokens, environment files, or credentials should be committed.
-- Some binary assets may not be available through the registry's text-file interface.
+Use this decision flow to route a task to the most relevant archived plugin. Start with the outcome you need, then choose the matching topic. The named plugins are examples from this inventory; check each package's own instructions and dependencies before use.
+
+```mermaid
+flowchart TD
+    A([Start: What do you need?]) --> B{Primary use case}
+    B -->|Build, debug, or improve software| C{Engineering task}
+    B -->|Research, retrieve, or connect information| D{Knowledge and research}
+    B -->|Test quality or inspect security| E{QA or security}
+    B -->|Create visuals or content| F{Design and writing}
+    B -->|Automate browser or job workflows| G{Automation}
+    B -->|Plan career or placement| H{Career support}
+
+    C --> C1[ml-engineering-suite / ml-model-development]
+    C --> C2[loop-engineering / claudex-loop-assistant]
+    C --> C3[vercel-skills-workflow for deployment workflows]
+
+    D --> D1[context7-documentation for library docs]
+    D --> D2[weknora-knowledge-assistant for knowledge retrieval]
+    D --> D3[graphify-agent / archify-diagrams for connected concepts]
+
+    E --> E1[qa-quality-agent / artemis-android-qa for testing]
+    E --> E2[pya-security-audit / codex-security-advisor for security review]
+    E --> E3[reticle-verification for verification workflows]
+
+    F --> F1[impeccable-design-workflow / taste-skill for UI design]
+    F --> F2[humanizer / slopmonster-writing-review for writing]
+    F --> F3[ai-video-storyboard / brag-launch-video for video concepts]
+
+    G --> G1[browser-use-automation for browser tasks]
+    G --> G2[wellfound-auto-apply for job-application workflows]
+    G --> G3[agent-reach-guide for outreach/reach workflows]
+
+    H --> H1[career-ops-copilot for career operations]
+    H --> H2[placement-intelligence for placement research]
+
+    C1 --> Z[Open the package README or SKILL.md]
+    C2 --> Z
+    C3 --> Z
+    D1 --> Z
+    D2 --> Z
+    D3 --> Z
+    E1 --> Z
+    E2 --> Z
+    E3 --> Z
+    F1 --> Z
+    F2 --> Z
+    F3 --> Z
+    G1 --> Z
+    G2 --> Z
+    G3 --> Z
+    H1 --> Z
+    H2 --> Z
+    Z --> Y{Instructions, prerequisites, and assets available?}
+    Y -->|Yes| X[Follow the package workflow and validate its output]
+    Y -->|No| W[Check upstream docs or mark missing dependencies/assets]
+    X --> R([Review result before relying on it])
+    W --> R
+```
+
+### Topic-to-use-case quick guide
+
+| Topic | Example use case | Start with |
+|---|---|---|
+| Software engineering | Implement a feature, debug code, or improve a development workflow | `ml-engineering-suite`, `ml-model-development`, `loop-engineering` |
+| Documentation and knowledge | Find current library guidance or organize retrieved knowledge | `context7-documentation`, `weknora-knowledge-assistant` |
+| Diagrams and architecture | Map dependencies, concepts, or system structure | `graphify-agent`, `archify-diagrams`, `diagram-design` |
+| QA and testing | Plan test coverage or review an app's behavior | `qa-quality-agent`, `artemis-android-qa`, `reticle-verification` |
+| Security | Audit code or structure a security review | `pya-security-audit`, `codex-security-advisor`, `pentagi-security-workflow` |
+| UI and visual design | Improve interface consistency and design decisions | `impeccable-design-workflow`, `taste-skill`, `design-md-guide` |
+| Writing and media | Review prose or plan video content | `humanizer`, `slopmonster-writing-review`, `ai-video-storyboard` |
+| Browser and job automation | Automate browser tasks or organize job-application workflows | `browser-use-automation`, `wellfound-auto-apply` |
+| Career and placement | Track career tasks or research placement opportunities | `career-ops-copilot`, `placement-intelligence` |
+| Deployment and DevOps | Follow deployment-focused workflows | `vercel-skills-workflow`, `mlops-pipeline-engineer` |
+
+These are routing suggestions based on package names and inventory topics, not guarantees of capability. Confirm each package's `SKILL.md`, manifest, permissions, dependencies, and supported inputs before selecting it. If multiple topics apply, use the narrowest task-specific package first and add supporting packages only when needed.
+
+## Scope and limitations
+
+- Each folder contains the files available through the Plugin Creator package-file interface. These can include manifests, skill instructions, references, support scripts, and assets.
+- Upstream repositories remain the source of truth for runtime implementation, dependencies, release history, and files not included in a plugin package.
+- Do not commit credentials, API tokens, `.env` files, or other secrets.
+- Do not fabricate unavailable binary assets. Restore them from an authoritative package/source distribution or mark them as unavailable.
+- Verify each package's license and attribution requirements before redistribution. Presence in this archive does not establish redistribution rights.
+- A package inventory can be complete at the directory level and still omit assets that are not accessible through the registry's text-file interface.
+
+## Quality checks
+
+A GitHub Actions workflow runs structural checks for JSON syntax, `SKILL.md` frontmatter, and relative Markdown links. Passing these checks does not prove runtime behavior. Test representative plugins in their intended environment.
+
+## Inventory maintenance
+
+Regenerate this index when the registry inventory changes and record the date of that inventory.
