@@ -4,7 +4,7 @@ This repository archives the plugin packages owned by the connected Plugin Creat
 
 ## Current inventory
 
-- Plugin Creator registry inventory: 61 plugins (checked 2026-10-25).
+- Plugin Creator registry inventory: 61 plugins (checked 2026-10-26).
 - Package directories in this branch: 61.
 - Binary asset `plugins/not-ai/assets/composer-icon.png` remains unavailable through the registry's text-file interface and is not included.
 
@@ -65,7 +65,7 @@ This repository archives the plugin packages owned by the connected Plugin Creat
 - [codex-security-advisor](plugins/codex-security-advisor/) — archived
 - [humanizer](plugins/humanizer/) — archived
 - [rea-reverse-engineering](plugins/rea-reverse-engineering/) — archived
-- [not-ai](plugins/not-ai/) — archived
+- [not-ai](plugins/not-ai/) — **partially archived** (missing `assets/composer-icon.png`; not fabricated)
 - [impeccable-design-workflow](plugins/impeccable-design-workflow/) — archived
 - [brag-launch-video](plugins/brag-launch-video/) — archived
 - [ian-xiaohei-illustrations](plugins/ian-xiaohei-illustrations/) — archived
