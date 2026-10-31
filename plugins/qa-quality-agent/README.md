@@ -22,3 +22,8 @@ Use case: Plan and conduct evidence-first website QA, test design, AI system eva
 
 Core functionality: Website walkthroughs, risk-based test planning, AI/LLM/RAG/agent evaluation, safety and regression checks, and structured reporting.
 
+## Use case
+Plan evidence-first website QA, test design, AI system evaluation, and GenAI testing.
+
+## Core functionality
+Website walkthroughs; risk-based test plans; LLM/RAG/agent evaluation; safety and regression checks; structured reporting.
