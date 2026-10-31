@@ -15,3 +15,10 @@ A skills-only private plugin for evidence-first software testing, inspired by pu
 - https://github.com/srvsngh99/genai-testing-journey — 52-week GenAI testing learning journey, MIT licensed.
 
 This plugin does not install or execute browser automation, connect to a website, or call third-party AI APIs by itself. It guides testing and reporting; actual actions must be performed by available browser, terminal, or testing tools and must be described as executed only when evidence exists.
+
+## Use case and core functionality
+
+Use case: Plan and conduct evidence-first website QA, test design, AI system evaluation, and GenAI testing learning.
+
+Core functionality: Website walkthroughs, risk-based test planning, AI/LLM/RAG/agent evaluation, safety and regression checks, and structured reporting.
+
