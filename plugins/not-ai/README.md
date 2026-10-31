@@ -34,3 +34,8 @@ Use case: Edit or diagnose prose for clarity and natural voice without changing 
 
 Core functionality: Genre-aware editing, preservation of claims/citations/technical terms, supplied-notes drafting, and a portable editorial gate.
 
+## Use case
+Edit or diagnose prose for clarity and natural voice without altering factual meaning.
+
+## Core functionality
+Genre-aware editing; preserve claims, citations, and technical terms; draft from supplied notes; run a portable editorial gate.
