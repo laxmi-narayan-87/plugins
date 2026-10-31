@@ -27,3 +27,10 @@ Preserve numbers, negation, names, claims, time, scope, causality, uncertainty, 
 
 ## License and attribution
 The upstream repository is MIT-licensed: https://github.com/udaysharmadev/Not-Ai . This private derivative package preserves attribution and clearly identifies the included gate as a compact portable implementation.
+
+## Use case and core functionality
+
+Use case: Edit or diagnose prose for clarity and natural voice without changing factual meaning.
+
+Core functionality: Genre-aware editing, preservation of claims/citations/technical terms, supplied-notes drafting, and a portable editorial gate.
+
