@@ -12,3 +12,8 @@ Use case: Configure and use Serena semantic coding agent for codebase-aware deve
 
 Core functionality: Setup and MCP guidance, semantic code navigation, repository understanding, and coding workflow support.
 
+## Use case
+Configure and use Serena semantic coding agent for codebase-aware development.
+
+## Core functionality
+Setup and MCP guidance; semantic code navigation; repository understanding; coding workflow support.
