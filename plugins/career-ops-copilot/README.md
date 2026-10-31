@@ -20,3 +20,8 @@ A private ChatGPT plugin skill for evidence-based job search and application pre
 
 Core functionality: Job-fit analysis, cited opportunity research, resume/cover-letter tailoring, interview preparation, recruiter outreach, negotiation prompts, and application tracking.
 
+## Use case
+Prepare evidence-based job searches and applications while retaining candidate control.
+
+## Core functionality
+Analyze role fit; research opportunities; tailor resumes and cover letters; prepare interviews and outreach; track applications.
