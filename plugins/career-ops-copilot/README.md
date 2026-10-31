@@ -15,3 +15,8 @@ A private ChatGPT plugin skill for evidence-based job search and application pre
 - Separates confirmed facts, inferred fit, and unknown details; never fabricates candidate history.
 - Does not claim to run Career-Ops software locally or access its private files.
 - This is an independent assistant skill, not an official integration or an endorsement by the Career-Ops maintainers.
+
+## Use case and core functionality
+
+Core functionality: Job-fit analysis, cited opportunity research, resume/cover-letter tailoring, interview preparation, recruiter outreach, negotiation prompts, and application tracking.
+
