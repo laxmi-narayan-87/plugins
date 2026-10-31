@@ -14,3 +14,8 @@ Use case: Investigate software, binaries, apps, and websites through REA tooling
 
 Core functionality: Guides CLI/MCP setup, investigation planning, interpretation, and documentation; upstream MCP is local stdio.
 
+## Use case
+Investigate software, binaries, applications, and websites through REA tooling.
+
+## Core functionality
+Guide local CLI/MCP setup, investigation planning, evidence interpretation, and documentation; upstream MCP uses local stdio.
