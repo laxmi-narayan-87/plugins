@@ -25,3 +25,6 @@ Create and review sparse, hand-drawn 16:9 illustrations for Chinese articles and
 
 ## Core functionality
 Find cognitive anchors; develop visual metaphors and composition; draft prompts and shot lists; quality-check illustrations.
+
+## Original source
+https://github.com/helloianneo/ian-xiaohei-illustrations
