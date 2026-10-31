@@ -21,3 +21,10 @@ This plugin guides the host through the Reticle MCP workflow. It does not itself
 ## Source
 
 Adapted from the documented Reticle project: https://github.com/reticlehq/reticle and https://docs.reticle.sh.
+
+## Use case and core functionality
+
+Use case: Verify real application behavior with Reticle and report evidence-backed results.
+
+Core functionality: Reticle MCP workflow, workspace safety, verdict interpretation, prerequisites, and validation guidance.
+
