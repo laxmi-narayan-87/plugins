@@ -10,3 +10,8 @@ Use case: Create concise, authentic launch videos showcasing a real software pro
 
 Core functionality: Guides project inspection, storyboard planning, use of real product evidence, composition validation, and preparing video/social copy.
 
+## Use case
+Create concise, authentic launch videos showcasing a real software project.
+
+## Core functionality
+Inspect project context; plan a storyboard; use real product evidence; validate composition; prepare video and social copy.
