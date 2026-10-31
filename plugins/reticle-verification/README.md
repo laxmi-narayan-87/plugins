@@ -28,3 +28,8 @@ Use case: Verify real application behavior with Reticle and report evidence-back
 
 Core functionality: Reticle MCP workflow, workspace safety, verdict interpretation, prerequisites, and validation guidance.
 
+## Use case
+Verify real application behavior with Reticle and report evidence-backed outcomes.
+
+## Core functionality
+Guide Reticle MCP execution, workspace safety, verdict interpretation, prerequisites, and verification.
