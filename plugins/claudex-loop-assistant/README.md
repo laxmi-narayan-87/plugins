@@ -20,3 +20,8 @@ Use case: Run a disciplined multi-stage engineering loop for complex software ta
 
 Core functionality: Reconnaissance, planning, adversarial review, implementation boundaries, proof checks, independent inspection, and task routing.
 
+## Use case
+Use a structured multi-stage engineering loop for complex software tasks.
+
+## Core functionality
+Reconnaissance; planning; adversarial review; implementation boundaries; proof checks; independent inspection; task routing.
