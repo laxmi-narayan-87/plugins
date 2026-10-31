@@ -20,3 +20,8 @@ Use case: Create and review sparse, hand-drawn 16:9 illustrations for Chinese ar
 
 Core functionality: Cognitive-anchor discovery, visual metaphor and composition guidance, prompt drafting, shot planning, and illustration QA.
 
+## Use case
+Create and review sparse, hand-drawn 16:9 illustrations for Chinese articles and essays.
+
+## Core functionality
+Find cognitive anchors; develop visual metaphors and composition; draft prompts and shot lists; quality-check illustrations.
