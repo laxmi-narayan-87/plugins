@@ -12,3 +12,8 @@ Use case: Understand Overleaf source, troubleshoot Community Edition and LaTeX i
 
 Core functionality: Repository-grounded setup guidance, diagnosis, LaTeX help, and contribution workflow; no assumed live account access.
 
+## Use case
+Understand Overleaf source, troubleshoot Community Edition and LaTeX issues, and prepare contributions.
+
+## Core functionality
+Repository-grounded setup and diagnosis; LaTeX help; contribution workflows; avoid assumed live account access.
