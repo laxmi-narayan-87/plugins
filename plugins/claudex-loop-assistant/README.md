@@ -13,3 +13,10 @@ This package provides instructions and workflow support. It does not include a r
 - `skills/claudex-route/SKILL.md` — routing workflow.
 
 Source concept: https://github.com/chaseai-yt/claudex-loop
+
+## Use case and core functionality
+
+Use case: Run a disciplined multi-stage engineering loop for complex software tasks.
+
+Core functionality: Reconnaissance, planning, adversarial review, implementation boundaries, proof checks, independent inspection, and task routing.
+
