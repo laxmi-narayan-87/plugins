@@ -13,3 +13,10 @@ It helps plan, prompt, and quality-check sparse 16:9 hand-drawn illustrations fo
 - QA checklist
 
 Use the skill to prepare a shot list, draft image prompts, or review illustration outputs. Actual image generation/editing depends on whether the current ChatGPT session provides those capabilities.
+
+## Use case and core functionality
+
+Use case: Create and review sparse, hand-drawn 16:9 illustrations for Chinese articles and essays.
+
+Core functionality: Cognitive-anchor discovery, visual metaphor and composition guidance, prompt drafting, shot planning, and illustration QA.
+
