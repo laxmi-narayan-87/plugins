@@ -2,7 +2,7 @@
 
 **Checked:** 2026-11-01  
 **Source:** Current personal Plugin Creator inventory (USER scope).  
-**Counts:** 102 plugins in Plugin Creator; 101 package directories in this repository; 1 package not yet archived.
+**Counts:** 102 plugins in Plugin Creator; 102 package directories in this repository; all 102 packages are present.
 
 This is a tracking inventory, not a substitute for package files. Missing package files must be exported from Plugin Creator and added in full; no placeholder packages or fabricated assets are created.
 
@@ -109,14 +109,15 @@ This is a tracking inventory, not a substitute for package files. Missing packag
 | `wensity-ui-assistant` | 0.1.0 | Not archived |
 | `whisperx-caption-studio` | 0.1.0 | Not archived |
 | `x-account-readonly-assistant` | 0.1.0 | Not archived |
-| `x-post-analytics` | 0.1.0 | Blocked: author email appears in package metadata; not copied |
+| [`x-post-analytics`](../plugins/x-post-analytics/) | 0.1.0 | Archived package; README missing (contact email omitted from manifests) |
 
 ## Validation snapshot
 
 - Repository package directories detected: 101
-- Directories missing README.md (50): aceternity-ui, animejs-motion, antigravity-awesome-skills, blender-mcp-studio, browser-use-automation, caveman, chart-visualization-studio, chrome-devtools-agent, comfyui-workflow-studio, cosyvoice-studio, customer-pain-point-research, easyui, ffmpeg-production-engine, front-end, frontend-design-studio, harness-engineering, jolt-physics-simulator, kobra-systems, librosa-audio-intelligence, losslesscut-editor, lottie-animator, manim-explainer, ml-data-quality-labeling, ml-engineering-suite, ml-hyperparameter-optimization, ml-model-deployment, ml-model-development, mlops-pipeline-engineer, motion-ui-studio, natural-copy-editor, obs-capture-studio, pinui, postprocessing-fx, primary-source-verifier, pya-security-audit, rareui, remotion-skills, remotion-studio, ruflo-agent-harness, social-content-planner, taste-skill, tencentdb-agent-memory, three-gpu-pathtracer, three-quarks-vfx, threejs-studio, trend-discovery-last30days, tweakpane-controls, wensity-ui-assistant, whisperx-caption-studio, x-account-readonly-assistant
+- Directories missing README.md (51): aceternity-ui, animejs-motion, antigravity-awesome-skills, blender-mcp-studio, browser-use-automation, caveman, chart-visualization-studio, chrome-devtools-agent, comfyui-workflow-studio, cosyvoice-studio, customer-pain-point-research, easyui, ffmpeg-production-engine, front-end, frontend-design-studio, harness-engineering, jolt-physics-simulator, kobra-systems, librosa-audio-intelligence, losslesscut-editor, lottie-animator, manim-explainer, ml-data-quality-labeling, ml-engineering-suite, ml-hyperparameter-optimization, ml-model-deployment, ml-model-development, mlops-pipeline-engineer, motion-ui-studio, natural-copy-editor, obs-capture-studio, pinui, postprocessing-fx, primary-source-verifier, pya-security-audit, rareui, remotion-skills, remotion-studio, ruflo-agent-harness, social-content-planner, taste-skill, tencentdb-agent-memory, three-gpu-pathtracer, three-quarks-vfx, threejs-studio, trend-discovery-last30days, tweakpane-controls, wensity-ui-assistant, whisperx-caption-studio, x-account-readonly-assistant, x-post-analytics
 - Directories missing plugin.json: career-ops-copilot, humanizer, ian-xiaohei-illustrations (these contain manifest.json instead)
 - GitHub Actions workflows detected: 0
+- Repository archive validator/CI command: not found
 - Repository archive validator/CI command: not found
 
 ## Sync policy
