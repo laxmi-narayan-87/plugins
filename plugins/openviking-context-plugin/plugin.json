@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Practical guidance for configuring and using OpenViking as an inspectable context database for agent memory, knowledge retrieval, and skills.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me configure OpenViking for an AI agent, checking requirements and asking for unknown provider and server settings.",
+          "Help me use OpenViking to organize agent memory, knowledge resources, and skills, and explain the relevant CLI workflow.",
+          "Troubleshoot my OpenViking setup using the errors and configuration details I provide; never guess secrets or endpoints."
+        ],
+        "developerName": "juu",
+        "displayName": "OpenViking Context Assistant",
+        "longDescription": "Helps configure, troubleshoot, and use OpenViking's context database for agent memory, knowledge resources, retrieval, and skills. Uses verified upstream documentation and asks for server configuration instead of inventing endpoints or credentials.",
+        "shortDescription": "OpenViking memory and RAG"
+      }
+    }
+  },
+  "homepage": "https://openviking.ai",
+  "keywords": [
+    "openviking",
+    "agent-memory",
+    "context-database",
+    "RAG",
+    "skills",
+    "MCP"
+  ],
+  "license": "AGPL-3.0",
+  "name": "openviking-context-plugin",
+  "repository": "https://github.com/volcengine/OpenViking",
+  "version": "0.1.0"
+}

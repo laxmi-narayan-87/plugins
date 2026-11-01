@@ -1,0 +1,34 @@
+{
+  "interface": {
+    "capabilities": [
+      "Code"
+    ],
+    "category": "Developer tools",
+    "defaultPrompt": "Help me plan or troubleshoot a Ruflo workflow. Establish the goal and constraints, choose the smallest suitable agent setup, give commands grounded in the current Ruflo documentation, and define verification and safety checks.",
+    "developerName": "juu",
+    "displayName": "Ruflo Agent Harness Guide",
+    "longDescription": "A workflow guide for using Ruflo responsibly: plan agent swarms, configure local MCP access, structure memory and retrieval, verify work, and apply security controls. It provides guidance and commands, not a live Ruflo connection.",
+    "shortDescription": "Plan and troubleshoot Ruflo"
+  },
+  "name": "ruflo-agent-harness",
+  "version": "0.1.0",
+  "description": "Practical guidance for designing, operating, and troubleshooting Ruflo agent-harness workflows, swarms, memory, MCP setup, and safety controls.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "ruflo",
+    "agent-harness",
+    "multi-agent",
+    "swarm",
+    "MCP",
+    "RAG",
+    "memory",
+    "agent-orchestration"
+  ],
+  "homepage": "https://github.com/ruvnet/ruflo",
+  "repository": "https://github.com/ruvnet/ruflo",
+  "license": "MIT",
+  "skills": "./skills"
+}
