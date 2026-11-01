@@ -4,72 +4,50 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 
 ## Current inventory
 
-- Plugin Creator registry inventory: 61 plugins (checked 2026-10-26).
-- Package directories in this branch: 61.
+- Plugin Creator registry inventory: 102 personal plugins (checked 2026-11-01).
+- Package directories in this branch: 36.
+- Package directories still missing: 66. See [inventory/README.md](inventory/README.md).
 
 ## Plugin index
 
-- [ml-engineering-suite](plugins/ml-engineering-suite/)
-- [web-recon-toolkit](plugins/web-recon-toolkit/)
-- [firecrawl-toolkit](plugins/firecrawl-toolkit/)
-- [ml-data-quality-labeling](plugins/ml-data-quality-labeling/)
-- [ml-model-deployment](plugins/ml-model-deployment/)
-- [ml-hyperparameter-optimization](plugins/ml-hyperparameter-optimization/)
-- [mlops-pipeline-engineer](plugins/mlops-pipeline-engineer/)
-- [ml-model-development](plugins/ml-model-development/)
-- [superpowers-workflow](plugins/superpowers-workflow/)
-- [gstack-workflow-toolkit](plugins/gstack-workflow-toolkit/)
-- [chrome-devtools-agent](plugins/chrome-devtools-agent/)
-- [caveman](plugins/caveman/)
-- [antigravity-awesome-skills](plugins/antigravity-awesome-skills/)
-- [skill-inspector](plugins/skill-inspector/)
-- [vercel-skills-workflow](plugins/vercel-skills-workflow/)
-- [design-md-guide](plugins/design-md-guide/)
-- [taste-skill](plugins/taste-skill/)
-- [loop-engineering](plugins/loop-engineering/)
-- [ruflo-agent-harness](plugins/ruflo-agent-harness/)
-- [openviking-context-plugin](plugins/openviking-context-plugin/)
-- [harness-engineering](plugins/harness-engineering/)
-- [diagram-design](plugins/diagram-design/)
-- [pya-security-audit](plugins/pya-security-audit/)
-- [scientific-agent-skills-workflow](plugins/scientific-agent-skills-workflow/)
-- [tencentdb-agent-memory](plugins/tencentdb-agent-memory/)
-- [browser-use-automation](plugins/browser-use-automation/)
-- [arena-skill](plugins/arena-skill/)
-- [reticle-verification](plugins/reticle-verification/)
-- [beyondseo](plugins/beyondseo/)
-- [artemis-android-qa](plugins/artemis-android-qa/)
-- [serena-coding-agent](plugins/serena-coding-agent/)
-- [context7-documentation](plugins/context7-documentation/)
-- [omniroute-operator](plugins/omniroute-operator/)
-- [pentagi-security-workflow](plugins/pentagi-security-workflow/)
-- [claude-mem-adapter](plugins/claude-mem-adapter/)
-- [qa-quality-agent](plugins/qa-quality-agent/)
-- [mirofish-simulation-guide](plugins/mirofish-simulation-guide/)
-- [wellfound-auto-apply](plugins/wellfound-auto-apply/)
-- [ecc-engineering-companion](plugins/ecc-engineering-companion/)
-- [graphify-agent](plugins/graphify-agent/)
-- [build-your-own-x-guide](plugins/build-your-own-x-guide/)
-- [claudex-loop-assistant](plugins/claudex-loop-assistant/)
-- [overleaf-helper](plugins/overleaf-helper/)
-- [harvey-sales-operator](plugins/harvey-sales-operator/)
-- [weknora-knowledge-assistant](plugins/weknora-knowledge-assistant/)
-- [slopmonster-writing-review](plugins/slopmonster-writing-review/)
-- [api-anything](plugins/api-anything/)
-- [archify-diagrams](plugins/archify-diagrams/)
-- [career-ops-copilot](plugins/career-ops-copilot/)
 - [agent-reach-guide](plugins/agent-reach-guide/)
 - [ai-labs-workflows](plugins/ai-labs-workflows/)
 - [ai-video-storyboard](plugins/ai-video-storyboard/)
-- [codex-security-advisor](plugins/codex-security-advisor/)
-- [humanizer](plugins/humanizer/)
-- [rea-reverse-engineering](plugins/rea-reverse-engineering/)
-- [not-ai](plugins/not-ai/)
-- [impeccable-design-workflow](plugins/impeccable-design-workflow/)
+- [api-anything](plugins/api-anything/)
+- [archify-diagrams](plugins/archify-diagrams/)
+- [artemis-android-qa](plugins/artemis-android-qa/)
+- [beyondseo](plugins/beyondseo/)
 - [brag-launch-video](plugins/brag-launch-video/)
+- [build-your-own-x-guide](plugins/build-your-own-x-guide/)
+- [career-ops-copilot](plugins/career-ops-copilot/)
+- [claude-mem-adapter](plugins/claude-mem-adapter/)
+- [claudex-loop-assistant](plugins/claudex-loop-assistant/)
+- [codex-security-advisor](plugins/codex-security-advisor/)
+- [context7-documentation](plugins/context7-documentation/)
+- [ecc-engineering-companion](plugins/ecc-engineering-companion/)
+- [graphify-agent](plugins/graphify-agent/)
+- [harvey-sales-operator](plugins/harvey-sales-operator/)
+- [humanizer](plugins/humanizer/)
 - [ian-xiaohei-illustrations](plugins/ian-xiaohei-illustrations/)
+- [impeccable-design-workflow](plugins/impeccable-design-workflow/)
 - [inbox-intelligence](plugins/inbox-intelligence/)
+- [mirofish-simulation-guide](plugins/mirofish-simulation-guide/)
+- [not-ai](plugins/not-ai/)
+- [omniroute-operator](plugins/omniroute-operator/)
+- [overleaf-helper](plugins/overleaf-helper/)
+- [pentagi-security-workflow](plugins/pentagi-security-workflow/)
 - [placement-intelligence](plugins/placement-intelligence/)
+- [qa-quality-agent](plugins/qa-quality-agent/)
+- [rea-reverse-engineering](plugins/rea-reverse-engineering/)
+- [reticle-verification](plugins/reticle-verification/)
+- [serena-coding-agent](plugins/serena-coding-agent/)
+- [skill-inspector](plugins/skill-inspector/)
+- [slopmonster-writing-review](plugins/slopmonster-writing-review/)
+- [vercel-skills-workflow](plugins/vercel-skills-workflow/)
+- [weknora-knowledge-assistant](plugins/weknora-knowledge-assistant/)
+- [wellfound-auto-apply](plugins/wellfound-auto-apply/)
+
+The complete current Plugin Creator registry, including packages not yet archived here, is tracked in [inventory/README.md](inventory/README.md).
 
 ## Choose a plugin by topic and use case
 
@@ -160,8 +138,5 @@ These are routing suggestions based on package names and inventory topics, not g
 
 ## Quality checks
 
-A GitHub Actions workflow runs structural checks for JSON syntax, `SKILL.md` frontmatter, and relative Markdown links. Passing these checks does not prove runtime behavior. Test representative plugins in their intended environment.
+No GitHub Actions workflow or repository validation script was found on main as of 2026-11-01. Structural checks can be run manually; passing them does not prove runtime behavior. See [inventory/README.md](inventory/README.md) for the current snapshot.
 
-## Inventory maintenance
-
-Regenerate this index when the registry inventory changes and record the date of that inventory.
