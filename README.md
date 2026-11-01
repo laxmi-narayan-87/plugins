@@ -5,49 +5,114 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 ## Current inventory
 
 - Plugin Creator registry inventory: 102 personal plugins (checked 2026-11-01).
-- Package directories in this branch: 36.
-- Package directories still missing: 66. See [inventory/README.md](inventory/README.md).
+- Package directories in this branch: 101.
+- Package directories still missing: 1. See [inventory/README.md](inventory/README.md).
 
 ## Plugin index
 
+- [aceternity-ui](plugins/aceternity-ui/)
 - [agent-reach-guide](plugins/agent-reach-guide/)
 - [ai-labs-workflows](plugins/ai-labs-workflows/)
 - [ai-video-storyboard](plugins/ai-video-storyboard/)
+- [animejs-motion](plugins/animejs-motion/)
+- [antigravity-awesome-skills](plugins/antigravity-awesome-skills/)
 - [api-anything](plugins/api-anything/)
 - [archify-diagrams](plugins/archify-diagrams/)
+- [arena-skill](plugins/arena-skill/)
 - [artemis-android-qa](plugins/artemis-android-qa/)
 - [beyondseo](plugins/beyondseo/)
+- [blender-mcp-studio](plugins/blender-mcp-studio/)
 - [brag-launch-video](plugins/brag-launch-video/)
+- [browser-use-automation](plugins/browser-use-automation/)
 - [build-your-own-x-guide](plugins/build-your-own-x-guide/)
 - [career-ops-copilot](plugins/career-ops-copilot/)
+- [caveman](plugins/caveman/)
+- [chart-visualization-studio](plugins/chart-visualization-studio/)
+- [chrome-devtools-agent](plugins/chrome-devtools-agent/)
 - [claude-mem-adapter](plugins/claude-mem-adapter/)
 - [claudex-loop-assistant](plugins/claudex-loop-assistant/)
 - [codex-security-advisor](plugins/codex-security-advisor/)
+- [comfyui-workflow-studio](plugins/comfyui-workflow-studio/)
 - [context7-documentation](plugins/context7-documentation/)
+- [cosyvoice-studio](plugins/cosyvoice-studio/)
+- [customer-pain-point-research](plugins/customer-pain-point-research/)
+- [design-md-guide](plugins/design-md-guide/)
+- [diagram-design](plugins/diagram-design/)
+- [easyui](plugins/easyui/)
 - [ecc-engineering-companion](plugins/ecc-engineering-companion/)
+- [engineer-workflow-skills](plugins/engineer-workflow-skills/)
+- [ffmpeg-production-engine](plugins/ffmpeg-production-engine/)
+- [firecrawl-toolkit](plugins/firecrawl-toolkit/)
+- [front-end](plugins/front-end/)
+- [frontend-design-studio](plugins/frontend-design-studio/)
 - [graphify-agent](plugins/graphify-agent/)
+- [gstack-workflow-toolkit](plugins/gstack-workflow-toolkit/)
+- [hallmark-design](plugins/hallmark-design/)
+- [harness-engineering](plugins/harness-engineering/)
 - [harvey-sales-operator](plugins/harvey-sales-operator/)
 - [humanizer](plugins/humanizer/)
 - [ian-xiaohei-illustrations](plugins/ian-xiaohei-illustrations/)
 - [impeccable-design-workflow](plugins/impeccable-design-workflow/)
 - [inbox-intelligence](plugins/inbox-intelligence/)
+- [jolt-physics-simulator](plugins/jolt-physics-simulator/)
+- [kobra-systems](plugins/kobra-systems/)
+- [librosa-audio-intelligence](plugins/librosa-audio-intelligence/)
+- [loop-engineering](plugins/loop-engineering/)
+- [losslesscut-editor](plugins/losslesscut-editor/)
+- [lottie-animator](plugins/lottie-animator/)
+- [manim-explainer](plugins/manim-explainer/)
 - [mirofish-simulation-guide](plugins/mirofish-simulation-guide/)
+- [ml-data-quality-labeling](plugins/ml-data-quality-labeling/)
+- [ml-engineering-suite](plugins/ml-engineering-suite/)
+- [ml-hyperparameter-optimization](plugins/ml-hyperparameter-optimization/)
+- [ml-model-deployment](plugins/ml-model-deployment/)
+- [ml-model-development](plugins/ml-model-development/)
+- [mlops-pipeline-engineer](plugins/mlops-pipeline-engineer/)
+- [motion-ui-studio](plugins/motion-ui-studio/)
+- [natural-copy-editor](plugins/natural-copy-editor/)
 - [not-ai](plugins/not-ai/)
+- [obs-capture-studio](plugins/obs-capture-studio/)
+- [obsidian-second-brain](plugins/obsidian-second-brain/)
 - [omniroute-operator](plugins/omniroute-operator/)
+- [openviking-context-plugin](plugins/openviking-context-plugin/)
 - [overleaf-helper](plugins/overleaf-helper/)
 - [pentagi-security-workflow](plugins/pentagi-security-workflow/)
+- [pinui](plugins/pinui/)
 - [placement-intelligence](plugins/placement-intelligence/)
+- [postprocessing-fx](plugins/postprocessing-fx/)
+- [primary-source-verifier](plugins/primary-source-verifier/)
+- [prompt-master](plugins/prompt-master/)
+- [pya-security-audit](plugins/pya-security-audit/)
 - [qa-quality-agent](plugins/qa-quality-agent/)
+- [rareui](plugins/rareui/)
 - [rea-reverse-engineering](plugins/rea-reverse-engineering/)
+- [remotion-skills](plugins/remotion-skills/)
+- [remotion-studio](plugins/remotion-studio/)
 - [reticle-verification](plugins/reticle-verification/)
+- [ruflo-agent-harness](plugins/ruflo-agent-harness/)
+- [scientific-agent-skills-workflow](plugins/scientific-agent-skills-workflow/)
 - [serena-coding-agent](plugins/serena-coding-agent/)
 - [skill-inspector](plugins/skill-inspector/)
 - [slopmonster-writing-review](plugins/slopmonster-writing-review/)
+- [social-content-planner](plugins/social-content-planner/)
+- [superpowers-workflow](plugins/superpowers-workflow/)
+- [taste-skill](plugins/taste-skill/)
+- [tencentdb-agent-memory](plugins/tencentdb-agent-memory/)
+- [three-gpu-pathtracer](plugins/three-gpu-pathtracer/)
+- [three-quarks-vfx](plugins/three-quarks-vfx/)
+- [threejs-studio](plugins/threejs-studio/)
+- [trend-discovery-last30days](plugins/trend-discovery-last30days/)
+- [tweakpane-controls](plugins/tweakpane-controls/)
+- [unslop-ui-design](plugins/unslop-ui-design/)
 - [vercel-skills-workflow](plugins/vercel-skills-workflow/)
+- [web-recon-toolkit](plugins/web-recon-toolkit/)
 - [weknora-knowledge-assistant](plugins/weknora-knowledge-assistant/)
 - [wellfound-auto-apply](plugins/wellfound-auto-apply/)
+- [wensity-ui-assistant](plugins/wensity-ui-assistant/)
+- [whisperx-caption-studio](plugins/whisperx-caption-studio/)
+- [x-account-readonly-assistant](plugins/x-account-readonly-assistant/)
 
-The complete current Plugin Creator registry, including packages not yet archived here, is tracked in [inventory/README.md](inventory/README.md).
+The complete current Plugin Creator registry, including the one package not yet archived, is tracked in [inventory/README.md](inventory/README.md).
 
 ## Choose a plugin by topic and use case
 
@@ -138,5 +203,6 @@ These are routing suggestions based on package names and inventory topics, not g
 
 ## Quality checks
 
-No GitHub Actions workflow or repository validation script was found on main as of 2026-11-01. Structural checks can be run manually; passing them does not prove runtime behavior. See [inventory/README.md](inventory/README.md) for the current snapshot.
+Manual structural snapshot (2026-11-01): 101 package directories; 50 lack README.md; 3 legacy packages use manifest.json rather than plugin.json. No GitHub Actions workflow or repository archive validator was found on main, so automated CI could not be run. Passing structural checks does not prove runtime behavior. See [inventory/README.md](inventory/README.md).
+
 
