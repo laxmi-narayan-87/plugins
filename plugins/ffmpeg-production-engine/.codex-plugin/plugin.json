@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Chat"
+    ],
+    "category": "Video & Audio",
+    "defaultPrompt": "Help me use FFmpeg Production Engine for my creative production workflow.",
+    "developerName": "juu",
+    "displayName": "FFmpeg Production Engine",
+    "longDescription": "Design robust FFmpeg commands and media pipelines.",
+    "shortDescription": "FFmpeg media pipelines"
+  },
+  "name": "ffmpeg-production-engine",
+  "version": "0.1.0",
+  "description": "Design robust FFmpeg commands and media pipelines.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Plan fast lossless trims and media operations with LosslessCut.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Video & Audio",
+        "defaultPrompt": "Help me use LosslessCut Editor for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "LosslessCut Editor",
+        "longDescription": "Plan fast lossless trims and media operations with LosslessCut.",
+        "shortDescription": "LosslessCut editing"
+      }
+    }
+  },
+  "name": "losslesscut-editor",
+  "version": "0.1.0"
+}

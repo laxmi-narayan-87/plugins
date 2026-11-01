@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Plan OBS recording, streaming, and scene configurations.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Video & Audio",
+        "defaultPrompt": "Help me use OBS Capture Studio for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "OBS Capture Studio",
+        "longDescription": "Plan OBS recording, streaming, and scene configurations.",
+        "shortDescription": "OBS Studio setup"
+      }
+    }
+  },
+  "name": "obs-capture-studio",
+  "version": "0.1.0"
+}
