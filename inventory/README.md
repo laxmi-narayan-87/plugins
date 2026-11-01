@@ -23,7 +23,7 @@ This is a tracking inventory, not a substitute for package files. Missing packag
 | [`brag-launch-video`](../plugins/brag-launch-video/) | 0.1.0 | Archived package |
 | `browser-use-automation` | 0.1.0 | Not archived |
 | [`build-your-own-x-guide`](../plugins/build-your-own-x-guide/) | 0.1.0 | Archived package |
-| [`career-ops-copilot`](../plugins/career-ops-copilot/) | 1.0.0 | Archived package |
+| [`career-ops-copilot`](../plugins/career-ops-copilot/) | 1.0.0 | Archived package; uses manifest.json |
 | `caveman` | 0.1.0 | Not archived |
 | `chart-visualization-studio` | 0.1.0 | Not archived |
 | `chrome-devtools-agent` | 0.1.0 | Not archived |
@@ -48,8 +48,8 @@ This is a tracking inventory, not a substitute for package files. Missing packag
 | `hallmark-design` | 0.1.0 | Not archived |
 | `harness-engineering` | 0.1.0 | Not archived |
 | [`harvey-sales-operator`](../plugins/harvey-sales-operator/) | 0.1.0 | Archived package |
-| [`humanizer`](../plugins/humanizer/) | 1.0.0 | Archived package |
-| [`ian-xiaohei-illustrations`](../plugins/ian-xiaohei-illustrations/) | 1.0.0 | Archived package |
+| [`humanizer`](../plugins/humanizer/) | 1.0.0 | Archived package; uses manifest.json |
+| [`ian-xiaohei-illustrations`](../plugins/ian-xiaohei-illustrations/) | 1.0.0 | Archived package; uses manifest.json |
 | [`impeccable-design-workflow`](../plugins/impeccable-design-workflow/) | 0.1.0 | Archived package |
 | [`inbox-intelligence`](../plugins/inbox-intelligence/) | 2.0.0 | Archived package |
 | `jolt-physics-simulator` | 0.1.0 | Not archived |
