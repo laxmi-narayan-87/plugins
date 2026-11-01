@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Improve labeled dataset reliability through quality checks, annotation guidelines, representative sampling, disagreement review, and leakage-safe dataset versioning.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Data & Analytics",
+        "defaultPrompt": "Help me audit a dataset and build a reliable labeling and data-quality workflow for ML.",
+        "developerName": "juu",
+        "displayName": "ML Data Quality & Labeling",
+        "longDescription": "Improve labeled dataset reliability through quality checks, annotation guidelines, representative sampling, disagreement review, and leakage-safe dataset versioning.",
+        "shortDescription": "Improve ML data quality"
+      }
+    }
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "name": "ml-data-quality-labeling",
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "version": "0.1.0"
+}

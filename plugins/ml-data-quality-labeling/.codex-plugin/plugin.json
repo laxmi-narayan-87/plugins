@@ -1,0 +1,27 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Data & Analytics",
+    "defaultPrompt": "Help me audit a dataset and build a reliable labeling and data-quality workflow for ML.",
+    "developerName": "juu",
+    "displayName": "ML Data Quality & Labeling",
+    "longDescription": "Improve labeled dataset reliability through quality checks, annotation guidelines, representative sampling, disagreement review, and leakage-safe dataset versioning.",
+    "shortDescription": "Improve ML data quality"
+  },
+  "name": "ml-data-quality-labeling",
+  "version": "0.1.0",
+  "description": "Improve labeled dataset reliability through quality checks, annotation guidelines, representative sampling, disagreement review, and leakage-safe dataset versioning.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "skills": "./skills"
+}
