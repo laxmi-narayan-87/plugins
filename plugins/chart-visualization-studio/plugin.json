@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Transform structured data into clear, honest charts and visual explanations.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Research"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use Chart Visualization to help me with this workflow.",
+        "developerName": "juu",
+        "displayName": "Chart Visualization",
+        "longDescription": "Transform structured data into clear, honest charts and visual explanations.",
+        "shortDescription": "Choose and design charts"
+      }
+    }
+  },
+  "name": "chart-visualization-studio",
+  "version": "0.1.0"
+}

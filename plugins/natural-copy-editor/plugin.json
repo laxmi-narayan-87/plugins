@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Improve clarity, structure, and concision while preserving the author tone and meaning.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Research"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use Copy Editor to help me with this workflow.",
+        "developerName": "juu",
+        "displayName": "Copy Editor",
+        "longDescription": "Improve clarity, structure, and concision while preserving the author tone and meaning.",
+        "shortDescription": "Edit without losing your voice"
+      }
+    }
+  },
+  "name": "natural-copy-editor",
+  "version": "0.1.0"
+}

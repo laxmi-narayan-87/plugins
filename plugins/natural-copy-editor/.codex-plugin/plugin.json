@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Research"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "Use Copy Editor to help me with this workflow.",
+    "developerName": "juu",
+    "displayName": "Copy Editor",
+    "longDescription": "Improve clarity, structure, and concision while preserving the author tone and meaning.",
+    "shortDescription": "Edit without losing your voice"
+  },
+  "name": "natural-copy-editor",
+  "version": "0.1.0",
+  "description": "Improve clarity, structure, and concision while preserving the author tone and meaning.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
