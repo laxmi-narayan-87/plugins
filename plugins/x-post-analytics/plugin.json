@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "juu"
+  },
+  "description": "Analyze public X post data, engagement patterns, and sentiment from supplied or accessible records.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Research"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use X Post Analytics to help me with this workflow.",
+        "developerName": "juu",
+        "displayName": "X Post Analytics",
+        "longDescription": "Analyze public X post data, engagement patterns, and sentiment from supplied or accessible records.",
+        "shortDescription": "Analyze posts and engagement"
+      }
+    }
+  },
+  "name": "x-post-analytics",
+  "version": "0.1.0"
+}

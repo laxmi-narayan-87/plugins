@@ -1,0 +1,21 @@
+{
+  "interface": {
+    "capabilities": [
+      "Research"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "Use X Post Analytics to help me with this workflow.",
+    "developerName": "juu",
+    "displayName": "X Post Analytics",
+    "longDescription": "Analyze public X post data, engagement patterns, and sentiment from supplied or accessible records.",
+    "shortDescription": "Analyze posts and engagement"
+  },
+  "name": "x-post-analytics",
+  "version": "0.1.0",
+  "description": "Analyze public X post data, engagement patterns, and sentiment from supplied or accessible records.",
+  "author": {
+    "name": "juu"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
