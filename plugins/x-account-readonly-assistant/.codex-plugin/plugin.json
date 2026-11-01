@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Research"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "Use X Read-Only Assistant to help me with this workflow.",
+    "developerName": "juu",
+    "displayName": "X Read-Only Assistant",
+    "longDescription": "Assist with X search, trends, and bookmark organization while enforcing read-only behavior by default.",
+    "shortDescription": "Search and organize X"
+  },
+  "name": "x-account-readonly-assistant",
+  "version": "0.1.0",
+  "description": "Assist with X search, trends, and bookmark organization while enforcing read-only behavior by default.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

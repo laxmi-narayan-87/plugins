@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Assist with X search, trends, and bookmark organization while enforcing read-only behavior by default.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Research"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use X Read-Only Assistant to help me with this workflow.",
+        "developerName": "juu",
+        "displayName": "X Read-Only Assistant",
+        "longDescription": "Assist with X search, trends, and bookmark organization while enforcing read-only behavior by default.",
+        "shortDescription": "Search and organize X"
+      }
+    }
+  },
+  "name": "x-account-readonly-assistant",
+  "version": "0.1.0"
+}

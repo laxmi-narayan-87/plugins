@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Chat"
+    ],
+    "category": "Video & Audio",
+    "defaultPrompt": "Help me use Remotion Skills for my creative production workflow.",
+    "developerName": "juu",
+    "displayName": "Remotion Skills",
+    "longDescription": "Apply reusable Remotion production and code-review workflows.",
+    "shortDescription": "Remotion workflow skills"
+  },
+  "name": "remotion-skills",
+  "version": "0.1.0",
+  "description": "Apply reusable Remotion production and code-review workflows.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
