@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Chat"
+    ],
+    "category": "Video & Audio",
+    "defaultPrompt": "Help me use WhisperX Caption Studio for my creative production workflow.",
+    "developerName": "juu",
+    "displayName": "WhisperX Caption Studio",
+    "longDescription": "Prepare transcription, alignment, and subtitle workflows with WhisperX.",
+    "shortDescription": "WhisperX captions"
+  },
+  "name": "whisperx-caption-studio",
+  "version": "0.1.0",
+  "description": "Prepare transcription, alignment, and subtitle workflows with WhisperX.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

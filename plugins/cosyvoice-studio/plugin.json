@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Plan speech synthesis and voice generation workflows with CosyVoice.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Video & Audio",
+        "defaultPrompt": "Help me use CosyVoice Studio for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "CosyVoice Studio",
+        "longDescription": "Plan speech synthesis and voice generation workflows with CosyVoice.",
+        "shortDescription": "CosyVoice speech"
+      }
+    }
+  },
+  "name": "cosyvoice-studio",
+  "version": "0.1.0"
+}

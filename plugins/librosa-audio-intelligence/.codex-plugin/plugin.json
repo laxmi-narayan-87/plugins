@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Chat"
+    ],
+    "category": "Data & Analytics",
+    "defaultPrompt": "Help me use Librosa Audio Intelligence for my creative production workflow.",
+    "developerName": "juu",
+    "displayName": "Librosa Audio Intelligence",
+    "longDescription": "Analyze audio features and build reproducible librosa workflows.",
+    "shortDescription": "Librosa audio analysis"
+  },
+  "name": "librosa-audio-intelligence",
+  "version": "0.1.0",
+  "description": "Analyze audio features and build reproducible librosa workflows.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
