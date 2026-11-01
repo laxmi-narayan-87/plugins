@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Chat"
+    ],
+    "category": "Design & Creative",
+    "defaultPrompt": "Help me use Blender MCP Studio for my creative production workflow.",
+    "developerName": "juu",
+    "displayName": "Blender MCP Studio",
+    "longDescription": "Plan and orchestrate Blender scene workflows through an available MCP connection.",
+    "shortDescription": "Blender scene workflows"
+  },
+  "name": "blender-mcp-studio",
+  "version": "0.1.0",
+  "description": "Plan and orchestrate Blender scene workflows through an available MCP connection.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

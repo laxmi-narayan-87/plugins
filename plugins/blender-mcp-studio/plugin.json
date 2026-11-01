@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Plan and orchestrate Blender scene workflows through an available MCP connection.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Design & Creative",
+        "defaultPrompt": "Help me use Blender MCP Studio for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "Blender MCP Studio",
+        "longDescription": "Plan and orchestrate Blender scene workflows through an available MCP connection.",
+        "shortDescription": "Blender scene workflows"
+      }
+    }
+  },
+  "name": "blender-mcp-studio",
+  "version": "0.1.0"
+}

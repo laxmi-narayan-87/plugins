@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Design interactive 3D web experiences with Three.js.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Design & Creative",
+        "defaultPrompt": "Help me use Three.js Studio for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "Three.js Studio",
+        "longDescription": "Design interactive 3D web experiences with Three.js.",
+        "shortDescription": "Three.js web 3D"
+      }
+    }
+  },
+  "name": "threejs-studio",
+  "version": "0.1.0"
+}
