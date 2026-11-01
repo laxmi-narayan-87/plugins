@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Model and troubleshoot real-time rigid-body physics workflows.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Engineering",
+        "defaultPrompt": "Help me use Jolt Physics Simulator for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "Jolt Physics Simulator",
+        "longDescription": "Model and troubleshoot real-time rigid-body physics workflows.",
+        "shortDescription": "Jolt physics"
+      }
+    }
+  },
+  "name": "jolt-physics-simulator",
+  "version": "0.1.0"
+}

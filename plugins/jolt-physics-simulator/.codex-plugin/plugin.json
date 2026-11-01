@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Chat"
+    ],
+    "category": "Engineering",
+    "defaultPrompt": "Help me use Jolt Physics Simulator for my creative production workflow.",
+    "developerName": "juu",
+    "displayName": "Jolt Physics Simulator",
+    "longDescription": "Model and troubleshoot real-time rigid-body physics workflows.",
+    "shortDescription": "Jolt physics"
+  },
+  "name": "jolt-physics-simulator",
+  "version": "0.1.0",
+  "description": "Model and troubleshoot real-time rigid-body physics workflows.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

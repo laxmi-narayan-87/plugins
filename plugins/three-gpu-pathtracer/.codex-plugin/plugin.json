@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Chat"
+    ],
+    "category": "Design & Creative",
+    "defaultPrompt": "Help me use Three GPU Pathtracer for my creative production workflow.",
+    "developerName": "juu",
+    "displayName": "Three GPU Pathtracer",
+    "longDescription": "Plan physically based path-traced scenes for Three.js.",
+    "shortDescription": "GPU path tracing"
+  },
+  "name": "three-gpu-pathtracer",
+  "version": "0.1.0",
+  "description": "Plan physically based path-traced scenes for Three.js.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Chat"
+    ],
+    "category": "Design & Creative",
+    "defaultPrompt": "Help me use Postprocessing FX for my creative production workflow.",
+    "developerName": "juu",
+    "displayName": "Postprocessing FX",
+    "longDescription": "Compose performant post-processing effects for Three.js.",
+    "shortDescription": "Three.js visual effects"
+  },
+  "name": "postprocessing-fx",
+  "version": "0.1.0",
+  "description": "Compose performant post-processing effects for Three.js.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
