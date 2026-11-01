@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Research"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "Use Trend Discovery to help me with this workflow.",
+    "developerName": "juu",
+    "displayName": "Trend Discovery",
+    "longDescription": "Discover and validate timely content topics using a 30-day research workflow across social and community sources.",
+    "shortDescription": "Find timely content topics"
+  },
+  "name": "trend-discovery-last30days",
+  "version": "0.1.0",
+  "description": "Discover and validate timely content topics using a 30-day research workflow across social and community sources.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

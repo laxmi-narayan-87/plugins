@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Discover and validate timely content topics using a 30-day research workflow across social and community sources.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Research"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use Trend Discovery to help me with this workflow.",
+        "developerName": "juu",
+        "displayName": "Trend Discovery",
+        "longDescription": "Discover and validate timely content topics using a 30-day research workflow across social and community sources.",
+        "shortDescription": "Find timely content topics"
+      }
+    }
+  },
+  "name": "trend-discovery-last30days",
+  "version": "0.1.0"
+}

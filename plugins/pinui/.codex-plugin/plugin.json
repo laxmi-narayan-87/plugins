@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Help me choose and implement the right frontend components.",
+      "Review my frontend implementation for accessibility and responsiveness."
+    ],
+    "developerName": "juu",
+    "displayName": "Pin UI",
+    "longDescription": "Discover and implement Pin UI components from its live-preview and copy-source library.",
+    "shortDescription": "Single-file UI components"
+  },
+  "name": "pinui",
+  "version": "0.1.0",
+  "description": "Discover and implement Pin UI components from its live-preview and copy-source library.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

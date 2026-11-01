@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Reference and implementation guide for Aceternity UI React, Tailwind and Motion components, blocks and templates.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me choose and implement the right frontend components.",
+          "Review my frontend implementation for accessibility and responsiveness."
+        ],
+        "developerName": "juu",
+        "displayName": "Aceternity UI",
+        "longDescription": "Reference and implementation guide for Aceternity UI React, Tailwind and Motion components, blocks and templates.",
+        "shortDescription": "React landing page components"
+      }
+    }
+  },
+  "name": "aceternity-ui",
+  "version": "0.1.0"
+}

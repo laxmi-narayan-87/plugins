@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Discover and implement Pin UI components from its live-preview and copy-source library.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me choose and implement the right frontend components.",
+          "Review my frontend implementation for accessibility and responsiveness."
+        ],
+        "developerName": "juu",
+        "displayName": "Pin UI",
+        "longDescription": "Discover and implement Pin UI components from its live-preview and copy-source library.",
+        "shortDescription": "Single-file UI components"
+      }
+    }
+  },
+  "name": "pinui",
+  "version": "0.1.0"
+}
