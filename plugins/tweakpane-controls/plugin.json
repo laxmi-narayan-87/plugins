@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Create developer-facing controls for interactive demos.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": "Help me use Tweakpane Controls for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "Tweakpane Controls",
+        "longDescription": "Create developer-facing controls for interactive demos.",
+        "shortDescription": "Tweakpane UI controls"
+      }
+    }
+  },
+  "name": "tweakpane-controls",
+  "version": "0.1.0"
+}

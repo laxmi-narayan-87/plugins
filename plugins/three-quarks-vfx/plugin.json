@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Design particle systems and real-time VFX for Three.js.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Design & Creative",
+        "defaultPrompt": "Help me use Three.quarks VFX for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "Three.quarks VFX",
+        "longDescription": "Design particle systems and real-time VFX for Three.js.",
+        "shortDescription": "Three.js particle VFX"
+      }
+    }
+  },
+  "name": "three-quarks-vfx",
+  "version": "0.1.0"
+}

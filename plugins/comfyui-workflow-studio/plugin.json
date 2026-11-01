@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Design and troubleshoot node-based generative media workflows.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Design & Creative",
+        "defaultPrompt": "Help me use ComfyUI Workflow Studio for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "ComfyUI Workflow Studio",
+        "longDescription": "Design and troubleshoot node-based generative media workflows.",
+        "shortDescription": "ComfyUI workflows"
+      }
+    }
+  },
+  "name": "comfyui-workflow-studio",
+  "version": "0.1.0"
+}
