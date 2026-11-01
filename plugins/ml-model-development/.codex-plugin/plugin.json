@@ -1,0 +1,27 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Data & Analytics",
+    "defaultPrompt": "Help me build, train, evaluate, and improve a machine-learning model for my problem.",
+    "developerName": "juu",
+    "displayName": "ML Model Development",
+    "longDescription": "Structured machine-learning development from problem framing and data preparation to model training, robust evaluation, and inference-ready artifacts.",
+    "shortDescription": "Develop and evaluate ML models"
+  },
+  "name": "ml-model-development",
+  "version": "0.1.0",
+  "description": "Structured machine-learning development from problem framing and data preparation to model training, robust evaluation, and inference-ready artifacts.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "skills": "./skills"
+}

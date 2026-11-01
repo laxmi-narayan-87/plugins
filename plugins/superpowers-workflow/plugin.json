@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A structured software-development workflow inspired by obra/superpowers: clarify intent, plan carefully, test first, debug systematically, review changes, and verify results.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Coding",
+        "defaultPrompt": "Use the Superpowers Workflow to approach this coding task systematically: clarify the goal, choose a workflow, test first, and verify before claiming completion.",
+        "developerName": "juu",
+        "displayName": "Superpowers Workflow",
+        "longDescription": "A skills-only adaptation of Superpowers' engineering methodology. Helps coding agents clarify requirements, plan implementation, apply test-driven development, debug from evidence, review code, and verify before reporting completion. It does not include upstream session hooks or automatic skill syncing.",
+        "shortDescription": "Structured coding workflows"
+      }
+    }
+  },
+  "homepage": "https://github.com/obra/superpowers",
+  "keywords": [
+    "software-development",
+    "TDD",
+    "debugging",
+    "planning",
+    "code-review",
+    "engineering-workflow"
+  ],
+  "license": "MIT",
+  "name": "superpowers-workflow",
+  "repository": "https://github.com/obra/superpowers",
+  "version": "0.1.0"
+}

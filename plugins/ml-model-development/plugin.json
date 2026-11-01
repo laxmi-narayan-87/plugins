@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Structured machine-learning development from problem framing and data preparation to model training, robust evaluation, and inference-ready artifacts.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Data & Analytics",
+        "defaultPrompt": "Help me build, train, evaluate, and improve a machine-learning model for my problem.",
+        "developerName": "juu",
+        "displayName": "ML Model Development",
+        "longDescription": "Structured machine-learning development from problem framing and data preparation to model training, robust evaluation, and inference-ready artifacts.",
+        "shortDescription": "Develop and evaluate ML models"
+      }
+    }
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "name": "ml-model-development",
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "version": "0.1.0"
+}
