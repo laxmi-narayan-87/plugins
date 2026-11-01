@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Plan platform-aware content with hooks, drafts, repurposing, and an actionable content calendar.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Research"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use Social Content Planner to help me with this workflow.",
+        "developerName": "juu",
+        "displayName": "Social Content Planner",
+        "longDescription": "Plan platform-aware content with hooks, drafts, repurposing, and an actionable content calendar.",
+        "shortDescription": "Plan hooks and calendars"
+      }
+    }
+  },
+  "name": "social-content-planner",
+  "version": "0.1.0"
+}

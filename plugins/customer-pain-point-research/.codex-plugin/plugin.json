@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "capabilities": [
+      "Research"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "Use Customer Research to help me with this workflow.",
+    "developerName": "juu",
+    "displayName": "Customer Research",
+    "longDescription": "Synthesize raw customer comments and reviews into evidence-backed needs, pain points, and opportunities.",
+    "shortDescription": "Turn feedback into user needs"
+  },
+  "name": "customer-pain-point-research",
+  "version": "0.1.0",
+  "description": "Synthesize raw customer comments and reviews into evidence-backed needs, pain points, and opportunities.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Retrieve and verify first-hand evidence from websites, documents, and repositories before content is written.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Research"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use Primary Source Verifier to help me with this workflow.",
+        "developerName": "juu",
+        "displayName": "Primary Source Verifier",
+        "longDescription": "Retrieve and verify first-hand evidence from websites, documents, and repositories before content is written.",
+        "shortDescription": "Verify original sources"
+      }
+    }
+  },
+  "name": "primary-source-verifier",
+  "version": "0.1.0"
+}
