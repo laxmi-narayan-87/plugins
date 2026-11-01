@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Reference and implementation guide for Rare UI animated React components and its shadcn registry/MCP setup.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me choose and implement the right frontend components.",
+          "Review my frontend implementation for accessibility and responsiveness."
+        ],
+        "developerName": "juu",
+        "displayName": "Rare UI",
+        "longDescription": "Reference and implementation guide for Rare UI animated React components and its shadcn registry/MCP setup.",
+        "shortDescription": "Animated React components"
+      }
+    }
+  },
+  "name": "rareui",
+  "version": "0.1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Help me choose and implement the right frontend components.",
+      "Review my frontend implementation for accessibility and responsiveness."
+    ],
+    "developerName": "juu",
+    "displayName": "EasyUI Components",
+    "longDescription": "Reference and implementation guide for EasyUI React components, controls, navigation, charts and animated interactions.",
+    "shortDescription": "Modern React UI components"
+  },
+  "name": "easyui",
+  "version": "0.1.0",
+  "description": "Reference and implementation guide for EasyUI React components, controls, navigation, charts and animated interactions.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

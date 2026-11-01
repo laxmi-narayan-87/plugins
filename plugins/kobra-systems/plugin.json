@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Frontend component reference workflow for Kobra Systems, with source inspection and safe implementation checks.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me choose and implement the right frontend components.",
+          "Review my frontend implementation for accessibility and responsiveness."
+        ],
+        "developerName": "juu",
+        "displayName": "Kobra Systems UI",
+        "longDescription": "Frontend component reference workflow for Kobra Systems, with source inspection and safe implementation checks.",
+        "shortDescription": "Kobra UI source guide"
+      }
+    }
+  },
+  "name": "kobra-systems",
+  "version": "0.1.0"
+}
