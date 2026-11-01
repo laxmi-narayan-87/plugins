@@ -1,0 +1,30 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Research",
+    "defaultPrompt": "Help me plan and execute a reproducible scientific research workflow using evidence-aware methods and clear source tracking.",
+    "developerName": "juu",
+    "displayName": "Scientific Agent Skills Workflow",
+    "longDescription": "Guides AI agents through evidence-aware literature reviews, scientific data analysis, reproducible computational workflows, and careful scientific communication. For domain-specific procedures and the complete skills catalog, consult the upstream Scientific Agent Skills repository.",
+    "shortDescription": "Structured scientific research"
+  },
+  "name": "scientific-agent-skills-workflow",
+  "version": "0.1.0",
+  "description": "Research workflow guidance inspired by Scientific Agent Skills, covering literature synthesis, scientific data analysis, reproducibility, and evidence-aware scientific communication.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "scientific-research",
+    "agent-skills",
+    "literature-review",
+    "data-analysis",
+    "reproducibility",
+    "scientific-communication"
+  ],
+  "homepage": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "license": "MIT",
+  "skills": "./skills"
+}
