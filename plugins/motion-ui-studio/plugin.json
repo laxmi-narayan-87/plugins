@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Build accessible UI transitions with Motion.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Design & Creative",
+        "defaultPrompt": "Help me use Motion UI Studio for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "Motion UI Studio",
+        "longDescription": "Build accessible UI transitions with Motion.",
+        "shortDescription": "Motion React UI"
+      }
+    }
+  },
+  "name": "motion-ui-studio",
+  "version": "0.1.0"
+}

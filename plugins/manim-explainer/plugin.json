@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Storyboard and implement mathematical animations with Manim.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Chat"
+        ],
+        "category": "Education",
+        "defaultPrompt": "Help me use Manim Explainer for my creative production workflow.",
+        "developerName": "juu",
+        "displayName": "Manim Explainer",
+        "longDescription": "Storyboard and implement mathematical animations with Manim.",
+        "shortDescription": "Manim explainers"
+      }
+    }
+  },
+  "name": "manim-explainer",
+  "version": "0.1.0"
+}
