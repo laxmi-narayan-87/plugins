@@ -1,0 +1,30 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": "Help me write, fix, improve, or adapt a prompt for a specific AI tool. Identify the target tool, ask only essential clarifying questions, and give me one concise, ready-to-paste prompt.",
+    "developerName": "juu",
+    "displayName": "Prompt Master",
+    "longDescription": "A prompt engineering workflow adapted from nidhinjs/prompt-master. It identifies the target AI tool, extracts the task and constraints, chooses an appropriate prompt structure, removes ambiguity and unsafe instructions, and delivers a ready-to-paste prompt. Includes tool-routing guidance, reusable templates, a 37-pattern diagnostic reference, and memory/context handling.",
+    "shortDescription": "Write sharper AI prompts"
+  },
+  "name": "prompt-master",
+  "version": "1.0.0",
+  "description": "Create, diagnose, refine, and adapt concise, tool-specific prompts using structured intent extraction, routing, safety checks, and reusable prompt templates.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "prompt-engineering",
+    "prompt-optimization",
+    "prompt-debugging",
+    "ai-tools",
+    "templates",
+    "agentic-workflows"
+  ],
+  "homepage": "https://github.com/nidhinjs/prompt-master",
+  "repository": "https://github.com/nidhinjs/prompt-master",
+  "license": "MIT",
+  "skills": "./skills"
+}

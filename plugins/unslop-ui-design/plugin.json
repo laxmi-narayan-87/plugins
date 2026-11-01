@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Audit and refine AI-looking interfaces into product-specific, intentional UI designs.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Design",
+        "defaultPrompt": "Use Unslop to audit this interface, propose a product-specific design direction, and refine it without changing its product features or content structure.",
+        "developerName": "juu",
+        "displayName": "Unslop UI Design",
+        "longDescription": "A design-review workflow adapted from heydamir/unslop. It audits a screen for generic AI-generated styling, proposes a product-specific direction before edits, guides a nine-pass refinement, and verifies the result. Original work by Damir Sokolovsky, CC BY 4.0.",
+        "shortDescription": "Audit and refine AI-looking UI"
+      }
+    }
+  },
+  "license": "CC-BY-4.0",
+  "name": "unslop-ui-design",
+  "version": "0.1.0"
+}

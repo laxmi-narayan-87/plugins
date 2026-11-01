@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A design workflow for coding agents to create, redesign, and audit polished, purposeful interfaces with accessibility, responsive-layout, and anti-template checks.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Design",
+        "defaultPrompt": "Use Hallmark Design to plan, build, redesign, or audit this interface. Preserve existing functionality and verify accessibility and responsive behavior.",
+        "developerName": "juu",
+        "displayName": "Hallmark Design",
+        "longDescription": "A skills-first adaptation of Hallmark's design workflow. Guide an AI coding agent through purposeful interface design, preservation-aware redesign, and evidence-based UI audits. The upstream repository contains a larger theme catalog and runnable browser lint scripts; those runtime assets are not embedded in this lightweight plugin package.",
+        "shortDescription": "Design, redesign, audit UIs"
+      }
+    }
+  },
+  "homepage": "https://www.usehallmark.com",
+  "keywords": [
+    "design",
+    "frontend",
+    "ui",
+    "ux",
+    "redesign",
+    "audit",
+    "accessibility",
+    "responsive",
+    "agent-skills"
+  ],
+  "license": "MIT",
+  "name": "hallmark-design",
+  "repository": "https://github.com/Nutlope/hallmark",
+  "version": "0.1.0"
+}
