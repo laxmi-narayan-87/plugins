@@ -5,8 +5,8 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 ## Current inventory
 
 - Plugin Creator registry inventory: 102 personal plugins (checked 2026-11-01).
-- Package directories in this branch: 101.
-- Package directories still missing: 1. See [inventory/README.md](inventory/README.md).
+- Package directories in this branch: 102.
+- Package directories still missing: 0. All packages are present; see [inventory/README.md](inventory/README.md) for completeness and README status.
 
 ## Plugin index
 
@@ -111,8 +111,9 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 - [wensity-ui-assistant](plugins/wensity-ui-assistant/)
 - [whisperx-caption-studio](plugins/whisperx-caption-studio/)
 - [x-account-readonly-assistant](plugins/x-account-readonly-assistant/)
+- [x-post-analytics](plugins/x-post-analytics/)
 
-The complete current Plugin Creator registry, including the one package not yet archived, is tracked in [inventory/README.md](inventory/README.md).
+The full Plugin Creator inventory is tracked in [inventory/README.md](inventory/README.md).
 
 ## Choose a plugin by topic and use case
 
@@ -203,6 +204,6 @@ These are routing suggestions based on package names and inventory topics, not g
 
 ## Quality checks
 
-Manual structural snapshot (2026-11-01): 101 package directories; 50 lack README.md; 3 legacy packages use manifest.json rather than plugin.json. No GitHub Actions workflow or repository archive validator was found on main, so automated CI could not be run. Passing structural checks does not prove runtime behavior. See [inventory/README.md](inventory/README.md).
+Manual structural snapshot (2026-11-01): 102 package directories; 51 lack README.md; 3 legacy packages use manifest.json rather than plugin.json. No GitHub Actions workflow or repository archive validator was found on main, so automated CI could not be run. Passing structural checks does not prove runtime behavior. See [inventory/README.md](inventory/README.md).
 
 
