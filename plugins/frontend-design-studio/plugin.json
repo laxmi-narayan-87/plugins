@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A design-lead workflow for creating distinctive, accessible, production-ready frontend interfaces without generic template aesthetics.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "CodeGeneration"
+        ],
+        "category": "Design",
+        "defaultPrompt": "Use Frontend Design Studio to plan, critique, and build a distinctive frontend interface for my brief.",
+        "developerName": "juu",
+        "displayName": "Frontend Design Studio",
+        "longDescription": "Apply a deliberate visual direction to new or existing interfaces. Ground the design in its subject, plan color and typography tokens, sketch layouts, critique generic patterns, then build responsively with accessible interaction and restrained motion.",
+        "shortDescription": "Distinctive frontend design"
+      }
+    }
+  },
+  "license": "Apache-2.0",
+  "name": "frontend-design-studio",
+  "version": "1.0.0"
+}

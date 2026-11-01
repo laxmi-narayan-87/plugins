@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A practical Claude Code and Obsidian second-brain playbook: choose compatible vault plugins, connect agents safely, structure notes, and run repeatable knowledge workflows.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Help me set up or improve my Obsidian second brain with Claude Code. Recommend a compatible minimal plugin stack, explain trade-offs, and keep all file changes reviewable.",
+        "developerName": "juu",
+        "displayName": "Obsidian Second Brain",
+        "longDescription": "Build a local-first knowledge vault that Claude Code can search, summarize, connect, and maintain. Includes verified plugin choices, setup guidance, permission safeguards, vault structure, and reusable daily workflows.",
+        "shortDescription": "Claude + Obsidian workflow"
+      }
+    }
+  },
+  "name": "obsidian-second-brain",
+  "version": "1.0.0"
+}

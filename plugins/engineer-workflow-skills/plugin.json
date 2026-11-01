@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A disciplined AI-assisted software engineering toolkit for clarifying requirements, exploring codebases, implementing with tests, debugging, reviewing, and learning engineering concepts.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Skills"
+        ],
+        "category": "Coding",
+        "defaultPrompt": "Help me approach this engineering task using a disciplined workflow: understand the problem, inspect the code, propose a small plan, implement with tests, and verify the result.",
+        "developerName": "juu",
+        "displayName": "Engineer Workflow Skills",
+        "longDescription": "Composable engineering workflows inspired by Matt Pocock's public skills repository. Align on requirements, inspect existing code, work in small verified steps, use TDD, debug systematically, review changes, and turn ideas into implementable specs and tickets.",
+        "shortDescription": "Disciplined AI-assisted engineering"
+      }
+    }
+  },
+  "name": "engineer-workflow-skills",
+  "skills": [
+    "./skills/engineering-workflow/SKILL.md",
+    "./skills/tdd-debug-review/SKILL.md",
+    "./skills/spec-and-tickets/SKILL.md",
+    "./skills/engineering-learning/SKILL.md"
+  ],
+  "version": "1.0.0"
+}
