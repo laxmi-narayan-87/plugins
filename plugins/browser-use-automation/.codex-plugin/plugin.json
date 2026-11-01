@@ -1,0 +1,30 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": "Help me plan or run a browser automation task with Browser Use. Choose the appropriate local library, CLI, or hosted API, and prioritize evidence-based execution and safe handling of side effects.",
+    "developerName": "juu",
+    "displayName": "Browser Use Automation",
+    "longDescription": "Guides browser-use setup and safe, evidence-based browser automation for interactive websites, QA testing, structured extraction, and repetitive web workflows. This package provides workflow guidance and does not itself install or host the browser-use runtime.",
+    "shortDescription": "Automate browser workflows"
+  },
+  "name": "browser-use-automation",
+  "version": "0.1.0",
+  "description": "Practical workflows for using the open-source Browser Use agent to automate browser interactions, web QA, scraping, and task execution.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "browser-use",
+    "browser-automation",
+    "ai-agents",
+    "web-testing",
+    "web-scraping",
+    "playwright"
+  ],
+  "homepage": "https://github.com/browser-use/browser-use",
+  "repository": "https://github.com/browser-use/browser-use",
+  "license": "MIT",
+  "skills": "./skills"
+}

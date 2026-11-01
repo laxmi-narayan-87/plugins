@@ -1,0 +1,47 @@
+{
+  "reasoning_modes": [
+    {"name":"first_principles","how":"Break the task into fundamentals and derive the answer from explicit assumptions."},
+    {"name":"inversion","how":"Start from ways the answer could fail and work backward to prevent them."},
+    {"name":"analogy","how":"Use a close structural analogue, then state where the analogy breaks."},
+    {"name":"adversarial","how":"Assume a skeptical expert will challenge every unsupported point."},
+    {"name":"constraint_first","how":"Prioritize hard requirements and identify infeasible tradeoffs early."},
+    {"name":"worked_example","how":"Test the approach on representative concrete examples before generalizing."},
+    {"name":"socratic","how":"Expose assumptions through focused questions, then proceed using reasonable answers."},
+    {"name":"contrarian","how":"Challenge the default interpretation and investigate plausible alternatives."},
+    {"name":"systems_thinking","how":"Consider dependencies, interactions, downstream effects, and feedback loops."},
+    {"name":"formalization","how":"Translate key claims into explicit definitions, invariants, or testable statements."},
+    {"name":"empirical","how":"Prefer verifiable evidence, small tests, and observed behavior over intuition."},
+    {"name":"risk_weighted","how":"Rank failure modes by likelihood and impact, then address the highest risks."},
+    {"name":"minimalist","how":"Find the simplest complete solution and resist unnecessary additions."},
+    {"name":"compositional","how":"Solve smaller subproblems independently and check that their interfaces fit."},
+    {"name":"uncertainty_aware","how":"Separate known facts, assumptions, and unknowns; make uncertainty actionable."}
+  ],
+  "workflows": [
+    {"name":"draft_critique_rewrite","how":"Draft, find weaknesses, then rewrite to address the most consequential flaws."},
+    {"name":"outline_first","how":"Create a structured outline and validate coverage before writing details."},
+    {"name":"test_first","how":"Define acceptance tests and edge cases, then craft a solution that passes them."},
+    {"name":"research_then_synthesize","how":"Identify evidence needed, verify claims where tools permit, then synthesize."},
+    {"name":"compare_options","how":"Generate plausible options and compare them using common criteria."},
+    {"name":"failure_mode_analysis","how":"Enumerate failures, causes, detection signals, and mitigations."},
+    {"name":"requirements_trace","how":"Map every user requirement to a specific part of the deliverable."},
+    {"name":"example_then_generalize","how":"Work through a representative case and generalize carefully."},
+    {"name":"decompose_then_integrate","how":"Solve distinct parts and verify interfaces and assumptions during integration."},
+    {"name":"evidence_ladder","how":"Label claims as verified, strongly inferred, assumed, or unknown."},
+    {"name":"decision_matrix","how":"Use explicit criteria and weights to make tradeoffs visible."},
+    {"name":"red_team_blue_team","how":"Construct a strong challenge, defend with evidence, and revise the result."}
+  ],
+  "strategies": [
+    {"name":"simplest_that_works","how":"Favor a small solution that completely meets the need."},
+    {"name":"maximal_rigor","how":"Prioritize validation, explicit reasoning summaries, and edge cases."},
+    {"name":"user_empathy","how":"Optimize for the user's practical objective and likely next action."},
+    {"name":"edge_cases_first","how":"Begin with boundary conditions and unusual but valid inputs."},
+    {"name":"speed_with_guardrails","how":"Deliver the fastest sound answer without skipping essential checks."},
+    {"name":"maintainability","how":"Favor clarity, modularity, and future adaptation."},
+    {"name":"specificity","how":"Prefer concrete examples and executable next steps over generalities."},
+    {"name":"resource_awareness","how":"Account for time, compute, token, and operational costs."},
+    {"name":"reversibility","how":"Prefer choices that are easy to test, undo, or refine when uncertainty is high."},
+    {"name":"consistency","how":"Check terminology, assumptions, and conclusions for internal consistency."},
+    {"name":"evidence_over_confidence","how":"Make only claims supported by evidence and state limits plainly."},
+    {"name":"robust_defaults","how":"Use conservative defaults and handle missing inputs explicitly."}
+  ]
+}
