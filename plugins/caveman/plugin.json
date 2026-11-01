@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "A concise-response skill inspired by JuliusBrussee/caveman. Keeps technical facts and code exact while removing unnecessary wording.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer Tools",
+        "defaultPrompt": "Answer in Caveman style: concise, answer-first, and technically exact.",
+        "developerName": "juu",
+        "displayName": "Caveman \u2014 concise coding answers",
+        "longDescription": "Use a concise, answer-first writing style for coding and technical work. Preserve exact code, commands, paths, numbers, units, errors, and all critical meaning. This plugin provides the text skill only; it does not install or run the Caveman CLI, proxy, compressor, model router, or cloud service.",
+        "shortDescription": "Concise, exact answers"
+      }
+    }
+  },
+  "keywords": [
+    "concise",
+    "token efficiency",
+    "coding",
+    "developer workflow",
+    "caveman"
+  ],
+  "license": "Apache-2.0",
+  "name": "caveman",
+  "repository": "https://github.com/JuliusBrussee/caveman",
+  "version": "0.1.0"
+}

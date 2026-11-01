@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Debug, inspect, test, and optimize web applications through the Chrome DevTools MCP server and CLI.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Developer tools",
+        "defaultPrompt": "Use Chrome DevTools to inspect this web page, reproduce the issue, gather evidence from the DOM, console and network, then recommend or implement a minimal verified fix.",
+        "developerName": "juu",
+        "displayName": "Chrome DevTools Agent",
+        "longDescription": "Use Chrome DevTools MCP to inspect live browser pages, automate reliable interactions, diagnose console and network failures, audit accessibility, analyze performance traces, and investigate memory issues. Requires Node.js and a supported Chrome installation or a configured running Chrome instance.",
+        "shortDescription": "Debug and automate Chrome"
+      }
+    }
+  },
+  "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp/",
+  "keywords": [
+    "chrome",
+    "devtools",
+    "mcp",
+    "browser-automation",
+    "debugging",
+    "performance",
+    "accessibility",
+    "testing"
+  ],
+  "name": "chrome-devtools-agent",
+  "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp/",
+  "version": "0.1.0"
+}

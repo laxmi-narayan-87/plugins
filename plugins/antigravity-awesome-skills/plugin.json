@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Discover, assess, select, and apply agent skills from the Antigravity Awesome Skills collection.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Skills"
+        ],
+        "category": "Developer tools",
+        "defaultPrompt": "Help me find and apply the right agent skills for my task using the Antigravity Awesome Skills collection.",
+        "developerName": "juu",
+        "displayName": "Antigravity Awesome Skills",
+        "longDescription": "A skills-focused companion for navigating the Antigravity Awesome Skills collection. Helps map tasks to relevant skills, plan skill-driven workflows, assess risks and assumptions, and turn a chosen skill into actionable steps. The upstream collection and its installer remain in the source repository.",
+        "shortDescription": "Apply agent skills safely"
+      }
+    }
+  },
+  "homepage": "https://github.com/benjaminasterA/antigravity-awesome-skills",
+  "keywords": [
+    "agent-skills",
+    "coding",
+    "workflow",
+    "skill-discovery",
+    "antigravity"
+  ],
+  "license": "MIT",
+  "name": "antigravity-awesome-skills",
+  "repository": "https://github.com/benjaminasterA/antigravity-awesome-skills",
+  "version": "0.1.0"
+}
