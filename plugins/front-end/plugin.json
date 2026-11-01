@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Plugin owner"
+  },
+  "description": "A unified frontend engineering assistant that routes component discovery, selection, implementation guidance, accessibility, responsive design, animation and QA across Rare UI, Kobra Systems, EasyUI, Pin UI and Aceternity UI. It does not bundle or rehost their source code.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Help me choose and implement the right frontend components.",
+          "Review my frontend implementation for accessibility and responsiveness."
+        ],
+        "developerName": "Plugin owner",
+        "displayName": "Front-End",
+        "longDescription": "A unified frontend engineering assistant that routes component discovery, selection, implementation guidance, accessibility, responsive design, animation and QA across Rare UI, Kobra Systems, EasyUI, Pin UI and Aceternity UI. It does not bundle or rehost their source code.",
+        "shortDescription": "Frontend UI toolkit router"
+      }
+    }
+  },
+  "name": "front-end",
+  "version": "0.1.1"
+}

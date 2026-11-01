@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Assistant workflow for discovering, evaluating, planning, and safely installing Wensity UI components in React and Next.js projects.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Code",
+          "Reference"
+        ],
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Find Wensity UI components for my interface and compare the best options.",
+          "Help me set up the official Wensity MCP server in Codex.",
+          "Plan a Wensity component installation and wait for my approval."
+        ],
+        "developerName": "juu",
+        "displayName": "Wensity UI Assistant",
+        "longDescription": "Guides developers through Wensity UI component discovery, license checks, project compatibility, installation planning, approval, and post-install verification. Includes setup guidance for the official local Wensity MCP server.",
+        "shortDescription": "Find and install Wensity UI"
+      }
+    }
+  },
+  "homepage": "https://ui.wensity.com/",
+  "keywords": [
+    "wensity",
+    "react",
+    "nextjs",
+    "tailwind",
+    "components",
+    "mcp",
+    "ui"
+  ],
+  "name": "wensity-ui-assistant",
+  "version": "0.1.0"
+}

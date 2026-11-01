@@ -1,0 +1,24 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Help me choose and implement the right frontend components.",
+      "Review my frontend implementation for accessibility and responsiveness."
+    ],
+    "developerName": "Plugin owner",
+    "displayName": "Front-End",
+    "longDescription": "A unified frontend engineering assistant that routes component discovery, selection, implementation guidance, accessibility, responsive design, animation and QA across Rare UI, Kobra Systems, EasyUI, Pin UI and Aceternity UI. It does not bundle or rehost their source code.",
+    "shortDescription": "Frontend UI toolkit router"
+  },
+  "name": "front-end",
+  "version": "0.1.1",
+  "description": "A unified frontend engineering assistant that routes component discovery, selection, implementation guidance, accessibility, responsive design, animation and QA across Rare UI, Kobra Systems, EasyUI, Pin UI and Aceternity UI. It does not bundle or rehost their source code.",
+  "author": {
+    "name": "Plugin owner"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
