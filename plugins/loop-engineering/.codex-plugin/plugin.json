@@ -1,0 +1,34 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer tools",
+    "defaultPrompt": [
+      "Help me design an AI coding-agent loop for my repository.",
+      "Audit this agent loop for reliability, safety, state, and cost.",
+      "Choose a suitable loop pattern and roll it out with verification gates."
+    ],
+    "developerName": "juu",
+    "displayName": "Loop Engineering",
+    "longDescription": "A workflow guide for designing, auditing, and operating AI coding-agent loops: clarify the job, choose a pattern, establish state and verification, stage autonomy, and control cost and blast radius. Based on the public Loop Engineering repository; it does not execute the repository's CLI tools.",
+    "shortDescription": "Design safer agent loops"
+  },
+  "name": "loop-engineering",
+  "version": "0.1.0",
+  "description": "Design, audit, and improve repeatable AI coding-agent loops with verification, state, safety gates, and cost awareness.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "loop-engineering",
+    "ai-agents",
+    "coding-agents",
+    "automation",
+    "verification",
+    "cost-control"
+  ],
+  "homepage": "https://cobusgreyling.github.io/loop-engineering/",
+  "repository": "https://github.com/cobusgreyling/loop-engineering",
+  "license": "MIT",
+  "skills": "./skills"
+}

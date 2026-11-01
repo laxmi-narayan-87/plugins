@@ -1,0 +1,30 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Design",
+    "defaultPrompt": "Help me create or review a DESIGN.md design-system document for my product, keeping the visual intent specific and the tokens consistent.",
+    "developerName": "juu",
+    "displayName": "DESIGN.md Guide",
+    "longDescription": "Create and improve DESIGN.md files that combine structured design tokens with clear visual rationale. Review token references, document hierarchy, accessibility concerns, and changes between design-system versions. Guidance follows the Google Labs design.md repository; use its CLI for actual linting, diffing, and export operations.",
+    "shortDescription": "Author and review design docs"
+  },
+  "name": "design-md-guide",
+  "version": "0.1.0",
+  "description": "Author, validate, review, and evolve DESIGN.md design-system documents for coding agents, grounded in Google's design.md format and philosophy.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "design systems",
+    "DESIGN.md",
+    "design tokens",
+    "frontend",
+    "accessibility",
+    "UI review"
+  ],
+  "homepage": "https://github.com/google-labs-code/design.md",
+  "repository": "https://github.com/google-labs-code/design.md",
+  "license": "Apache-2.0",
+  "skills": "./skills"
+}
