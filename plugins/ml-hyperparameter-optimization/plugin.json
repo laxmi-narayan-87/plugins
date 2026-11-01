@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Plan and execute disciplined model-selection and hyperparameter optimization with clear validation boundaries, budgets, and reproducible comparisons.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Data & Analytics",
+        "defaultPrompt": "Help me optimize a model\u2019s hyperparameters and compare candidates rigorously.",
+        "developerName": "juu",
+        "displayName": "ML Hyperparameter Tuning",
+        "longDescription": "Plan and execute disciplined model-selection and hyperparameter optimization with clear validation boundaries, budgets, and reproducible comparisons.",
+        "shortDescription": "Tune models without leakage"
+      }
+    }
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "name": "ml-hyperparameter-optimization",
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "version": "0.1.0"
+}

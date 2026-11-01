@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "vjfiuy@gmail.com",
+    "name": "juu"
+  },
+  "description": "Prepare models for batch or online inference with versioned artifacts, tested contracts, observability, gradual rollout, and rollback.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer Tools",
+        "defaultPrompt": "Help me package and deploy an ML model as a reliable batch job or prediction API.",
+        "developerName": "juu",
+        "displayName": "ML Model Deployment",
+        "longDescription": "Prepare models for batch or online inference with versioned artifacts, tested contracts, observability, gradual rollout, and rollback.",
+        "shortDescription": "Deploy ML models safely"
+      }
+    }
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "name": "ml-model-deployment",
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "version": "0.1.0"
+}

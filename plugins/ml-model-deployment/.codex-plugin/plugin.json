@@ -1,0 +1,27 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": "Help me package and deploy an ML model as a reliable batch job or prediction API.",
+    "developerName": "juu",
+    "displayName": "ML Model Deployment",
+    "longDescription": "Prepare models for batch or online inference with versioned artifacts, tested contracts, observability, gradual rollout, and rollback.",
+    "shortDescription": "Deploy ML models safely"
+  },
+  "name": "ml-model-deployment",
+  "version": "0.1.0",
+  "description": "Prepare models for batch or online inference with versioned artifacts, tested contracts, observability, gradual rollout, and rollback.",
+  "author": {
+    "name": "juu",
+    "email": "vjfiuy@gmail.com"
+  },
+  "keywords": [
+    "machine-learning",
+    "ml",
+    "data-science",
+    "ai",
+    "workflow"
+  ],
+  "repository": "https://github.com/aiskillstore/marketplace",
+  "skills": "./skills"
+}
