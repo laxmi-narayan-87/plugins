@@ -4,9 +4,9 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 
 ## Current inventory
 
-- Plugin Creator registry inventory: 102 personal plugins (checked 2026-11-01).
+- Plugin Creator registry inventory: 102 personal plugins (checked 2026-11-02).
 - Package directories in this branch: 102.
-- Package directories still missing: 0. All packages are present; see [inventory/README.md](inventory/README.md) for completeness and README status.
+- Package directories still missing: 0. One binary asset is missing from not-ai (assets/composer-icon.png); see [inventory/README.md](inventory/README.md) for file-level status.
 
 ## Plugin index
 
@@ -204,6 +204,4 @@ These are routing suggestions based on package names and inventory topics, not g
 
 ## Quality checks
 
-Manual structural snapshot (2026-11-01): 102 package directories; 51 lack README.md; 3 legacy packages use manifest.json rather than plugin.json. No GitHub Actions workflow or repository archive validator was found on main, so automated CI could not be run. Passing structural checks does not prove runtime behavior. See [inventory/README.md](inventory/README.md).
-
-
+Manual structural snapshot (2026-11-02): 102 package directories; 102 SKILL.md files; 99 plugin.json manifests and 3 legacy manifest.json packages; 51 packages lack README.md. Plugin Creator version metadata matches 102/102 packages. The current file-list comparison found one missing binary asset: plugins/not-ai/assets/composer-icon.png. No GitHub Actions workflow or repository-level archive validator was found on main, so automated CI could not be run. Manual structural checks were completed; this does not prove runtime behavior. See [inventory/README.md](inventory/README.md).
