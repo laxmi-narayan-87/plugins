@@ -1,128 +1,133 @@
 # Plugin Creator inventory
 
-**Checked:** 2026-11-01  
+**Checked:** 2026-11-02  
 **Source:** Current personal Plugin Creator inventory (USER scope).  
-**Counts:** 102 plugins in Plugin Creator; 102 package directories in this repository; all 102 packages are present.
+**Counts:** 102 plugins in Plugin Creator; 102 package directories in this repository; 0 missing directories.
 
-This is a tracking inventory, not a substitute for package files. Missing package files must be exported from Plugin Creator and added in full; no placeholder packages or fabricated assets are created.
+This is a tracking inventory, not a substitute for package files. Package contents are compared against the current Plugin Creator file listing. Missing binary assets are not replaced with placeholders.
 
 | Plugin | Version | Repository status |
 |---|---:|---|
-| `aceternity-ui` | 0.1.0 | Not archived |
+| [`aceternity-ui`](../plugins/aceternity-ui/) | 0.1.0 | Archived package; README missing |
 | [`agent-reach-guide`](../plugins/agent-reach-guide/) | 0.1.0 | Archived package |
 | [`ai-labs-workflows`](../plugins/ai-labs-workflows/) | 0.1.0 | Archived package |
 | [`ai-video-storyboard`](../plugins/ai-video-storyboard/) | 0.1.0 | Archived package |
-| `animejs-motion` | 0.1.0 | Not archived |
-| `antigravity-awesome-skills` | 0.1.0 | Not archived |
+| [`animejs-motion`](../plugins/animejs-motion/) | 0.1.0 | Archived package; README missing |
+| [`antigravity-awesome-skills`](../plugins/antigravity-awesome-skills/) | 0.1.0 | Archived package; README missing |
 | [`api-anything`](../plugins/api-anything/) | 0.1.0 | Archived package |
 | [`archify-diagrams`](../plugins/archify-diagrams/) | 0.1.0 | Archived package |
-| `arena-skill` | 0.1.0 | Not archived |
+| [`arena-skill`](../plugins/arena-skill/) | 0.1.0 | Archived package |
 | [`artemis-android-qa`](../plugins/artemis-android-qa/) | 0.1.0 | Archived package |
 | [`beyondseo`](../plugins/beyondseo/) | 0.1.0 | Archived package |
-| `blender-mcp-studio` | 0.1.0 | Not archived |
+| [`blender-mcp-studio`](../plugins/blender-mcp-studio/) | 0.1.0 | Archived package; README missing |
 | [`brag-launch-video`](../plugins/brag-launch-video/) | 0.1.0 | Archived package |
-| `browser-use-automation` | 0.1.0 | Not archived |
+| [`browser-use-automation`](../plugins/browser-use-automation/) | 0.1.0 | Archived package; README missing |
 | [`build-your-own-x-guide`](../plugins/build-your-own-x-guide/) | 0.1.0 | Archived package |
-| [`career-ops-copilot`](../plugins/career-ops-copilot/) | 1.0.0 | Archived package; uses manifest.json |
-| `caveman` | 0.1.0 | Not archived |
-| `chart-visualization-studio` | 0.1.0 | Not archived |
-| `chrome-devtools-agent` | 0.1.0 | Not archived |
+| [`career-ops-copilot`](../plugins/career-ops-copilot/) | 1.0.0 | Archived package; legacy manifest.json |
+| [`caveman`](../plugins/caveman/) | 0.1.0 | Archived package; README missing |
+| [`chart-visualization-studio`](../plugins/chart-visualization-studio/) | 0.1.0 | Archived package; README missing |
+| [`chrome-devtools-agent`](../plugins/chrome-devtools-agent/) | 0.1.0 | Archived package; README missing |
 | [`claude-mem-adapter`](../plugins/claude-mem-adapter/) | 0.1.0 | Archived package |
 | [`claudex-loop-assistant`](../plugins/claudex-loop-assistant/) | 0.1.0 | Archived package |
 | [`codex-security-advisor`](../plugins/codex-security-advisor/) | 0.1.0 | Archived package |
-| `comfyui-workflow-studio` | 0.1.0 | Not archived |
+| [`comfyui-workflow-studio`](../plugins/comfyui-workflow-studio/) | 0.1.0 | Archived package; README missing |
 | [`context7-documentation`](../plugins/context7-documentation/) | 0.1.0 | Archived package |
-| `cosyvoice-studio` | 0.1.0 | Not archived |
-| `customer-pain-point-research` | 0.1.0 | Not archived |
-| `design-md-guide` | 0.1.0 | Not archived |
-| `diagram-design` | 0.1.0 | Not archived |
-| `easyui` | 0.1.0 | Not archived |
+| [`cosyvoice-studio`](../plugins/cosyvoice-studio/) | 0.1.0 | Archived package; README missing |
+| [`customer-pain-point-research`](../plugins/customer-pain-point-research/) | 0.1.0 | Archived package; README missing |
+| [`design-md-guide`](../plugins/design-md-guide/) | 0.1.0 | Archived package |
+| [`diagram-design`](../plugins/diagram-design/) | 0.1.0 | Archived package |
+| [`easyui`](../plugins/easyui/) | 0.1.0 | Archived package; README missing |
 | [`ecc-engineering-companion`](../plugins/ecc-engineering-companion/) | 0.1.0 | Archived package |
-| `engineer-workflow-skills` | 1.0.0 | Not archived |
-| `ffmpeg-production-engine` | 0.1.0 | Not archived |
-| `firecrawl-toolkit` | 0.1.0 | Not archived |
-| `front-end` | 0.1.1 | Not archived |
-| `frontend-design-studio` | 1.0.0 | Not archived |
+| [`engineer-workflow-skills`](../plugins/engineer-workflow-skills/) | 1.0.0 | Archived package |
+| [`ffmpeg-production-engine`](../plugins/ffmpeg-production-engine/) | 0.1.0 | Archived package; README missing |
+| [`firecrawl-toolkit`](../plugins/firecrawl-toolkit/) | 0.1.0 | Archived package |
+| [`front-end`](../plugins/front-end/) | 0.1.1 | Archived package; README missing |
+| [`frontend-design-studio`](../plugins/frontend-design-studio/) | 1.0.0 | Archived package; README missing |
 | [`graphify-agent`](../plugins/graphify-agent/) | 0.1.0 | Archived package |
-| `gstack-workflow-toolkit` | 0.1.0 | Not archived |
-| `hallmark-design` | 0.1.0 | Not archived |
-| `harness-engineering` | 0.1.0 | Not archived |
+| [`gstack-workflow-toolkit`](../plugins/gstack-workflow-toolkit/) | 0.1.0 | Archived package |
+| [`hallmark-design`](../plugins/hallmark-design/) | 0.1.0 | Archived package |
+| [`harness-engineering`](../plugins/harness-engineering/) | 0.1.0 | Archived package; README missing |
 | [`harvey-sales-operator`](../plugins/harvey-sales-operator/) | 0.1.0 | Archived package |
-| [`humanizer`](../plugins/humanizer/) | 1.0.0 | Archived package; uses manifest.json |
-| [`ian-xiaohei-illustrations`](../plugins/ian-xiaohei-illustrations/) | 1.0.0 | Archived package; uses manifest.json |
+| [`humanizer`](../plugins/humanizer/) | 1.0.0 | Archived package; legacy manifest.json |
+| [`ian-xiaohei-illustrations`](../plugins/ian-xiaohei-illustrations/) | 1.0.0 | Archived package; legacy manifest.json |
 | [`impeccable-design-workflow`](../plugins/impeccable-design-workflow/) | 0.1.0 | Archived package |
 | [`inbox-intelligence`](../plugins/inbox-intelligence/) | 2.0.0 | Archived package |
-| `jolt-physics-simulator` | 0.1.0 | Not archived |
-| `kobra-systems` | 0.1.0 | Not archived |
-| `librosa-audio-intelligence` | 0.1.0 | Not archived |
-| `loop-engineering` | 0.1.0 | Not archived |
-| `losslesscut-editor` | 0.1.0 | Not archived |
-| `lottie-animator` | 0.1.0 | Not archived |
-| `manim-explainer` | 0.1.0 | Not archived |
+| [`jolt-physics-simulator`](../plugins/jolt-physics-simulator/) | 0.1.0 | Archived package; README missing |
+| [`kobra-systems`](../plugins/kobra-systems/) | 0.1.0 | Archived package; README missing |
+| [`librosa-audio-intelligence`](../plugins/librosa-audio-intelligence/) | 0.1.0 | Archived package; README missing |
+| [`loop-engineering`](../plugins/loop-engineering/) | 0.1.0 | Archived package |
+| [`losslesscut-editor`](../plugins/losslesscut-editor/) | 0.1.0 | Archived package; README missing |
+| [`lottie-animator`](../plugins/lottie-animator/) | 0.1.0 | Archived package; README missing |
+| [`manim-explainer`](../plugins/manim-explainer/) | 0.1.0 | Archived package; README missing |
 | [`mirofish-simulation-guide`](../plugins/mirofish-simulation-guide/) | 0.1.0 | Archived package |
-| `ml-data-quality-labeling` | 0.1.0 | Not archived |
-| `ml-engineering-suite` | 0.1.0 | Not archived |
-| `ml-hyperparameter-optimization` | 0.1.0 | Not archived |
-| `ml-model-deployment` | 0.1.0 | Not archived |
-| `ml-model-development` | 0.1.0 | Not archived |
-| `mlops-pipeline-engineer` | 0.1.0 | Not archived |
-| `motion-ui-studio` | 0.1.0 | Not archived |
-| `natural-copy-editor` | 0.1.0 | Not archived |
-| [`not-ai`](../plugins/not-ai/) | 3.0.1 | Archived package |
-| `obs-capture-studio` | 0.1.0 | Not archived |
-| `obsidian-second-brain` | 1.0.0 | Not archived |
+| [`ml-data-quality-labeling`](../plugins/ml-data-quality-labeling/) | 0.1.0 | Archived package; README missing |
+| [`ml-engineering-suite`](../plugins/ml-engineering-suite/) | 0.1.0 | Archived package; README missing |
+| [`ml-hyperparameter-optimization`](../plugins/ml-hyperparameter-optimization/) | 0.1.0 | Archived package; README missing |
+| [`ml-model-deployment`](../plugins/ml-model-deployment/) | 0.1.0 | Archived package; README missing |
+| [`ml-model-development`](../plugins/ml-model-development/) | 0.1.0 | Archived package; README missing |
+| [`mlops-pipeline-engineer`](../plugins/mlops-pipeline-engineer/) | 0.1.0 | Archived package; README missing |
+| [`motion-ui-studio`](../plugins/motion-ui-studio/) | 0.1.0 | Archived package; README missing |
+| [`natural-copy-editor`](../plugins/natural-copy-editor/) | 0.1.0 | Archived package; README missing |
+| [`not-ai`](../plugins/not-ai/) | 3.0.1 | Archived package; missing assets/composer-icon.png |
+| [`obs-capture-studio`](../plugins/obs-capture-studio/) | 0.1.0 | Archived package; README missing |
+| [`obsidian-second-brain`](../plugins/obsidian-second-brain/) | 1.0.0 | Archived package |
 | [`omniroute-operator`](../plugins/omniroute-operator/) | 0.1.0 | Archived package |
-| `openviking-context-plugin` | 0.1.0 | Not archived |
+| [`openviking-context-plugin`](../plugins/openviking-context-plugin/) | 0.1.0 | Archived package |
 | [`overleaf-helper`](../plugins/overleaf-helper/) | 0.1.0 | Archived package |
 | [`pentagi-security-workflow`](../plugins/pentagi-security-workflow/) | 0.1.0 | Archived package |
-| `pinui` | 0.1.0 | Not archived |
+| [`pinui`](../plugins/pinui/) | 0.1.0 | Archived package; README missing |
 | [`placement-intelligence`](../plugins/placement-intelligence/) | 0.1.0 | Archived package |
-| `postprocessing-fx` | 0.1.0 | Not archived |
-| `primary-source-verifier` | 0.1.0 | Not archived |
-| `prompt-master` | 1.0.0 | Not archived |
-| `pya-security-audit` | 0.1.0 | Not archived |
+| [`postprocessing-fx`](../plugins/postprocessing-fx/) | 0.1.0 | Archived package; README missing |
+| [`primary-source-verifier`](../plugins/primary-source-verifier/) | 0.1.0 | Archived package; README missing |
+| [`prompt-master`](../plugins/prompt-master/) | 1.0.0 | Archived package |
+| [`pya-security-audit`](../plugins/pya-security-audit/) | 0.1.0 | Archived package; README missing |
 | [`qa-quality-agent`](../plugins/qa-quality-agent/) | 0.1.0 | Archived package |
-| `rareui` | 0.1.0 | Not archived |
+| [`rareui`](../plugins/rareui/) | 0.1.0 | Archived package; README missing |
 | [`rea-reverse-engineering`](../plugins/rea-reverse-engineering/) | 0.1.0 | Archived package |
-| `remotion-skills` | 0.1.0 | Not archived |
-| `remotion-studio` | 0.1.0 | Not archived |
+| [`remotion-skills`](../plugins/remotion-skills/) | 0.1.0 | Archived package; README missing |
+| [`remotion-studio`](../plugins/remotion-studio/) | 0.1.0 | Archived package; README missing |
 | [`reticle-verification`](../plugins/reticle-verification/) | 0.1.0 | Archived package |
-| `ruflo-agent-harness` | 0.1.0 | Not archived |
-| `scientific-agent-skills-workflow` | 0.1.0 | Not archived |
+| [`ruflo-agent-harness`](../plugins/ruflo-agent-harness/) | 0.1.0 | Archived package; README missing |
+| [`scientific-agent-skills-workflow`](../plugins/scientific-agent-skills-workflow/) | 0.1.0 | Archived package |
 | [`serena-coding-agent`](../plugins/serena-coding-agent/) | 0.1.0 | Archived package |
 | [`skill-inspector`](../plugins/skill-inspector/) | 0.1.0 | Archived package |
 | [`slopmonster-writing-review`](../plugins/slopmonster-writing-review/) | 0.1.0 | Archived package |
-| `social-content-planner` | 0.1.0 | Not archived |
-| `superpowers-workflow` | 0.1.0 | Not archived |
-| `taste-skill` | 2.1.4 | Not archived |
-| `tencentdb-agent-memory` | 0.1.0 | Not archived |
-| `three-gpu-pathtracer` | 0.1.0 | Not archived |
-| `three-quarks-vfx` | 0.1.0 | Not archived |
-| `threejs-studio` | 0.1.0 | Not archived |
-| `trend-discovery-last30days` | 0.1.0 | Not archived |
-| `tweakpane-controls` | 0.1.0 | Not archived |
-| `unslop-ui-design` | 0.1.0 | Not archived |
+| [`social-content-planner`](../plugins/social-content-planner/) | 0.1.0 | Archived package; README missing |
+| [`superpowers-workflow`](../plugins/superpowers-workflow/) | 0.1.0 | Archived package |
+| [`taste-skill`](../plugins/taste-skill/) | 2.1.4 | Archived package; README missing |
+| [`tencentdb-agent-memory`](../plugins/tencentdb-agent-memory/) | 0.1.0 | Archived package; README missing |
+| [`three-gpu-pathtracer`](../plugins/three-gpu-pathtracer/) | 0.1.0 | Archived package; README missing |
+| [`three-quarks-vfx`](../plugins/three-quarks-vfx/) | 0.1.0 | Archived package; README missing |
+| [`threejs-studio`](../plugins/threejs-studio/) | 0.1.0 | Archived package; README missing |
+| [`trend-discovery-last30days`](../plugins/trend-discovery-last30days/) | 0.1.0 | Archived package; README missing |
+| [`tweakpane-controls`](../plugins/tweakpane-controls/) | 0.1.0 | Archived package; README missing |
+| [`unslop-ui-design`](../plugins/unslop-ui-design/) | 0.1.0 | Archived package |
 | [`vercel-skills-workflow`](../plugins/vercel-skills-workflow/) | 0.1.0 | Archived package |
-| `web-recon-toolkit` | 0.1.0 | Not archived |
+| [`web-recon-toolkit`](../plugins/web-recon-toolkit/) | 0.1.0 | Archived package |
 | [`weknora-knowledge-assistant`](../plugins/weknora-knowledge-assistant/) | 0.1.0 | Archived package |
 | [`wellfound-auto-apply`](../plugins/wellfound-auto-apply/) | 0.1.0 | Archived package |
-| `wensity-ui-assistant` | 0.1.0 | Not archived |
-| `whisperx-caption-studio` | 0.1.0 | Not archived |
-| `x-account-readonly-assistant` | 0.1.0 | Not archived |
-| [`x-post-analytics`](../plugins/x-post-analytics/) | 0.1.0 | Archived package; README missing (contact email omitted from manifests) |
+| [`wensity-ui-assistant`](../plugins/wensity-ui-assistant/) | 0.1.0 | Archived package; README missing |
+| [`whisperx-caption-studio`](../plugins/whisperx-caption-studio/) | 0.1.0 | Archived package; README missing |
+| [`x-account-readonly-assistant`](../plugins/x-account-readonly-assistant/) | 0.1.0 | Archived package |
+| [`x-post-analytics`](../plugins/x-post-analytics/) | 0.1.0 | Archived package; README missing |
 
-## Validation snapshot
+## Validation snapshot (2026-11-02)
 
-- Repository package directories detected: 101
-- Directories missing README.md (51): aceternity-ui, animejs-motion, antigravity-awesome-skills, blender-mcp-studio, browser-use-automation, caveman, chart-visualization-studio, chrome-devtools-agent, comfyui-workflow-studio, cosyvoice-studio, customer-pain-point-research, easyui, ffmpeg-production-engine, front-end, frontend-design-studio, harness-engineering, jolt-physics-simulator, kobra-systems, librosa-audio-intelligence, losslesscut-editor, lottie-animator, manim-explainer, ml-data-quality-labeling, ml-engineering-suite, ml-hyperparameter-optimization, ml-model-deployment, ml-model-development, mlops-pipeline-engineer, motion-ui-studio, natural-copy-editor, obs-capture-studio, pinui, postprocessing-fx, primary-source-verifier, pya-security-audit, rareui, remotion-skills, remotion-studio, ruflo-agent-harness, social-content-planner, taste-skill, tencentdb-agent-memory, three-gpu-pathtracer, three-quarks-vfx, threejs-studio, trend-discovery-last30days, tweakpane-controls, wensity-ui-assistant, whisperx-caption-studio, x-account-readonly-assistant, x-post-analytics
-- Directories missing plugin.json: career-ops-copilot, humanizer, ian-xiaohei-illustrations (these contain manifest.json instead)
-- GitHub Actions workflows detected: 0
-- Repository archive validator/CI command: not found
-- Repository archive validator/CI command: not found
+- Current Plugin Creator inventory: **102 personal plugins**.
+- Repository package directories: **102**; missing package directories: **0**.
+- Plugin version metadata: **102/102 match** the current Plugin Creator inventory; no version changes detected in this run.
+- Current Plugin Creator file-list comparison: all listed paths are present in the repository **except** plugins/not-ai/assets/composer-icon.png (binary asset).
+- SKILL.md: **102/102**.
+- plugin.json: **99**; legacy manifest.json: **3** (career-ops-copilot, humanizer, ian-xiaohei-illustrations).
+- Package README.md: **51/102**; 51 packages lack a README. This is a documentation gap, not missing package directories.
+- Binary asset gap: not-ai/assets/composer-icon.png. The authoritative Plugin Creator archive was requested, but this runtime could not download it (network/DNS access blocked). No placeholder was fabricated.
+- GitHub Actions workflows detected on main: **0**.
+- Repository-level archive validator / CI command detected: **0**.
+- **CI result:** no repository CI or archive validator could be run because none is configured/found. Manual structural checks were run: directory/inventory counts, version comparison, required skill/manifests, and Plugin Creator file-list path coverage.
 
 ## Sync policy
 
 - Sync complete package contents from the current Plugin Creator release, preserving nested skills, references, scripts, and assets.
-- Compare existing package versions before updating; do not overwrite unrelated changes.
+- Compare existing package versions and file lists before updating; do not overwrite unrelated changes.
 - Never fabricate unavailable binary assets or publish secrets.
 - Commit directly to main as authorized by the repository owner; do not open pull requests unless explicitly requested.
