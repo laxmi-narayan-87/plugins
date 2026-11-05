@@ -1,8 +1,8 @@
 # Plugin Creator inventory
 
-**Checked:** 2026-11-04  
+**Checked:** 2026-11-05  
 **Source:** Current personal Plugin Creator inventory (USER scope).  
-**Counts:** 102 plugins in Plugin Creator; 102 package directories in this repository; 0 missing directories.
+**Counts:** 103 plugins in Plugin Creator; 103 package directories in this repository; 0 missing directories.
 
 The current release ID is recorded alongside the semantic version so future syncs can detect release changes even when a plugin's version is unchanged. This is a tracking inventory, not a substitute for package files. Missing binary assets are not replaced with placeholders.
 
@@ -37,6 +37,7 @@ The current release ID is recorded alongside the semantic version so future sync
 | [`design-md-guide`](../plugins/design-md-guide/) | 0.1.0 | `pluginrel_6add02356808819187daa8606fa88123` | Archived package |
 | [`diagram-design`](../plugins/diagram-design/) | 0.1.0 | `pluginrel_6add000fca7481918ede59fc1caf5300` | Archived package |
 | [`easyui`](../plugins/easyui/) | 0.1.0 | `pluginrel_6ae514de6dc88191beffade5653f1102` | Archived package; README missing |
+| [`educator-public-profile-research`](../plugins/educator-public-profile-research/) | 0.1.0 | `pluginrel_6aeca5eb7470819190255653084fcbb9` | Archived package; author email omitted from public manifests |
 | [`ecc-engineering-companion`](../plugins/ecc-engineering-companion/) | 0.1.0 | `pluginrel_6adb005abe888191929c7da17f85bf4c` | Archived package |
 | [`engineer-workflow-skills`](../plugins/engineer-workflow-skills/) | 1.0.0 | `pluginrel_6ae5a25ffb048191971abe4ec8ed23f4` | Archived package |
 | [`ffmpeg-production-engine`](../plugins/ffmpeg-production-engine/) | 0.1.0 | `pluginrel_6ae597f33e348191829d930408308579` | Archived package; README missing |
@@ -111,14 +112,14 @@ The current release ID is recorded alongside the semantic version so future sync
 | [`x-account-readonly-assistant`](../plugins/x-account-readonly-assistant/) | 0.1.0 | `pluginrel_6ae594e01b788191af47e6a0d67b0599` | Archived package |
 | [`x-post-analytics`](../plugins/x-post-analytics/) | 0.1.0 | `pluginrel_6ae594d22b388191af6c83c12e281008` | Archived package; README missing |
 
-## Validation snapshot (2026-11-04)
+## Validation snapshot (2026-11-05)
 
-- Current Plugin Creator inventory: **102 personal plugins** (all pages retrieved; pagination exhausted on 2026-11-04).
-- Repository package directories on `main`: **102**; missing package directories: **0** (Git tree checked at commit `ab7168ec5db40b70033b0da92f9f9ab4ab503aba`).
-- Current release IDs and semantic versions: **102/102 exact matches** against the inventory table. **No new or updated plugin releases were detected**, so no plugin package files were changed.
-- A full current-release file-list comparison across all 102 plugins could not be completed in this run because the connector call budget was reached. The `not-ai` package was checked directly: its Creator file list still includes `assets/composer-icon.png` (1,809 bytes), which remains absent from `main`.
-- Manual Git tree check: **102/102 plugin directories contain at least one SKILL.md** (147 SKILL.md files total); **99 plugin.json** manifests; **3 legacy manifest.json** packages (career-ops-copilot, humanizer, ian-xiaohei-illustrations); **51/102** package README.md files.
-- Binary asset gap: `plugins/not-ai/assets/composer-icon.png` is absent from `main`. The current Plugin Creator file listing confirms it exists (1,809 bytes). It was not copied because the binary could not be retrieved through this runtime. No placeholder was fabricated.
+- Current Plugin Creator inventory: **103 personal plugins** (all pages retrieved; pagination exhausted on 2026-11-05).
+- Repository package directories on `main`: **103**; missing package directories: **0** (Git tree checked after package sync).
+- Current release IDs and semantic versions: **103/103 exact matches** against the inventory table. Compared with the prior 102-entry inventory, **1 new plugin** was found (`educator-public-profile-research`) and **0 existing plugin releases changed**.
+- Newly archived package files: `plugins/educator-public-profile-research/.codex-plugin/plugin.json`, `plugins/educator-public-profile-research/plugin.json`, and `plugins/educator-public-profile-research/skills/educator-profile-investigation/SKILL.md`. The author email was omitted from both public manifest files as a privacy precaution; no other content was intentionally changed.
+- Manual Git tree check: **103/103 plugin directories contain at least one SKILL.md** (**148 SKILL.md files total**); **100 plugin.json** manifests; **3 legacy manifest.json** packages (career-ops-copilot, humanizer, ian-xiaohei-illustrations); **52/103** package README.md files.
+- Binary asset gap: `plugins/not-ai/assets/composer-icon.png` remains absent from `main`. The Creator file listing confirms it exists (1,809 bytes). It was not copied because binary retrieval was unavailable through this runtime; no placeholder was fabricated.
 - GitHub Actions workflows on `main`: **0**. Repository-level archive validation script/command found: **0**.
 - **Automated CI/archive validation:** unavailable because this repository has no configured workflow or archive validator. **Manual structural validation completed** using the Git tree, inventory comparison, package-directory coverage, and manifest/README counts. This does not verify plugin runtime behavior.
 
