@@ -1,0 +1,28 @@
+{
+  "interface": {
+    "capabilities": [
+      "Analysis"
+    ],
+    "category": "Research",
+    "defaultPrompt": "Research this educator's public professional profiles and return source-backed links with confidence levels.",
+    "developerName": "juu",
+    "displayName": "Educator Profile Research",
+    "longDescription": "Research public professional profiles and creator pages, trace voluntarily published cross-platform links, inspect public YouTube channel metadata, and report source-backed identity confidence. Does not perform private contact enrichment.",
+    "shortDescription": "Verify public educator profiles"
+  },
+  "name": "educator-public-profile-research",
+  "version": "0.1.0",
+  "description": "Evidence-led research for public educator, instructor, and creator profiles across professional and social platforms.",
+  "author": {
+    "name": "juu"
+  },
+  "keywords": [
+    "public research",
+    "professional profiles",
+    "educator",
+    "YouTube",
+    "LinkedIn",
+    "evidence verification"
+  ],
+  "skills": "./skills"
+}
