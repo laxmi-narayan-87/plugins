@@ -4,8 +4,8 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 
 ## Current inventory
 
-- Plugin Creator registry inventory: 102 personal plugins (checked 2026-11-02).
-- Package directories in this branch: 102.
+- Plugin Creator registry inventory: 103 personal plugins (checked 2026-11-05).
+- Package directories in this branch: 103.
 - Package directories still missing: 0. One binary asset is missing from not-ai (assets/composer-icon.png); see [inventory/README.md](inventory/README.md) for file-level status.
 
 ## Plugin index
@@ -204,4 +204,4 @@ These are routing suggestions based on package names and inventory topics, not g
 
 ## Quality checks
 
-Manual structural snapshot (2026-11-04): 102 package directories on `main`; 102/102 plugins contain at least one SKILL.md (147 SKILL.md files total); 99 plugin.json manifests and 3 legacy manifest.json packages; 51 packages lack README.md. Current Plugin Creator release IDs and semantic versions match 102/102 plugins; no new or updated package releases were detected in this run. One previously identified binary asset remains absent: `plugins/not-ai/assets/composer-icon.png` (confirmed in the current Plugin Creator file listing; not fabricated). No GitHub Actions workflow or repository-level archive validator exists on `main`, so automated CI could not be run. Manual structural checks were completed; this does not prove runtime behavior. See [inventory/README.md](inventory/README.md).
+Manual structural snapshot (2026-11-05): 103 package directories on `main`; 103/103 plugins contain at least one SKILL.md (148 SKILL.md files total); 100 plugin.json manifests and 3 legacy manifest.json packages; 52 packages lack README.md. Current Plugin Creator release IDs and semantic versions match 103/103 plugins; one new package (`educator-public-profile-research`) was added and no existing release changes were detected. Its author email was omitted from public manifests as a privacy precaution. One previously identified binary asset remains absent: `plugins/not-ai/assets/composer-icon.png` (confirmed in the current Plugin Creator file listing; not fabricated). No GitHub Actions workflow or repository-level archive validator exists on `main`, so automated CI could not be run. Manual structural checks were completed; this does not prove runtime behavior. See [inventory/README.md](inventory/README.md).
