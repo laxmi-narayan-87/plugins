@@ -40,6 +40,7 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 - [diagram-design](plugins/diagram-design/)
 - [easyui](plugins/easyui/)
 - [ecc-engineering-companion](plugins/ecc-engineering-companion/)
+- [educator-public-profile-research](plugins/educator-public-profile-research/)
 - [engineer-workflow-skills](plugins/engineer-workflow-skills/)
 - [ffmpeg-production-engine](plugins/ffmpeg-production-engine/)
 - [firecrawl-toolkit](plugins/firecrawl-toolkit/)
@@ -105,15 +106,14 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 - [tweakpane-controls](plugins/tweakpane-controls/)
 - [unslop-ui-design](plugins/unslop-ui-design/)
 - [vercel-skills-workflow](plugins/vercel-skills-workflow/)
-- [web-recon-toolkit](plugins/web-recon-toolkit/)
 - [web-intelligence-hub](plugins/web-intelligence-hub/)
+- [web-recon-toolkit](plugins/web-recon-toolkit/)
 - [weknora-knowledge-assistant](plugins/weknora-knowledge-assistant/)
 - [wellfound-auto-apply](plugins/wellfound-auto-apply/)
 - [wensity-ui-assistant](plugins/wensity-ui-assistant/)
 - [whisperx-caption-studio](plugins/whisperx-caption-studio/)
 - [x-account-readonly-assistant](plugins/x-account-readonly-assistant/)
 - [x-post-analytics](plugins/x-post-analytics/)
-
 The full Plugin Creator inventory is tracked in [inventory/README.md](inventory/README.md).
 
 ## Choose a plugin by topic and use case
