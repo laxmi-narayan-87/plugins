@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "web-intelligence-hub-local": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/server/src/index.js"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "${TAVILY_API_KEY}",
+        "EXA_API_KEY": "${EXA_API_KEY}",
+        "JINA_API_KEY": "${JINA_API_KEY}",
+        "CRAWL4AI_BASE_URL": "${CRAWL4AI_BASE_URL}",
+        "BROWSERLESS_URL": "${BROWSERLESS_URL}",
+        "BRIGHTDATA_API_TOKEN": "${BRIGHTDATA_API_TOKEN}",
+        "BRIGHTDATA_ZONE": "${BRIGHTDATA_ZONE}",
+        "BRIGHTDATA_UNLOCKER_URL": "${BRIGHTDATA_UNLOCKER_URL}",
+        "BROWSER_HEADLESS": "true"
+      },
+      "cwd": "${PLUGIN_ROOT}/server"
+    }
+  }
+}

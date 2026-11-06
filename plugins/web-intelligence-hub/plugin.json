@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "juu"
+  },
+  "description": "Unified web search, extraction, crawling and browser automation using Tavily, Exa, Crawl4AI, Jina Reader, Playwright, Browserless and Bright Data with automatic provider fallback.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Research",
+        "defaultPrompt": [
+          "Search the web and verify findings across independent sources.",
+          "Extract the main content and structured fields from this URL.",
+          "Crawl this website section and summarize its pages."
+        ],
+        "developerName": "juu",
+        "displayName": "Web Intelligence Hub",
+        "longDescription": "A provider-routed web intelligence toolkit for search, scraping, crawling, structured extraction and browser automation. Providers are optional and credentials are configured locally through environment variables.",
+        "shortDescription": "Unified web research toolkit"
+      }
+    }
+  },
+  "keywords": [
+    "web-search",
+    "web-scraping",
+    "crawling",
+    "browser-automation",
+    "research",
+    "mcp"
+  ],
+  "name": "web-intelligence-hub",
+  "version": "0.1.0"
+}

@@ -1,8 +1,8 @@
 # Plugin Creator inventory
 
-**Checked:** 2026-11-05  
+**Checked:** 2026-11-06  
 **Source:** Current personal Plugin Creator inventory (USER scope).  
-**Counts:** 103 plugins in Plugin Creator; 103 package directories in this repository; 0 missing directories.
+**Counts:** 104 plugins in Plugin Creator; 104 package directories in this repository; 0 missing directories.
 
 The current release ID is recorded alongside the semantic version so future syncs can detect release changes even when a plugin's version is unchanged. This is a tracking inventory, not a substitute for package files. Missing binary assets are not replaced with placeholders.
 
@@ -105,6 +105,7 @@ The current release ID is recorded alongside the semantic version so future sync
 | [`unslop-ui-design`](../plugins/unslop-ui-design/) | 0.1.0 | `pluginrel_6ae617546b308191a055ede7005caa24` | Archived package |
 | [`vercel-skills-workflow`](../plugins/vercel-skills-workflow/) | 0.1.0 | `pluginrel_6add026385688191817d49ffa2f59c30` | Archived package |
 | [`web-recon-toolkit`](../plugins/web-recon-toolkit/) | 0.1.0 | `pluginrel_6addb8756a888191b4adc98c92b8e3b8` | Archived package |
+| [`web-intelligence-hub`](../plugins/web-intelligence-hub/) | 0.1.0 | `pluginrel_6aedcc58691c8191aac5adef3b9e062e` | Archived package |
 | [`weknora-knowledge-assistant`](../plugins/weknora-knowledge-assistant/) | 0.1.0 | `pluginrel_6ad7d742d6ac8191ae0e7cae60168ce0` | Archived package |
 | [`wellfound-auto-apply`](../plugins/wellfound-auto-apply/) | 0.1.0 | `pluginrel_6adb01e974ac81918c1a49f6042a3e35` | Archived package |
 | [`wensity-ui-assistant`](../plugins/wensity-ui-assistant/) | 0.1.0 | `pluginrel_6ae5123315208191b314a60ca70ba653` | Archived package; README missing |
@@ -112,16 +113,16 @@ The current release ID is recorded alongside the semantic version so future sync
 | [`x-account-readonly-assistant`](../plugins/x-account-readonly-assistant/) | 0.1.0 | `pluginrel_6ae594e01b788191af47e6a0d67b0599` | Archived package |
 | [`x-post-analytics`](../plugins/x-post-analytics/) | 0.1.0 | `pluginrel_6ae594d22b388191af6c83c12e281008` | Archived package; README missing |
 
-## Validation snapshot (2026-11-05)
+## Validation snapshot (2026-11-06)
 
-- Current Plugin Creator inventory: **103 personal plugins** (all pages retrieved; pagination exhausted on 2026-11-05).
-- Repository package directories on `main`: **103**; missing package directories: **0** (Git tree checked after package sync).
-- Current release IDs and semantic versions: **103/103 exact matches** against the inventory table. Compared with the prior 102-entry inventory, **1 new plugin** was found (`educator-public-profile-research`) and **0 existing plugin releases changed**.
-- Newly archived package files: `plugins/educator-public-profile-research/.codex-plugin/plugin.json`, `plugins/educator-public-profile-research/plugin.json`, and `plugins/educator-public-profile-research/skills/educator-profile-investigation/SKILL.md`. The author email was omitted from both public manifest files as a privacy precaution; no other content was intentionally changed.
-- Manual Git tree check: **103/103 plugin directories contain at least one SKILL.md** (**147 SKILL.md files total**); **100 plugin.json** manifests; **3 legacy manifest.json** packages (career-ops-copilot, humanizer, ian-xiaohei-illustrations); **51/103** package README.md files.
-- Binary asset gap: `plugins/not-ai/assets/composer-icon.png` remains absent from `main`. The Creator file listing confirms it exists (1,809 bytes). It was not copied because binary retrieval was unavailable through this runtime; no placeholder was fabricated.
-- GitHub Actions workflows on `main`: **0**. Repository-level archive validation script/command found: **0**.
-- **Automated CI/archive validation:** unavailable because this repository has no configured workflow or archive validator. **Manual structural validation completed** using the Git tree, inventory comparison, package-directory coverage, and manifest/README counts. This does not verify plugin runtime behavior.
+- Current Plugin Creator inventory: **104 personal plugins** (all pages retrieved; pagination exhausted on 2026-11-06).
+- Repository package directories on `main`: **104**; missing package directories: **0** after this sync.
+- Current release IDs and semantic versions: **104/104 exact matches** against the inventory table. Compared with the prior 103-entry inventory, **1 new plugin** was found (`web-intelligence-hub`) and **0 existing plugin releases changed**.
+- Newly archived package: `plugins/web-intelligence-hub/` with the two plugin manifests, MCP configuration files, server setup/configuration/source, the `web-intelligence-hub` skill, and a package README. The Creator file listing contained **10 text files and no binary assets**. The author email was omitted from both public manifests as a privacy precaution.
+- Manual Git tree check after sync: **104/104 plugin directories contain at least one SKILL.md** (**148 SKILL.md files total**); **101 plugin.json** manifests; **3 legacy manifest.json** packages (career-ops-copilot, humanizer, ian-xiaohei-illustrations); **52/104** package README.md files.
+- Existing binary asset gap: `plugins/not-ai/assets/composer-icon.png` remains absent from `main`. It was not fabricated or replaced.
+- GitHub Actions workflows on `main`: **0**. Repository-level archive validation script/command found: **0**. Latest main commit had no reported status checks.
+- **Automated CI/archive validation:** unavailable because this repository has no configured workflow or archive validator. Manual structural and JSON validation were completed; this does not verify plugin runtime behavior.
 
 ## Sync policy
 
