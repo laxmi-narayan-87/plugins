@@ -8,6 +8,10 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 - Package directories in this branch: 104.
 - Package directories still missing: 0. One binary asset remains missing from not-ai (assets/composer-icon.png); see [inventory/README.md](inventory/README.md) for file-level status.
 
+## Gemini / Antigravity plugins
+
+- [vibe-wise](gemini/vibe-wise/): Learning-first AI pair programming with human-in-the-loop checkpoints (Build, Design, Implementation).
+
 ## Plugin index
 
 - [aceternity-ui](plugins/aceternity-ui/)

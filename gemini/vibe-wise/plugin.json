@@ -1,0 +1,18 @@
+{
+  "name": "vibe-wise",
+  "displayName": "VibeWise",
+  "version": "1.0.0",
+  "description": "Learn how to build while AI writes the code. Enforces human-in-the-loop checkpoints (Build, Design, Implementation) so you understand architecture and retain design ownership.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Start a VibeWise learning session to build a feature",
+    "Review our architecture trade-offs before implementing changes",
+    "Check my .vibe-wise learning progress and project map"
+  ],
+  "author": {
+    "name": "Noah Kim (Adapted for Antigravity)",
+    "url": "https://github.com/nykooi1/vibe-wise"
+  },
+  "homepage": "https://github.com/nykooi1/vibe-wise",
+  "repository": "https://github.com/nykooi1/vibe-wise"
+}
