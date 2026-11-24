@@ -1,41 +1,65 @@
 # Personal Plugin Archive
 
-This repository tracks plugin packages owned by the connected Plugin Creator registry. It is not a mirror of every upstream project's complete runtime source code.
+This repository tracks plugin packages and agent skills across **OpenAI / Codex**, **Claude**, and **Google Gemini / Antigravity**. It provides organized, discoverable bundles of skills, manifests, documentation, and tools for modern AI developer platforms.
 
 ## Current inventory
 
-- Plugin Creator registry inventory: 104 personal plugins (checked 2026-11-06).
-- Package directories in this branch: 104.
-- Package directories still missing: 0. One binary asset remains missing from not-ai (assets/composer-icon.png); see [inventory/README.md](inventory/README.md) for file-level status.
+- **Total package directories in this repository:** 126
+  - **Plugin Creator registry archive:** 104 personal plugins (under [`plugins/`](plugins/)).
+  - **Google Gemini / Antigravity suite:** 22 native plugins (under [`gemini/`](gemini/)).
+- **Package directories missing:** 0. One legacy binary asset remains missing from `not-ai` (`assets/composer-icon.png`); see [inventory/README.md](inventory/README.md) for file-level status.
+
+---
 
 ## Gemini / Antigravity plugins
 
-This repository maintains 22 dedicated plugins for Google Gemini / Antigravity under the [`gemini/`](gemini/) directory:
+The [`gemini/`](gemini/) directory contains 22 production plugins tailored for **Google Gemini / Antigravity**, complete with manifests, skills, references, and documentation:
 
-- [android-cli-plugin](gemini/android-cli-plugin/): Android Virtual Devices, screen mirroring, UI layouts, and Compose previews.
-- [chrome-devtools-plugin](gemini/chrome-devtools-plugin/): Chrome automation, a11y audits, and Core Web Vitals optimization.
-- [cloudflare](gemini/cloudflare/): Workers, Durable Objects, Agents SDK, R2, and framework deployments.
-- [context7](gemini/context7/): Current library documentation and code examples.
-- [firebase](gemini/firebase/): Cloud Firestore, Security Rules, Auth, App Hosting, Data Connect, and AI Logic.
-- [gcalendar](gemini/gcalendar/): Google Calendar events, free/busy scheduling, and meeting management.
-- [gdocs](gemini/gdocs/): Google Docs drafting, markdown synchronization, tables, and chips.
-- [gdrive](gemini/gdrive/): Google Drive file search, permissions, upload, and organization.
-- [gemini-api](gemini/gemini-api/): Gemini Interactions API, Decisions API, Live API, and multimodal streaming.
-- [gmail](gemini/gmail/): Search, read, draft, send, and organize emails via Gmail CLI.
-- [google-antigravity-sdk](gemini/google-antigravity-sdk/): Autonomous AI agents and multi-agent workflows with AGY Python SDK.
-- [gsheets](gemini/gsheets/): Google Sheets spreadsheet data, formulas, charts, and CSV sync.
-- [gslides](gemini/gslides/): Google Slides presentation creation and editing.
-- [headroom](gemini/headroom/): Context compression, retrieval, and token efficiency optimization.
-- [mobbin](gemini/mobbin/): Search 600,000+ real app UI screens and evidence-based screen redesign.
-- [modern-web-guidance-plugin](gemini/modern-web-guidance-plugin/): Modern web best practices, responsive UI, and MV3 extensions.
-- [notion](gemini/notion/): Notion workspace management, knowledge capture, database design, and specs.
-- [plugin-repository-toolkit](gemini/plugin-repository-toolkit/): Tool discovery, GitHub-to-agent skill converter, and repo auditing.
-- [supabase](gemini/supabase/): Database design, migrations, RLS security policies, Auth, and Edge Functions.
-- [testmu-ai](gemini/testmu-ai/): Evaluate, benchmark, and red-team AI agents with Rook.
-- [vercel-plugin](gemini/vercel-plugin/): Next.js, Vercel AI SDK, deployments, performance, and Vercel MCP server.
-- [vibe-wise](gemini/vibe-wise/): Learning-first AI pair programming with human-in-the-loop checkpoints.
+| Plugin | Use case & Highlights | Directory |
+|---|---|---|
+| **Android CLI** | Android Virtual Devices, UI layouts, screen mirroring, and Jetpack Compose previews | [`gemini/android-cli-plugin`](gemini/android-cli-plugin/) |
+| **Chrome DevTools** | Browser automation, accessibility (a11y) auditing, and Core Web Vitals optimization via Puppeteer | [`gemini/chrome-devtools-plugin`](gemini/chrome-devtools-plugin/) |
+| **Cloudflare** | Workers, Durable Objects, Agents SDK, R2, D1, KV, Basin, and framework deployments | [`gemini/cloudflare`](gemini/cloudflare/) |
+| **Context7** | Up-to-date documentation and code examples for modern libraries and frameworks | [`gemini/context7`](gemini/context7/) |
+| **Firebase** | Cloud Firestore, Security Rules, Firebase Auth, App Hosting, Data Connect, and Crashlytics | [`gemini/firebase`](gemini/firebase/) |
+| **Google Calendar** | Calendar events, scheduling conflicts, availability checks, and RSVPs | [`gemini/gcalendar`](gemini/gcalendar/) |
+| **Google Docs** | Docs creation, formatting, smart chips, tables, and markdown export/sync | [`gemini/gdocs`](gemini/gdocs/) |
+| **Google Drive** | File browsing, search, upload, permissions, and sharing | [`gemini/gdrive`](gemini/gdrive/) |
+| **Gemini API** | Gemini Interactions API, Decisions API, Live API, and multimodal streaming | [`gemini/gemini-api`](gemini/gemini-api/) |
+| **Gmail** | Email search, thread management, message drafting, attachments, and labels | [`gemini/gmail`](gemini/gmail/) |
+| **Google Antigravity SDK** | Autonomous AI agent and multi-agent swarm orchestration with AGY Python SDK | [`gemini/google-antigravity-sdk`](gemini/google-antigravity-sdk/) |
+| **Google Sheets** | Spreadsheet data, formulas, charts, cell formatting, and CSV sync | [`gemini/gsheets`](gemini/gsheets/) |
+| **Google Slides** | Presentation deck creation, slide drafting, and formatting | [`gemini/gslides`](gemini/gslides/) |
+| **Headroom** | Intelligent context compression, retrieval, and token efficiency optimization | [`gemini/headroom`](gemini/headroom/) |
+| **Mobbin** | Search 600,000+ real app UI screens and evidence-based screen redesign | [`gemini/mobbin`](gemini/mobbin/) |
+| **Modern Web Guidance** | Modern web standards, responsive UI, dialogs/popovers, and Manifest V3 extensions | [`gemini/modern-web-guidance-plugin`](gemini/modern-web-guidance-plugin/) |
+| **Notion** | Notion workspace management, knowledge capture, database design, and specs | [`gemini/notion`](gemini/notion/) |
+| **Plugin Repository Toolkit** | Tool discovery, GitHub-to-agent skill converter, and repository auditing | [`gemini/plugin-repository-toolkit`](gemini/plugin-repository-toolkit/) |
+| **Supabase** | Database design, migrations, RLS security policies, Auth, Edge Functions, and Postgres best practices | [`gemini/supabase`](gemini/supabase/) |
+| **TestMu AI** | Evaluate, red-team, regression-test, and benchmark AI agents using Rook | [`gemini/testmu-ai`](gemini/testmu-ai/) |
+| **Vercel** | Next.js, Vercel AI SDK, deployments, edge compute, React best practices, and Vercel MCP | [`gemini/vercel-plugin`](gemini/vercel-plugin/) |
+| **VibeWise** | Learning-first AI pair programming with human-in-the-loop checkpoints (Build, Design, Implementation) | [`gemini/vibe-wise`](gemini/vibe-wise/) |
+
+### Installing Gemini plugins
+
+Install any plugin globally or per workspace in Google Antigravity:
+
+```bash
+# Global installation (available across all projects):
+cp -r gemini/<plugin-name> ~/.gemini/config/plugins/
+
+# Project-scoped installation:
+mkdir -p .agents/plugins
+cp -r gemini/<plugin-name> .agents/plugins/
+```
+
+See [gemini/README.md](gemini/README.md) for full details.
+
+---
 
 ## Plugin index
+
+The [`plugins/`](plugins/) directory tracks 104 personal packages from the Plugin Creator registry:
 
 - [aceternity-ui](plugins/aceternity-ui/)
 - [agent-reach-guide](plugins/agent-reach-guide/)
@@ -141,6 +165,7 @@ This repository maintains 22 dedicated plugins for Google Gemini / Antigravity u
 - [whisperx-caption-studio](plugins/whisperx-caption-studio/)
 - [x-account-readonly-assistant](plugins/x-account-readonly-assistant/)
 - [x-post-analytics](plugins/x-post-analytics/)
+
 The full Plugin Creator inventory is tracked in [inventory/README.md](inventory/README.md).
 
 ## Choose a plugin by topic and use case
@@ -208,28 +233,38 @@ flowchart TD
 
 | Topic | Example use case | Start with |
 |---|---|---|
+| Cloud & Backend | Build and deploy cloud backends, databases, APIs, and edge functions | `cloudflare`, `firebase`, `supabase`, `vercel-plugin` |
 | Software engineering | Implement a feature, debug code, or improve a development workflow | `ml-engineering-suite`, `ml-model-development`, `loop-engineering` |
-| Documentation and knowledge | Find current library guidance or organize retrieved knowledge | `context7-documentation`, `weknora-knowledge-assistant` |
-| Diagrams and architecture | Map dependencies, concepts, or system structure | `graphify-agent`, `archify-diagrams`, `diagram-design` |
-| QA and testing | Plan test coverage or review an app's behavior | `qa-quality-agent`, `artemis-android-qa`, `reticle-verification` |
+| Learning & Architecture | Pair-program with deliberate checkpoints and learn while building | `vibe-wise` |
+| Google Workspace | Automate Docs, Sheets, Slides, Drive, Calendar, and Gmail workflows | `gcalendar`, `gdocs`, `gdrive`, `gmail`, `gsheets`, `gslides` |
+| Documentation & Knowledge | Find current library guidance or organize retrieved knowledge | `context7`, `context7-documentation`, `notion`, `weknora-knowledge-assistant` |
+| Diagrams & Architecture | Map dependencies, concepts, or system structure | `graphify-agent`, `archify-diagrams`, `diagram-design` |
+| QA, Testing & Benchmarking | Plan test coverage, evaluate agent robustness, or review behavior | `qa-quality-agent`, `testmu-ai`, `artemis-android-qa`, `reticle-verification` |
+| Mobile & DevTools | Debug in Chrome, mirror Android devices, or convert GitHub repos | `android-cli-plugin`, `chrome-devtools-plugin`, `plugin-repository-toolkit` |
 | Security | Audit code or structure a security review | `pya-security-audit`, `codex-security-advisor`, `pentagi-security-workflow` |
-| UI and visual design | Improve interface consistency and design decisions | `impeccable-design-workflow`, `taste-skill`, `design-md-guide` |
-| Writing and media | Review prose or plan video content | `humanizer`, `slopmonster-writing-review`, `ai-video-storyboard` |
-| Browser and job automation | Automate browser tasks or organize job-application workflows | `browser-use-automation`, `wellfound-auto-apply` |
-| Career and placement | Track career tasks or research placement opportunities | `career-ops-copilot`, `placement-intelligence` |
-| Deployment and DevOps | Follow deployment-focused workflows | `vercel-skills-workflow`, `mlops-pipeline-engineer` |
+| UI & Visual design | Improve interface consistency, redesign screens, and review UI | `mobbin`, `impeccable-design-workflow`, `taste-skill`, `design-md-guide` |
+| Writing & Media | Review prose or plan video content | `humanizer`, `slopmonster-writing-review`, `ai-video-storyboard` |
+| Browser & Job automation | Automate browser tasks or organize job-application workflows | `browser-use-automation`, `wellfound-auto-apply` |
+| Career & Placement | Track career tasks or research placement opportunities | `career-ops-copilot`, `placement-intelligence` |
+| Deployment & DevOps | Follow deployment-focused workflows | `vercel-skills-workflow`, `mlops-pipeline-engineer` |
 
 These are routing suggestions based on package names and inventory topics, not guarantees of capability. Confirm each package's `SKILL.md`, manifest, permissions, dependencies, and supported inputs before selecting it. If multiple topics apply, use the narrowest task-specific package first and add supporting packages only when needed.
 
 ## Scope and limitations
 
-- Each folder contains the files available through the Plugin Creator package-file interface. These can include manifests, skill instructions, references, support scripts, and assets.
+- Each folder contains the files available through the package-file interface. These can include manifests, skill instructions, references, support scripts, and assets.
 - Upstream repositories remain the source of truth for runtime implementation, dependencies, release history, and files not included in a plugin package.
-- Do not commit credentials, API tokens, `.env` files, or other secrets.
+- Do not commit credentials, API tokens, `.env` files, or other secrets. Excluded via root `.gitignore`.
 - Do not fabricate unavailable binary assets. Restore them from an authoritative package/source distribution or mark them as unavailable.
 - Verify each package's license and attribution requirements before redistribution. Presence in this archive does not establish redistribution rights.
 - A package inventory can be complete at the directory level and still omit assets that are not accessible through the registry's text-file interface.
 
 ## Quality checks
 
-Manual structural snapshot (2026-11-06): 104 package directories on `main`; 104/104 plugins contain at least one SKILL.md (148 SKILL.md files total); 101 plugin.json manifests and 3 legacy manifest.json packages; 52 packages lack README.md. Current Plugin Creator release IDs and semantic versions match 104/104 plugins; one new package (`web-intelligence-hub`) was added and no existing release changes were detected. Its author email was omitted from public manifests as a privacy precaution. The previously identified binary asset `plugins/not-ai/assets/composer-icon.png` remains absent and was not fabricated. No GitHub Actions workflow or repository-level archive validator exists on `main`, so automated CI could not be run. Manual structural and JSON checks were completed; this does not prove runtime behavior. See [inventory/README.md](inventory/README.md).
+Manual structural snapshot (updated 2026-11-24):
+- **126 package directories** total on `main` across `plugins/` (104) and `gemini/` (22).
+- **286 total SKILL.md files** (148 in `plugins/`, 133 in `gemini/`, 5 in `.claude/skills/`).
+- 123 `plugin.json` manifests, 3 legacy `manifest.json` packages.
+- 100% of `gemini/` plugins (22/22) contain complete `README.md` and `plugin.json` documentation.
+- Credential security enforced: all OAuth secrets, keys, and tokens excluded via root `.gitignore`.
+- See [gemini/README.md](gemini/README.md) and [inventory/README.md](inventory/README.md) for directory-level status.

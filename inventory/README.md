@@ -1,5 +1,8 @@
 # Plugin Creator inventory
 
+> [!NOTE]
+> This inventory tracks personal packages from the Plugin Creator registry located under [`plugins/`](../plugins/). For the 22 Google Gemini / Antigravity plugins, see [`gemini/README.md`](../gemini/README.md).
+
 **Checked:** 2026-11-06  
 **Source:** Current personal Plugin Creator inventory (USER scope).  
 **Counts:** 104 plugins in Plugin Creator; 104 package directories in this repository; 0 missing directories.
