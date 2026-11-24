@@ -1,0 +1,12 @@
+{
+  "name": "gmail",
+  "displayName": "Gmail",
+  "version": "0.0.7",
+  "description": "Search, read, draft, and send emails in Gmail.",
+  "logo": "https://www.gstatic.com/images/branding/productlogos/gmail_2020q4/v11/192px.svg",
+  "suggestedPrompts": [
+    "Summarize my unread emails from today",
+    "Draft a reply to the latest thread about launch readiness",
+    "Find emails with attachments from last week"
+  ]
+}

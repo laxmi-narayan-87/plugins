@@ -1,0 +1,16 @@
+{
+  "name": "plugin-repository-toolkit",
+  "displayName": "Plugin Repository Toolkit",
+  "description": "Essential toolkit for discovering AI tools, converting GitHub repositories to agent skills, managing plugin repositories, and auditing/repairing skills.",
+  "version": "1.0.0",
+  "author": {
+    "name": "laxmi-narayan-87"
+  },
+  "suggestedPrompts": [
+    "Convert a GitHub repository into an agent skill package",
+    "Audit this plugin repository for schema errors and missing documentation",
+    "Discover and compare AI tools and MCP servers for my project"
+  ],
+  "repository": "https://github.com/laxmi-narayan-87/plugin-repository-toolkit",
+  "disabled": true
+}

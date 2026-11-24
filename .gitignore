@@ -1,0 +1,9 @@
+# Credentials, auth tokens, and local configuration
+auth.json
+*.secret
+*.token
+*.pem
+*.key
+.env
+.env.*
+!.env.example

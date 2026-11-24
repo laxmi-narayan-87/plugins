@@ -10,7 +10,30 @@ This repository tracks plugin packages owned by the connected Plugin Creator reg
 
 ## Gemini / Antigravity plugins
 
-- [vibe-wise](gemini/vibe-wise/): Learning-first AI pair programming with human-in-the-loop checkpoints (Build, Design, Implementation).
+This repository maintains 22 dedicated plugins for Google Gemini / Antigravity under the [`gemini/`](gemini/) directory:
+
+- [android-cli-plugin](gemini/android-cli-plugin/): Android Virtual Devices, screen mirroring, UI layouts, and Compose previews.
+- [chrome-devtools-plugin](gemini/chrome-devtools-plugin/): Chrome automation, a11y audits, and Core Web Vitals optimization.
+- [cloudflare](gemini/cloudflare/): Workers, Durable Objects, Agents SDK, R2, and framework deployments.
+- [context7](gemini/context7/): Current library documentation and code examples.
+- [firebase](gemini/firebase/): Cloud Firestore, Security Rules, Auth, App Hosting, Data Connect, and AI Logic.
+- [gcalendar](gemini/gcalendar/): Google Calendar events, free/busy scheduling, and meeting management.
+- [gdocs](gemini/gdocs/): Google Docs drafting, markdown synchronization, tables, and chips.
+- [gdrive](gemini/gdrive/): Google Drive file search, permissions, upload, and organization.
+- [gemini-api](gemini/gemini-api/): Gemini Interactions API, Decisions API, Live API, and multimodal streaming.
+- [gmail](gemini/gmail/): Search, read, draft, send, and organize emails via Gmail CLI.
+- [google-antigravity-sdk](gemini/google-antigravity-sdk/): Autonomous AI agents and multi-agent workflows with AGY Python SDK.
+- [gsheets](gemini/gsheets/): Google Sheets spreadsheet data, formulas, charts, and CSV sync.
+- [gslides](gemini/gslides/): Google Slides presentation creation and editing.
+- [headroom](gemini/headroom/): Context compression, retrieval, and token efficiency optimization.
+- [mobbin](gemini/mobbin/): Search 600,000+ real app UI screens and evidence-based screen redesign.
+- [modern-web-guidance-plugin](gemini/modern-web-guidance-plugin/): Modern web best practices, responsive UI, and MV3 extensions.
+- [notion](gemini/notion/): Notion workspace management, knowledge capture, database design, and specs.
+- [plugin-repository-toolkit](gemini/plugin-repository-toolkit/): Tool discovery, GitHub-to-agent skill converter, and repo auditing.
+- [supabase](gemini/supabase/): Database design, migrations, RLS security policies, Auth, and Edge Functions.
+- [testmu-ai](gemini/testmu-ai/): Evaluate, benchmark, and red-team AI agents with Rook.
+- [vercel-plugin](gemini/vercel-plugin/): Next.js, Vercel AI SDK, deployments, performance, and Vercel MCP server.
+- [vibe-wise](gemini/vibe-wise/): Learning-first AI pair programming with human-in-the-loop checkpoints.
 
 ## Plugin index
 
